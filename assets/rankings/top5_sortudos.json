@@ -1,0 +1,161 @@
+{
+  "titulo": "AS 5 PESSOAS MAIS SORTUDAS DA HISTÓRIA",
+  "layout": "escada",
+  "abertura": "Um homem escapou de sete acidentes mortais e depois ainda ganhou na loteria, mas você decide se isso é sorte ou azar.",
+  "itens": [
+    {
+      "rotulo": "5º Meteorito no sofá",
+      "narracao": "Em quinto lugar, Ann Hodges. Em mil novecentos e cinquenta e quatro, um meteorito atravessou o telhado de casa e acertou ela direto no sofá.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "feminino",
+        "pele": "media",
+        "cabelo": "coque",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "azul_claro",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "meteorito",
+          "emoji": "☄️"
+        },
+        {
+          "palavra": "sofá",
+          "emoji": "🛋️"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Três naufrágios",
+      "narracao": "Em quarto lugar, a comissária Violet Jessop. Ela estava no navio Olympic durante a colisão, sobreviveu ao Titanic e depois ao naufrágio do grande Britannic.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "preto",
+        "roupa": "camisa",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "navio",
+          "emoji": "🚢"
+        },
+        {
+          "palavra": "colisão",
+          "emoji": "💥"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Sete raios",
+      "narracao": "Em terceiro lugar, Roy Sullivan. O guarda florestal foi atingido por raios sete vezes ao longo da vida e sobreviveu a todos os sete impactos.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "cacheado",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "fone"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "florestal",
+          "emoji": "🌲"
+        },
+        {
+          "palavra": "raios",
+          "emoji": "⚡"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Duas bombas",
+      "narracao": "Em segundo lugar, Tsutomu Yamaguchi. Ele sobreviveu à explosão da bomba atômica em Hiroshima, voltou para casa em Nagasaki e escapou da segunda bomba nuclear.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "careca",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "cinza",
+        "acessorios": [
+          "gravata",
+          "bigode"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "bomba",
+          "emoji": "💣"
+        },
+        {
+          "palavra": "casa",
+          "emoji": "🏠"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Frane Selak",
+      "narracao": "E em primeiro lugar, Frane Selak. O croata escapou de desastres de trem, avião e ônibus, e aos setenta e três anos ganhou na loteria.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "negra",
+        "cabelo": "rabo",
+        "cor_cabelo": "preto",
+        "roupa": "jaqueta",
+        "cor_roupa": "verde",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "trem",
+          "emoji": "🚆"
+        },
+        {
+          "palavra": "avião",
+          "emoji": "✈️"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Comente qual teve mais sorte e mande para aquele amigo que nunca ganha nada.",
+  "cta": "Siga o perfil, curta este vídeo e comente se você concorda com o ranking!",
+  "visuais_abertura": [
+    {
+      "palavra": "loteria",
+      "emoji": "🎰"
+    },
+    {
+      "palavra": "sorte",
+      "emoji": "🍀"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "amigo",
+      "emoji": "🤝"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "titulo": "AS 5 FASES DO SALÁRIO NO MÊS",
+  "layout": "escada",
+  "abertura": "O salário cai na sua conta na sexta e na segunda-feira já sumiu totalmente, mas a última fase você conhece muito bem.",
+  "itens": [
+    {
+      "rotulo": "Dia 5",
+      "narracao": "No dia cinco o dinheiro cai na conta e você se sente milionário. Pede comida cara no aplicativo e compra roupas novas sem nem olhar o valor da etiqueta.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "comprido",
+        "cor_cabelo": "castanho",
+        "roupa": "jaqueta",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "sacola",
+          "oculos"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "comida",
+          "emoji": "🍔"
+        },
+        {
+          "palavra": "etiqueta",
+          "emoji": "🏷️"
+        }
+      ]
+    },
+    {
+      "rotulo": "Dia 12",
+      "narracao": "No dia doze você abre o aplicativo do banco com um susto gigante e confere o extrato três vezes no celular sem entender para onde foi todo aquele saldo.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "comprido",
+        "cor_cabelo": "castanho",
+        "roupa": "camiseta",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "banco",
+          "emoji": "🏛️"
+        },
+        {
+          "palavra": "celular",
+          "emoji": "📱"
+        }
+      ]
+    },
+    {
+      "rotulo": "Dia 20",
+      "narracao": "No dia vinte começa o modo de sobrevivência extrema. O almoço vira apenas arroz com ovo enquanto você promete que no mês que vem vai economizar de verdade.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "rabo",
+        "cor_cabelo": "castanho",
+        "roupa": "camiseta",
+        "cor_roupa": "cinza",
+        "acessorios": [
+          "caneca"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "arroz",
+          "emoji": "🍚"
+        },
+        {
+          "palavra": "ovo",
+          "emoji": "🍳"
+        }
+      ]
+    },
+    {
+      "rotulo": "Dia 27",
+      "narracao": "No dia vinte e sete você revira os cantos do sofá atrás de moedas perdidas e finge que a fatura do cartão de crédito nem sequer existe na sua vida.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "coque",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "cinza",
+        "acessorios": [],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "sofá",
+          "emoji": "🛋️"
+        },
+        {
+          "palavra": "moedas",
+          "emoji": "🪙"
+        }
+      ]
+    },
+    {
+      "rotulo": "Dia 30",
+      "narracao": "No dia trinta você aguarda ansiosamente o salário cair outra vez para reiniciar esse mesmo ciclo repetitivo, só que agora acumulando muito mais dívidas e preocupações.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "coque",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "preto",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "salário",
+          "emoji": "💰"
+        },
+        {
+          "palavra": "dívidas",
+          "emoji": "📉"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Mande este vídeo para aquele amigo falido e comente em qual dessas cinco fases você se encontra hoje.",
+  "cta": "Antes da pior fase, aproveite para seguir o perfil, curtir o vídeo e comentar se vai concordar com esse final dramático.",
+  "visuais_abertura": [
+    {
+      "palavra": "salário",
+      "emoji": "💵"
+    },
+    {
+      "palavra": "conta",
+      "emoji": "🏦"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "amigo",
+      "emoji": "🤝"
+    }
+  ]
+}

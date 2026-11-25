@@ -1,0 +1,163 @@
+{
+  "titulo": "OS 5 TRUQUES DO SUPERMERCADO",
+  "layout": "escada",
+  "abertura": "Você entra no mercado para comprar pão e sai com a sacola cheia por truques que guardam a pior armadilha.",
+  "itens": [
+    {
+      "rotulo": "5º Carrinho gigante",
+      "narracao": "Em quinto lugar, o carrinho gigante. Com esse tamanho enorme, suas compras parecem poucas e você coloca itens extras sem perceber, dobrando o valor cobrado.",
+      "personagem": {
+        "idade": "idoso",
+        "sexo": "masculino",
+        "pele": "morena",
+        "cabelo": "curto",
+        "cor_cabelo": "branco",
+        "roupa": "camisa",
+        "cor_roupa": "bege",
+        "acessorios": [
+          "oculos",
+          "bengala"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "carrinho",
+          "emoji": "🛒"
+        },
+        {
+          "palavra": "compras",
+          "emoji": "📦"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Frutas na entrada",
+      "narracao": "Em quarto lugar, frutas frescas na entrada. Elas trazem uma sensação imediata de saúde e deixam seu cérebro relaxado para gastar dinheiro com bastante bobagem.",
+      "personagem": {
+        "idade": "adolescente",
+        "sexo": "masculino",
+        "pele": "negra",
+        "cabelo": "espetado",
+        "cor_cabelo": "preto",
+        "roupa": "camiseta",
+        "cor_roupa": "amarelo",
+        "acessorios": [
+          "bone",
+          "mochila"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "frutas",
+          "emoji": "🍎"
+        },
+        {
+          "palavra": "dinheiro",
+          "emoji": "💵"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Música lenta",
+      "narracao": "Em terceiro lugar, a música lenta. Ela faz você caminhar devagar e olhar mais prateleiras, aumentando o tempo lá dentro para você acabar gastando mais.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "clara",
+        "cabelo": "comprido",
+        "cor_cabelo": "loiro",
+        "roupa": "vestido",
+        "cor_roupa": "roxo",
+        "acessorios": [
+          "colar"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "música",
+          "emoji": "🎵"
+        },
+        {
+          "palavra": "prateleiras",
+          "emoji": "🗄️"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Altura dos olhos",
+      "narracao": "Em segundo lugar, produtos caros na altura dos seus olhos. As marcas baratas ficam bem escondidas embaixo ou no topo para dificultar bastante a escolha.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "liso",
+        "cor_cabelo": "ruivo",
+        "roupa": "moletom",
+        "cor_roupa": "laranja",
+        "acessorios": [
+          "barba",
+          "caneca"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "produtos",
+          "emoji": "🏷️"
+        },
+        {
+          "palavra": "olhos",
+          "emoji": "👁️"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Pão no fundo",
+      "narracao": "Em primeiro lugar, pão e leite ficam no fundo da loja. Para buscar o básico, você precisa atravessar corredores inteiros cheios de tentações bem preparadas.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "feminino",
+        "pele": "media",
+        "cabelo": "coque",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "azul_claro",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "leite",
+          "emoji": "🥛"
+        },
+        {
+          "palavra": "loja",
+          "emoji": "🏪"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Qual desses truques mais te enganou? Mande este vídeo para aquele amigo que gasta demais.",
+  "cta": "Lembre de seguir o perfil, curtir o vídeo e comentar se concorda antes do primeiro lugar.",
+  "visuais_abertura": [
+    {
+      "palavra": "pão",
+      "emoji": "🍞"
+    },
+    {
+      "palavra": "sacola",
+      "emoji": "🛍️"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "vídeo",
+      "emoji": "📱"
+    }
+  ]
+}

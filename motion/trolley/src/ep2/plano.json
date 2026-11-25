@@ -1,0 +1,467 @@
+{
+ "_doc": "Camera keys (kit 03_CAMERA_GRAMMAR): each key LANDS on its word ('palavra#n' = n-th occurrence, or seconds; off = seconds added). move: cut | travel | whip | fly. dur = seconds of the move ending on the word. tag: insert (0.8 s train cut-away, distance HUD), volta (cut back from an insert), montagem (countdown montage), final (the freeze shot). Poses live in src/camera.ts + src/ep2/poses.ts.",
+ "keys": [
+  {
+   "pose": "rails_skim",
+   "at": 0,
+   "move": "cut",
+   "creep": 0.07,
+   "why": "in medias res: skimming the rails, sparks, screech before the first word"
+  },
+  {
+   "pose": "cab_ecu",
+   "at": "maquinista",
+   "move": "cut",
+   "creep": 0.05,
+   "why": "cut to YOU, cab shaking"
+  },
+  {
+   "pose": "train_side",
+   "at": "Oitenta",
+   "move": "whip",
+   "dur": 0.45,
+   "roll": -5,
+   "why": "pull-back reveal: 100 t racing downhill"
+  },
+  {
+   "pose": "wheels_low",
+   "at": "cem",
+   "move": "travel",
+   "dur": 0.5,
+   "why": "push to the wheels on the speed"
+  },
+  {
+   "pose": "lever_cu",
+   "at": "freio",
+   "move": "fly",
+   "dur": 0.7,
+   "why": "fly into the cab, land on the brake"
+  },
+  {
+   "pose": "lever_ecu",
+   "at": "terceira",
+   "move": "travel",
+   "dur": 0.45,
+   "why": "push in for the third pull"
+  },
+  {
+   "pose": "cab_mcu",
+   "at": "quebra",
+   "move": "whip",
+   "dur": 0.3,
+   "roll": 13,
+   "why": "dutch angle on the snap: lever in his hand"
+  },
+  {
+   "pose": "fork_aerial",
+   "at": "divide",
+   "move": "fly",
+   "dur": 1.0,
+   "why": "fly ahead along the track, reveal the fork"
+  },
+  {
+   "pose": "roda_ecu",
+   "at": "vazio",
+   "off": 0.1,
+   "move": "cut",
+   "tag": "insert",
+   "why": "intercut: wheels eating the sleepers + distance"
+  },
+  {
+   "pose": "pacoca_ms",
+   "at": "A",
+   "off": -0.09,
+   "move": "cut",
+   "tag": "volta",
+   "why": "back: track A, the dog"
+  },
+  {
+   "pose": "pacoca_cu",
+   "at": "Paçoca",
+   "move": "travel",
+   "dur": 0.45,
+   "why": "push in on his name"
+  },
+  {
+   "pose": "pacoca_ecu",
+   "at": "Ele",
+   "move": "travel",
+   "dur": 0.4,
+   "why": "he sees you and wags"
+  },
+  {
+   "pose": "bilhete_cu",
+   "at": "coleira",
+   "move": "travel",
+   "dur": 0.5,
+   "why": "tilt to the collar"
+  },
+  {
+   "pose": "bilhete_ecu",
+   "at": "Seiscentos",
+   "move": "travel",
+   "dur": 0.4,
+   "why": "push on the 600 million"
+  },
+  {
+   "pose": "trilho_frente",
+   "at": "reais",
+   "off": 0.2,
+   "move": "cut",
+   "tag": "insert",
+   "why": "intercut: the fork rushing at you + distance"
+  },
+  {
+   "pose": "vovos_ms",
+   "at": "B",
+   "move": "cut",
+   "tag": "volta",
+   "why": "back: track B"
+  },
+  {
+   "pose": "domino_cu",
+   "at": "dominó",
+   "move": "travel",
+   "dur": 0.5,
+   "why": "the dominoes"
+  },
+  {
+   "pose": "vovos_low",
+   "at": "Ninguém",
+   "move": "travel",
+   "dur": 0.5,
+   "roll": -3,
+   "why": "low angle on the deaf five"
+  },
+  {
+   "pose": "vovo_bati",
+   "at": "Bati",
+   "move": "whip",
+   "dur": 0.3,
+   "why": "the slam"
+  },
+  {
+   "pose": "roda_ecu",
+   "at": "Bati#2",
+   "off": 0.5,
+   "move": "cut",
+   "tag": "insert",
+   "why": "intercut: sparks + distance"
+  },
+  {
+   "pose": "desvio_cu",
+   "at": "Só",
+   "move": "cut",
+   "tag": "volta",
+   "why": "back in the cab: the switch lever"
+  },
+  {
+   "pose": "approach",
+   "at": "Se",
+   "move": "fly",
+   "dur": 0.6,
+   "why": "pull out: the train racing to the fork"
+  },
+  {
+   "pose": "approach_a",
+   "at": "trilho#4",
+   "move": "travel",
+   "dur": 0.35,
+   "why": "pan to A on its word"
+  },
+  {
+   "pose": "pai_ms",
+   "at": "vovô",
+   "move": "whip",
+   "dur": 0.35,
+   "why": "whip to the grandpa turning"
+  },
+  {
+   "pose": "saco_cu",
+   "at": "saco",
+   "move": "travel",
+   "dur": 0.45,
+   "why": "the bread bag"
+  },
+  {
+   "pose": "pai_face",
+   "at": "conhece",
+   "move": "travel",
+   "dur": 0.4,
+   "why": "up to the face"
+  },
+  {
+   "pose": "pai_ecu",
+   "at": "bigode",
+   "move": "travel",
+   "dur": 0.35,
+   "why": "that moustache"
+  },
+  {
+   "pose": "cab_shock",
+   "at": "pai",
+   "move": "cut",
+   "roll": -14,
+   "kick": 26,
+   "flash": 0.45,
+   "why": "THE hard cut, dutch angle: it's your father"
+  },
+  {
+   "pose": "pai_smug",
+   "at": "Oi",
+   "off": -0.45,
+   "move": "whip",
+   "dur": 0.3,
+   "why": "into the silence: his smile"
+  },
+  {
+   "pose": "pai_pao",
+   "at": "Trouxe",
+   "move": "travel",
+   "dur": 0.35,
+   "why": "he lifts the bread"
+  },
+  {
+   "pose": "approach",
+   "at": "Trilho",
+   "move": "fly",
+   "dur": 0.7,
+   "why": "pull-back reveal: train racing to the fork"
+  },
+  {
+   "pose": "approach_a",
+   "at": "A#3",
+   "move": "travel",
+   "dur": 0.3,
+   "why": "pan to A on its word"
+  },
+  {
+   "pose": "approach_b",
+   "at": "B#2",
+   "move": "travel",
+   "dur": 0.3,
+   "why": "pan to B on its word"
+  },
+  {
+   "pose": "cab_ecu",
+   "at": "dez",
+   "move": "fly",
+   "dur": 0.6,
+   "why": "back to YOU"
+  },
+  {
+   "pose": "olho_ecu",
+   "at": 51.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "montage 1/s: your eye"
+  },
+  {
+   "pose": "roda_ecu",
+   "at": 52.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "wheel"
+  },
+  {
+   "pose": "pai_smug",
+   "at": 53.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "his smile"
+  },
+  {
+   "pose": "pacoca_ecu",
+   "at": 54.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "the dog"
+  },
+  {
+   "pose": "mao_alavanca",
+   "at": 55.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "hand on the lever"
+  },
+  {
+   "pose": "olho_ecu",
+   "at": 56.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "montage 2/s"
+  },
+  {
+   "pose": "roda_ecu",
+   "at": 56.5,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "wheel"
+  },
+  {
+   "pose": "pai_smug",
+   "at": 57.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "his smile"
+  },
+  {
+   "pose": "pacoca_ecu",
+   "at": 57.5,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "the dog"
+  },
+  {
+   "pose": "mao_alavanca",
+   "at": 58.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "hand on the lever"
+  },
+  {
+   "pose": "olho_ecu",
+   "at": 58.5,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "your eye"
+  },
+  {
+   "pose": "final_switch",
+   "at": 59.0,
+   "move": "cut",
+   "tag": "final",
+   "creep": 0.0,
+   "why": "the train inches from the switch: freeze"
+  }
+ ],
+ "kicks": [
+  [
+   "Travou",
+   18
+  ],
+  [
+   "Nada",
+   22
+  ],
+  [
+   "quebra",
+   30
+  ],
+  [
+   "Bati",
+   14
+  ],
+  [
+   "Bati#2",
+   16
+  ]
+ ],
+ "puxadas": [
+  "Travou",
+  "Puxa",
+  "terceira"
+ ],
+ "solta": "quebra",
+ "titulo_ate": 1.9,
+ "congela": 59.65,
+ "fim_som": 60.6,
+ "trem": {
+  "v0": 22.0,
+  "a": 0.2,
+  "z_fim": 0.6
+ },
+ "apito_at": "acelerando",
+ "buzina_at": "Trilho",
+ "riser_de": "Só",
+ "silencio": {
+  "at": "Oi",
+  "antes": 0.72,
+  "depois": 0.32
+ },
+ "sons": [
+  {
+   "som": "latidos",
+   "de": "Paçoca",
+   "off": 0.5,
+   "ate": "caramelo",
+   "passo": 0.4,
+   "g": -11,
+   "cao": 0
+  },
+  {
+   "som": "ganido",
+   "at": "Ele",
+   "dur": 2.0,
+   "g": -17
+  },
+  {
+   "som": "latidos",
+   "de": "rabo",
+   "off": 0.3,
+   "ate": "coleira",
+   "passo": 0.5,
+   "g": -12,
+   "cao": 0
+  },
+  {
+   "som": "domino",
+   "de": "cinco",
+   "ate": "Bati",
+   "g": -15
+  },
+  {
+   "som": "risada",
+   "at": "pilha",
+   "off": 0.3,
+   "dur": 2.0,
+   "tom": 0.82,
+   "g": -11
+  },
+  {
+   "som": "batida",
+   "at": "Bati",
+   "g": -1
+  },
+  {
+   "som": "batida",
+   "at": "Bati#2",
+   "g": -1
+  },
+  {
+   "som": "risada",
+   "at": "Bati#2",
+   "off": 0.35,
+   "trecho": 5.0,
+   "dur": 1.6,
+   "tom": 0.8,
+   "g": -11
+  },
+  {
+   "som": "saco",
+   "at": "saco",
+   "g": -9
+  },
+  {
+   "som": "saco",
+   "at": "Trouxe",
+   "g": -8
+  },
+  {
+   "som": "latidos",
+   "de": 54.05,
+   "ate": 54.7,
+   "passo": 0.3,
+   "g": -5,
+   "cao": 0
+  },
+  {
+   "som": "latidos",
+   "de": 57.55,
+   "ate": 57.95,
+   "passo": 0.25,
+   "g": -4,
+   "cao": 0
+  }
+ ]
+}

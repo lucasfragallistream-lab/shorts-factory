@@ -1,0 +1,158 @@
+{
+  "titulo": "OS 5 MISTÉRIOS DA INTERNET",
+  "layout": "escada",
+  "abertura": "Um grupo misterioso escondeu enigmas em fotos na internet para recrutar mentes brilhantes, e você nem imagina o real motivo.",
+  "itens": [
+    {
+      "rotulo": "5º UVB-76",
+      "narracao": "Em quinto, a rádio russa O Zumbidor transmite ruídos há décadas. De repente, uma voz humana lê palavras e códigos sem qualquer explicação na frequência.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "liso",
+        "cor_cabelo": "ruivo",
+        "roupa": "moletom",
+        "cor_roupa": "laranja",
+        "acessorios": [
+          "barba",
+          "caneca"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "rádio",
+          "emoji": "📻"
+        },
+        {
+          "palavra": "voz",
+          "emoji": "🗣️"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Semicírculo",
+      "narracao": "Em quarto, o canal Unfavorable Semicircle publicou milhares de vídeos bizarros com sons estáticos e imagens estranhas, sumindo de repente sem deixar nenhum único rastro.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "feminino",
+        "pele": "media",
+        "cabelo": "coque",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "azul_claro",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "vídeos",
+          "emoji": "📹"
+        },
+        {
+          "palavra": "rastro",
+          "emoji": "👣"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Markovian Parallax",
+      "narracao": "Em terceiro, Markovian Parallax Denigrate. Em mil novecentos e noventa e seis, milhares de mensagens incompreensíveis lotaram fóruns e até hoje teorias sugerem espionagem secreta.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "preto",
+        "roupa": "camisa",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "mensagens",
+          "emoji": "💬"
+        },
+        {
+          "palavra": "fóruns",
+          "emoji": "💻"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Satoshi Nakamoto",
+      "narracao": "Em segundo lugar, Satoshi Nakamoto, criador do Bitcoin. Ele sumiu em dois mil e onze e sua carteira digital acumula bilhões de dólares sem movimentação.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "cacheado",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "fone"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "carteira",
+          "emoji": "👛"
+        },
+        {
+          "palavra": "dólares",
+          "emoji": "💵"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Cicada 3301",
+      "narracao": "E em primeiro lugar, Cicada três três zero um. O grupo espalhou enigmas pela internet e cartazes nas ruas, mas o objetivo final continua um mistério.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "careca",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "cinza",
+        "acessorios": [
+          "gravata",
+          "bigode"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "cartazes",
+          "emoji": "🪧"
+        },
+        {
+          "palavra": "ruas",
+          "emoji": "🛣️"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Qual desses mistérios você acha que será resolvido? Envie o vídeo para um amigo.",
+  "cta": "Siga o perfil e comente qual desses mistérios impressionou você antes do primeiro lugar.",
+  "visuais_abertura": [
+    {
+      "palavra": "fotos",
+      "emoji": "🖼️"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "vídeo",
+      "emoji": "📹"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "titulo": "OS 4 ERROS BOBOS QUE CUSTARAM CARO",
+  "layout": "escada",
+  "abertura": "Uma única letra digitada por engano destruiu uma empresa centenária e causou prejuízo gigante. Você imagina cometer um erro desse tipo hoje?",
+  "itens": [
+    {
+      "rotulo": "4º Mizuho",
+      "narracao": "A corretora japonesa Mizuho vendeu seiscentas mil ações por apenas um iene, perdendo duzentos e vinte milhões de dólares por pura distração de um operador desatento.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "preto",
+        "roupa": "camisa",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "ações",
+          "emoji": "📈"
+        },
+        {
+          "palavra": "dólares",
+          "emoji": "💵"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Mariner 1",
+      "narracao": "A sonda Mariner um explodiu logo após o lançamento porque faltava um traço no código de voo, destruindo um foguete milionário da agência espacial americana.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "cacheado",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "fone"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "código",
+          "emoji": "💻"
+        },
+        {
+          "palavra": "foguete",
+          "emoji": "🚀"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Citibank",
+      "narracao": "O banco Citibank transferiu novecentos milhões de dólares para credores por engano, só porque um funcionário marcou a caixa errada na tela do computador corporativo.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "negra",
+        "cabelo": "rabo",
+        "cor_cabelo": "preto",
+        "roupa": "jaqueta",
+        "cor_roupa": "verde",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "banco",
+          "emoji": "🏦"
+        },
+        {
+          "palavra": "computador",
+          "emoji": "🖥️"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Taylor & Sons",
+      "narracao": "A empresa Taylor e Sons faliu porque o governo britânico registrou a falência adicionando uma única letra no nome oficial, destruindo negócios centenários de uma família.",
+      "personagem": {
+        "idade": "idoso",
+        "sexo": "masculino",
+        "pele": "morena",
+        "cabelo": "curto",
+        "cor_cabelo": "branco",
+        "roupa": "camisa",
+        "cor_roupa": "bege",
+        "acessorios": [
+          "oculos",
+          "bengala"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "governo",
+          "emoji": "🏛️"
+        },
+        {
+          "palavra": "letra",
+          "emoji": "🔤"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Qual erro foi o mais inacreditável? Compartilhe este vídeo com aquele amigo desatento!",
+  "cta": "Aproveite para seguir o perfil, curtir o vídeo e comentar se concorda com o ranking antes do primeiro lugar.",
+  "visuais_abertura": [
+    {
+      "palavra": "empresa",
+      "emoji": "🏢"
+    },
+    {
+      "palavra": "prejuízo",
+      "emoji": "📉"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "amigo",
+      "emoji": "👤"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "titulo": "AS 5 MENTIRAS QUE TE ENSINARAM",
+  "layout": "escada",
+  "abertura": "Quase tudo que ensinaram para você na escola sobre o mundo tem algum erro, e o primeiro colocado engana multidões.",
+  "itens": [
+    {
+      "rotulo": "5º Camaleão",
+      "narracao": "Em quinto lugar, o camaleão não troca de cor para se camuflar. As escamas dele mudam conforme o calor do ambiente e o próprio humor.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "careca",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "cinza",
+        "acessorios": [
+          "gravata",
+          "bigode"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "camaleão",
+          "emoji": "🦎"
+        },
+        {
+          "palavra": "calor",
+          "emoji": "🔥"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Dez por cento",
+      "narracao": "Em quarto lugar, você nunca usou apenas dez por cento da cabeça. Imagens médicas comprovam que todo o cérebro trabalha ativamente durante a sua rotina.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "negra",
+        "cabelo": "rabo",
+        "cor_cabelo": "preto",
+        "roupa": "jaqueta",
+        "cor_roupa": "verde",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "cabeça",
+          "emoji": "👤"
+        },
+        {
+          "palavra": "cérebro",
+          "emoji": "🧠"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Morcego cego",
+      "narracao": "Em terceiro lugar, nenhum morcego é cego. Todos esses animais enxergam perfeitamente e usam o eco apenas como um radar para caçar na escuridão total.",
+      "personagem": {
+        "idade": "idoso",
+        "sexo": "masculino",
+        "pele": "morena",
+        "cabelo": "curto",
+        "cor_cabelo": "branco",
+        "roupa": "camisa",
+        "cor_roupa": "bege",
+        "acessorios": [
+          "oculos",
+          "bengala"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "morcego",
+          "emoji": "🦇"
+        },
+        {
+          "palavra": "radar",
+          "emoji": "📡"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Muralha da China",
+      "narracao": "Em segundo lugar, a muralha chinesa não aparece do espaço. Ela é longa, mas fina demais para ser vista por qualquer astronauta em sua órbita.",
+      "personagem": {
+        "idade": "adolescente",
+        "sexo": "masculino",
+        "pele": "negra",
+        "cabelo": "espetado",
+        "cor_cabelo": "preto",
+        "roupa": "camiseta",
+        "cor_roupa": "amarelo",
+        "acessorios": [
+          "bone",
+          "mochila"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "muralha",
+          "emoji": "🧱"
+        },
+        {
+          "palavra": "órbita",
+          "emoji": "🛸"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Napoleão baixinho",
+      "narracao": "Em primeiro lugar, Napoleão Bonaparte nunca foi baixinho. Ele media um metro e sessenta e nove, tamanho normal para homens da França naquele século dezoito.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "clara",
+        "cabelo": "comprido",
+        "cor_cabelo": "loiro",
+        "roupa": "vestido",
+        "cor_roupa": "roxo",
+        "acessorios": [
+          "colar"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "metro",
+          "emoji": "📏"
+        },
+        {
+          "palavra": "século",
+          "emoji": "⏳"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Qual dessas você também acreditava? Mande para aquele amigo que adora corrigir todo mundo.",
+  "cta": "Aproveite para seguir o perfil, curtir o vídeo e comentar se concorda com a lista antes do primeiro lugar.",
+  "visuais_abertura": [
+    {
+      "palavra": "escola",
+      "emoji": "🏫"
+    },
+    {
+      "palavra": "mundo",
+      "emoji": "🌍"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "amigo",
+      "emoji": "🤝"
+    }
+  ]
+}

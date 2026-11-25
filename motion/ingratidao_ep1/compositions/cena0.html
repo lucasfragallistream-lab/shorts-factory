@@ -1,0 +1,82 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; overflow: hidden; background: #fafafa; }
+    #cena0-shake, #cena0-cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .bg { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .pers, .prop { position: absolute; }
+    .quem { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .pers { opacity: 0; }
+    .destaque { position: absolute; left: 0; width: 1080px; top: 360px; text-align: center; z-index: 20; }
+    .destaque span { display: inline-block; font-family: 'Archivo Black'; font-size: 112px; line-height: 1.02;
+      color: #FFD60A; -webkit-text-stroke: 14px #26282f; paint-order: stroke fill; padding: 0 60px;
+      text-shadow: 0 10px 0 #26282f; }
+    .nome { position: absolute; left: 130px; top: 300px; z-index: 21; }
+    .nome span { display: inline-block; font-family: 'Archivo Black'; font-size: 40px; color: #fff;
+      background: #E8463E; border: 6px solid #26282f; border-radius: 18px; padding: 8px 26px; }
+    .chuva { position: absolute; left: 0; top: -1920px; width: 1080px; height: 3840px; z-index: 10;
+      pointer-events: none; }
+    .chuva i { position: absolute; width: 4px; border-radius: 3px; background: rgba(200, 220, 255, 0.55); }
+  </style>
+  <div id="root" data-composition-id="cena0" data-width="1080" data-height="1920">
+    <div id="cena0-shake" data-layout-allow-overflow>
+      <div id="cena0-cam" data-layout-allow-overflow>
+        <img id="cena0-bg" class="bg" src="assets/bg_0.png" alt="">
+        <img id="cena0-malas" class="prop" src="assets/malas.png" alt="" style="left:30px;top:1260px;width:420px;height:300px">
+        <div id="cena0-quem-lurdes" class="quem"><img id="cena0-lurdes-chocado-fechada" class="pers cena0-lurdes" src="assets/p_lurdes_chocado_fechada.png" alt="" style="left:-141.7px;top:467.3px;width:623.3px;height:1100px"><img id="cena0-lurdes-preocupado-aberta" class="pers cena0-lurdes" src="assets/p_lurdes_preocupado_aberta.png" alt="" style="left:-141.7px;top:467.3px;width:623.3px;height:1100px"><img id="cena0-lurdes-preocupado-fechada" class="pers cena0-lurdes" src="assets/p_lurdes_preocupado_fechada.png" alt="" style="left:-141.7px;top:467.3px;width:623.3px;height:1100px"><img id="cena0-lurdes-triste-aberta" class="pers cena0-lurdes" src="assets/p_lurdes_triste_aberta.png" alt="" style="left:-141.7px;top:467.3px;width:623.3px;height:1100px"><img id="cena0-lurdes-triste-fechada" class="pers cena0-lurdes" src="assets/p_lurdes_triste_fechada.png" alt="" style="left:-141.7px;top:467.3px;width:623.3px;height:1100px"></div><div id="cena0-quem-bruno" class="quem"><img id="cena0-bruno-raiva-aberta" class="pers cena0-bruno" src="assets/p_bruno_raiva_aberta.png" alt="" style="left:228.3px;top:467.3px;width:623.3px;height:1100px"><img id="cena0-bruno-raiva-fechada" class="pers cena0-bruno" src="assets/p_bruno_raiva_fechada.png" alt="" style="left:228.3px;top:467.3px;width:623.3px;height:1100px"></div><div id="cena0-quem-paula" class="quem"><img id="cena0-paula-feliz-aberta" class="pers cena0-paula" src="assets/p_paula_feliz_aberta.png" alt="" style="left:598.3px;top:467.3px;width:623.3px;height:1100px"><img id="cena0-paula-feliz-fechada" class="pers cena0-paula" src="assets/p_paula_feliz_fechada.png" alt="" style="left:598.3px;top:467.3px;width:623.3px;height:1100px"></div>
+      </div>
+    </div>
+    
+    <div id="cena0-dest0" class="clip destaque" data-start="0.150" data-duration="1.800" data-track-index="1" data-layout-allow-overflow><span id="cena0-dest0-t">JOGOU NA RUA</span></div><div id="cena0-nome1" class="clip nome" data-start="3.828" data-duration="1.6" data-track-index="2"><span id="cena0-nome1-t">DONA LURDES</span></div><div id="cena0-dest2" class="clip destaque" data-start="8.362" data-duration="1.800" data-track-index="1" data-layout-allow-overflow><span id="cena0-dest2-t">DÍVIDAS DE JOGO</span></div><div id="cena0-nome2" class="clip nome" data-start="8.362" data-duration="1.6" data-track-index="2"><span id="cena0-nome2-t">BRUNO</span></div><div id="cena0-dest4" class="clip destaque" data-start="16.826" data-duration="1.800" data-track-index="1" data-layout-allow-overflow><span id="cena0-dest4-t">ABRIGO PÚBLICO</span></div><div id="cena0-nome4" class="clip nome" data-start="16.826" data-duration="1.6" data-track-index="2"><span id="cena0-nome4-t">PAULA</span></div>
+  </div>
+  <script>
+    (function () {
+      const D = {"planos": [{"t": 0.0, "d": 3.758, "cx": 540.0, "cy": 1060, "z": 1.0, "punch": true}, {"t": 3.708, "d": 4.614, "cx": 170.0, "cy": 930.55, "z": 1.5, "punch": false}, {"t": 8.242, "d": 4.806, "cx": 540.0, "cy": 800.8, "z": 2.35, "punch": true}, {"t": 12.968, "d": 3.818, "cx": 170.0, "cy": 841.84, "z": 2.35, "punch": false}, {"t": 16.706, "d": 4.67, "cx": 910.0, "cy": 919.81, "z": 1.5, "punch": true}], "estados": [{"m": "lurdes", "ev": [[0.0, "preocupado", "fechada"], [3.828, "preocupado", "fechada"], [3.878, "preocupado", "aberta"], [4.236, "preocupado", "fechada"], [4.313, "preocupado", "aberta"], [4.426, "preocupado", "fechada"], [4.489, "preocupado", "aberta"], [4.901, "preocupado", "fechada"], [5.128, "preocupado", "aberta"], [5.241, "preocupado", "fechada"], [5.305, "preocupado", "aberta"], [5.391, "preocupado", "fechada"], [5.454, "preocupado", "aberta"], [5.554, "preocupado", "fechada"], [5.617, "preocupado", "aberta"], [5.839, "preocupado", "fechada"], [5.902, "preocupado", "aberta"], [6.192, "preocupado", "fechada"], [6.256, "preocupado", "aberta"], [6.545, "preocupado", "fechada"], [6.609, "preocupado", "aberta"], [7.103, "preocupado", "fechada"], [7.166, "preocupado", "aberta"], [7.238, "preocupado", "fechada"], [7.302, "preocupado", "aberta"], [7.972, "preocupado", "fechada"], [8.142, "preocupado", "fechada"], [8.662, "chocado", "fechada"], [13.088, "triste", "fechada"], [13.138, "triste", "aberta"], [13.386, "triste", "fechada"], [13.45, "triste", "aberta"], [13.817, "triste", "fechada"], [13.882, "triste", "aberta"], [13.952, "triste", "fechada"], [13.971, "triste", "aberta"], [14.442, "triste", "fechada"], [14.507, "triste", "aberta"], [14.695, "triste", "fechada"], [14.76, "triste", "aberta"], [14.83, "triste", "fechada"], [14.835, "triste", "aberta"], [15.127, "triste", "fechada"], [15.192, "triste", "aberta"], [15.305, "triste", "fechada"], [15.37, "triste", "aberta"], [15.871, "triste", "fechada"], [15.936, "triste", "aberta"], [16.436, "triste", "fechada"], [16.606, "triste", "fechada"], [17.126, "chocado", "fechada"]]}, {"m": "bruno", "ev": [[0.0, "raiva", "fechada"], [8.362, "raiva", "fechada"], [8.412, "raiva", "aberta"], [8.559, "raiva", "fechada"], [8.62, "raiva", "aberta"], [8.69, "raiva", "fechada"], [8.73, "raiva", "aberta"], [9.02, "raiva", "fechada"], [9.191, "raiva", "aberta"], [9.404, "raiva", "fechada"], [10.204, "raiva", "aberta"], [10.308, "raiva", "fechada"], [10.369, "raiva", "aberta"], [10.571, "raiva", "fechada"], [10.632, "raiva", "aberta"], [10.801, "raiva", "fechada"], [10.862, "raiva", "aberta"], [11.152, "raiva", "fechada"], [11.213, "raiva", "aberta"], [11.316, "raiva", "fechada"], [11.377, "raiva", "aberta"], [11.612, "raiva", "fechada"], [11.673, "raiva", "aberta"], [11.887, "raiva", "fechada"], [11.948, "raiva", "aberta"], [12.237, "raiva", "fechada"], [12.298, "raiva", "aberta"], [12.368, "raiva", "fechada"], [12.386, "raiva", "aberta"], [12.698, "raiva", "fechada"], [12.868, "raiva", "fechada"]]}, {"m": "paula", "ev": [[0.0, "feliz", "fechada"], [16.826, "feliz", "fechada"], [16.876, "feliz", "aberta"], [16.997, "feliz", "fechada"], [17.058, "feliz", "aberta"], [17.326, "feliz", "fechada"], [17.387, "feliz", "aberta"], [17.457, "feliz", "fechada"], [17.512, "feliz", "aberta"], [17.724, "feliz", "fechada"], [17.785, "feliz", "aberta"], [18.042, "feliz", "fechada"], [18.115, "feliz", "aberta"], [18.451, "feliz", "fechada"], [18.735, "feliz", "aberta"], [18.935, "feliz", "fechada"], [18.997, "feliz", "aberta"], [19.185, "feliz", "fechada"], [19.247, "feliz", "aberta"], [19.549, "feliz", "fechada"], [19.61, "feliz", "aberta"], [19.68, "feliz", "fechada"], [19.769, "feliz", "aberta"], [20.117, "feliz", "fechada"], [20.178, "feliz", "aberta"], [20.248, "feliz", "fechada"], [20.281, "feliz", "aberta"], [20.549, "feliz", "fechada"], [20.61, "feliz", "aberta"], [21.026, "feliz", "fechada"], [21.196, "feliz", "fechada"]]}], "dur": 21.421, "carro": null, "chuva": false, "slams": [["#cena0-dest0-t", 0.15], ["#cena0-dest2-t", 8.362], ["#cena0-dest4-t", 16.826]], "nomes": [["#cena0-nome1-t", 3.828], ["#cena0-nome2-t", 8.362], ["#cena0-nome4-t", 16.826]], "chegam": []};
+      const tl = gsap.timeline({ paused: true });
+      const cam = "#cena0-cam", shake = "#cena0-shake";
+      tl.set(cam, { transformOrigin: "0 0" }, 0);
+      function pos(cx, cy, z) {
+        const x = Math.min(0, Math.max(1080 - 1080 * z, 540.0 - cx * z));
+        const y = Math.min(0, Math.max(1920 - 1920 * z, 960.0 - cy * z));
+        return { x: x, y: y, scale: z };
+      }
+      D.planos.forEach(function (p, i) {
+        const fim = i + 1 < D.planos.length ? D.planos[i + 1].t : D.dur;
+        const z2 = p.z * 1.07;
+        tl.set(cam, pos(p.cx, p.cy, p.z), p.t);
+        tl.to(cam, Object.assign(pos(p.cx, p.cy, z2), { duration: Math.max(0.1, fim - p.t), ease: "none" }), p.t);
+        if (p.punch) {
+          tl.fromTo(shake, { x: 0, y: 0 }, { keyframes: [{ x: -18, y: 10 }, { x: 16, y: -12 }, { x: -10, y: 6 },
+            { x: 0, y: 0 }], duration: 0.32, ease: "none" }, p.t + 0.12);
+        }
+      });
+      D.estados.forEach(function (s) {
+        const todos = ".cena0-" + s.m;
+        s.ev.forEach(function (e) {
+          tl.set(todos, { opacity: 0 }, e[0]);
+          tl.set("#cena0-" + s.m + "-" + e[1] + "-" + e[2], { opacity: 1 }, e[0]);
+        });
+      });
+      D.slams.forEach(function (s) {
+        tl.fromTo(s[0], { scale: 1.9, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power3.out" }, s[1]);
+      });
+      D.nomes.forEach(function (s) {
+        tl.fromTo(s[0], { x: -320 }, { x: 0, duration: 0.25, ease: "power3.out" }, s[1]);
+      });
+      if (D.carro !== null) {
+        tl.fromTo("#cena0-carro", { x: 1200 }, { x: 0, duration: 1.0, ease: "power3.out" }, D.carro);
+        D.chegam.forEach(function (m) {
+          tl.set(".cena0-" + m, { opacity: 0 }, 0);
+          tl.fromTo("#cena0-quem-" + m, { x: 260, opacity: 0 }, { x: 0, opacity: 1, duration: 0.45, ease: "power2.out" },
+            D.carro + 1.0);
+        });
+      } else if (document.querySelector("#cena0-carro")) {
+        tl.set("#cena0-carro", { x: 1200 }, 0);
+      }
+      if (D.chuva) {
+        tl.fromTo("#cena0-chuva", { y: 0 }, { y: 1920, duration: 0.55, ease: "none",
+          repeat: Math.ceil(D.dur / 0.55) }, 0);
+      }
+      window.__timelines["cena0"] = tl;
+    })();
+  </script>
+</template>

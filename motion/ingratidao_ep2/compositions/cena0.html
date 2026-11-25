@@ -1,0 +1,92 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; overflow: hidden; background: #fafafa; }
+    #cena0-shake, #cena0-cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .bg { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .pers, .prop { position: absolute; }
+    .quem { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .pers { opacity: 0; }
+    .destaque { position: absolute; left: 0; width: 1080px; top: 360px; text-align: center; z-index: 20; }
+    .destaque span { display: inline-block; font-family: 'Archivo Black'; font-size: 112px; line-height: 1.02;
+      color: #FFD60A; -webkit-text-stroke: 14px #26282f; paint-order: stroke fill; padding: 0 60px;
+      text-shadow: 0 10px 0 #26282f; }
+    .nome { position: absolute; left: 130px; top: 300px; z-index: 21; }
+    .nome span { display: inline-block; font-family: 'Archivo Black'; font-size: 40px; color: #fff;
+      background: #E8463E; border: 6px solid #26282f; border-radius: 18px; padding: 8px 26px; }
+    .chuva { position: absolute; left: 0; top: -1920px; width: 1080px; height: 3840px; z-index: 10;
+      pointer-events: none; }
+    .chuva i { position: absolute; width: 4px; border-radius: 3px; background: rgba(200, 220, 255, 0.55); }
+  </style>
+  <div id="root" data-composition-id="cena0" data-width="1080" data-height="1920">
+    <div id="cena0-shake" data-layout-allow-overflow>
+      <div id="cena0-cam" data-layout-allow-overflow>
+        <img id="cena0-bg" class="bg" src="assets/bg_0.png" alt="">
+        <img id="cena0-carro" class="prop" src="assets/carro.png" alt="" style="left:60px;top:1580px;width:1000px;height:380px">
+        <div id="cena0-quem-lurdes" class="quem"><img id="cena0-lurdes-preocupado-aberta-maos_rosto" class="pers cena0-lurdes" src="assets/p_lurdes_preocupado_aberta_maos_rosto.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena0-lurdes-preocupado-aberta-parado" class="pers cena0-lurdes" src="assets/p_lurdes_preocupado_aberta_parado.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena0-lurdes-preocupado-fechada-maos_rosto" class="pers cena0-lurdes" src="assets/p_lurdes_preocupado_fechada_maos_rosto.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena0-lurdes-preocupado-fechada-parado" class="pers cena0-lurdes" src="assets/p_lurdes_preocupado_fechada_parado.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"></div><div id="cena0-quem-marcelo" class="quem"><img id="cena0-marcelo-feliz-aberta-estende_e" class="pers cena0-marcelo" src="assets/p_marcelo_feliz_aberta_estende_e.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena0-marcelo-feliz-aberta-parado" class="pers cena0-marcelo" src="assets/p_marcelo_feliz_aberta_parado.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena0-marcelo-feliz-fechada-estende_e" class="pers cena0-marcelo" src="assets/p_marcelo_feliz_fechada_estende_e.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena0-marcelo-feliz-fechada-parado" class="pers cena0-marcelo" src="assets/p_marcelo_feliz_fechada_parado.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"></div>
+      </div>
+    </div>
+    <div id="cena0-chuva" class="chuva" data-layout-ignore><i style="left:257px;top:2090px;height:72px"></i><i style="left:652px;top:2403px;height:54px"></i><i style="left:14px;top:3216px;height:66px"></i><i style="left:253px;top:3823px;height:78px"></i><i style="left:903px;top:1829px;height:88px"></i><i style="left:163px;top:2438px;height:102px"></i><i style="left:565px;top:2846px;height:90px"></i><i style="left:69px;top:2912px;height:85px"></i><i style="left:325px;top:119px;height:102px"></i><i style="left:511px;top:2760px;height:103px"></i><i style="left:771px;top:3537px;height:74px"></i><i style="left:865px;top:1707px;height:106px"></i><i style="left:949px;top:374px;height:58px"></i><i style="left:234px;top:3707px;height:76px"></i><i style="left:677px;top:1156px;height:80px"></i><i style="left:417px;top:1347px;height:85px"></i><i style="left:631px;top:3472px;height:91px"></i><i style="left:1003px;top:3289px;height:109px"></i><i style="left:725px;top:626px;height:102px"></i><i style="left:1042px;top:3474px;height:84px"></i><i style="left:771px;top:811px;height:100px"></i><i style="left:619px;top:1094px;height:54px"></i><i style="left:922px;top:3801px;height:55px"></i><i style="left:865px;top:1576px;height:59px"></i><i style="left:317px;top:2952px;height:102px"></i><i style="left:48px;top:2360px;height:53px"></i><i style="left:776px;top:1271px;height:103px"></i><i style="left:1059px;top:1941px;height:110px"></i><i style="left:334px;top:296px;height:86px"></i><i style="left:34px;top:758px;height:74px"></i><i style="left:659px;top:600px;height:53px"></i><i style="left:937px;top:1205px;height:108px"></i><i style="left:968px;top:1451px;height:78px"></i><i style="left:562px;top:2473px;height:86px"></i><i style="left:604px;top:2381px;height:106px"></i><i style="left:548px;top:1656px;height:93px"></i><i style="left:257px;top:1156px;height:109px"></i><i style="left:563px;top:2106px;height:51px"></i><i style="left:448px;top:2227px;height:51px"></i><i style="left:665px;top:2428px;height:54px"></i><i style="left:678px;top:1790px;height:91px"></i><i style="left:381px;top:2715px;height:94px"></i><i style="left:24px;top:233px;height:91px"></i><i style="left:1040px;top:964px;height:77px"></i><i style="left:640px;top:1229px;height:72px"></i><i style="left:338px;top:1418px;height:86px"></i><i style="left:324px;top:1448px;height:96px"></i><i style="left:29px;top:2186px;height:94px"></i><i style="left:335px;top:855px;height:98px"></i><i style="left:258px;top:720px;height:76px"></i><i style="left:754px;top:391px;height:69px"></i><i style="left:360px;top:3201px;height:76px"></i><i style="left:924px;top:650px;height:70px"></i><i style="left:702px;top:3398px;height:77px"></i><i style="left:243px;top:464px;height:82px"></i><i style="left:206px;top:3098px;height:100px"></i><i style="left:198px;top:1070px;height:98px"></i><i style="left:693px;top:3096px;height:71px"></i><i style="left:140px;top:1121px;height:98px"></i><i style="left:293px;top:1330px;height:75px"></i><i style="left:453px;top:1573px;height:105px"></i><i style="left:168px;top:18px;height:107px"></i><i style="left:950px;top:3790px;height:76px"></i><i style="left:1026px;top:3561px;height:63px"></i><i style="left:805px;top:3213px;height:90px"></i><i style="left:561px;top:1110px;height:70px"></i><i style="left:246px;top:261px;height:85px"></i><i style="left:310px;top:3111px;height:53px"></i><i style="left:976px;top:2664px;height:105px"></i><i style="left:968px;top:3455px;height:85px"></i><i style="left:14px;top:2862px;height:60px"></i><i style="left:324px;top:2546px;height:81px"></i><i style="left:447px;top:3606px;height:87px"></i><i style="left:369px;top:970px;height:102px"></i><i style="left:515px;top:3004px;height:71px"></i><i style="left:213px;top:2053px;height:99px"></i><i style="left:185px;top:3040px;height:105px"></i><i style="left:871px;top:3162px;height:50px"></i><i style="left:679px;top:3312px;height:53px"></i><i style="left:293px;top:1031px;height:82px"></i><i style="left:457px;top:1816px;height:97px"></i><i style="left:2px;top:211px;height:58px"></i><i style="left:135px;top:263px;height:108px"></i><i style="left:923px;top:331px;height:80px"></i><i style="left:341px;top:1208px;height:71px"></i><i style="left:699px;top:2253px;height:72px"></i><i style="left:206px;top:1263px;height:57px"></i><i style="left:600px;top:2750px;height:73px"></i><i style="left:86px;top:686px;height:72px"></i><i style="left:653px;top:3005px;height:73px"></i><i style="left:865px;top:2392px;height:76px"></i><i style="left:402px;top:1905px;height:92px"></i><i style="left:454px;top:2665px;height:78px"></i><i style="left:265px;top:2058px;height:92px"></i><i style="left:77px;top:1632px;height:76px"></i><i style="left:950px;top:3596px;height:72px"></i><i style="left:970px;top:3037px;height:66px"></i><i style="left:501px;top:473px;height:99px"></i><i style="left:715px;top:3407px;height:98px"></i><i style="left:721px;top:2818px;height:84px"></i><i style="left:111px;top:2257px;height:50px"></i><i style="left:155px;top:2973px;height:53px"></i><i style="left:99px;top:381px;height:103px"></i><i style="left:193px;top:90px;height:100px"></i><i style="left:131px;top:3241px;height:90px"></i><i style="left:903px;top:3657px;height:85px"></i><i style="left:863px;top:139px;height:96px"></i><i style="left:552px;top:2746px;height:56px"></i><i style="left:809px;top:3589px;height:54px"></i><i style="left:350px;top:2166px;height:100px"></i><i style="left:261px;top:690px;height:65px"></i><i style="left:665px;top:2894px;height:74px"></i><i style="left:397px;top:1523px;height:71px"></i><i style="left:452px;top:320px;height:80px"></i><i style="left:1051px;top:1585px;height:95px"></i><i style="left:173px;top:2653px;height:95px"></i><i style="left:728px;top:1986px;height:79px"></i><i style="left:694px;top:3446px;height:59px"></i><i style="left:104px;top:2873px;height:105px"></i><i style="left:559px;top:1701px;height:93px"></i><i style="left:201px;top:1027px;height:62px"></i><i style="left:632px;top:1209px;height:64px"></i><i style="left:746px;top:3661px;height:68px"></i><i style="left:762px;top:1587px;height:101px"></i><i style="left:631px;top:1026px;height:63px"></i><i style="left:25px;top:1841px;height:73px"></i><i style="left:186px;top:1384px;height:69px"></i><i style="left:836px;top:551px;height:109px"></i><i style="left:518px;top:2300px;height:78px"></i><i style="left:901px;top:3155px;height:83px"></i><i style="left:520px;top:2768px;height:101px"></i><i style="left:432px;top:2817px;height:108px"></i><i style="left:505px;top:882px;height:64px"></i><i style="left:775px;top:2593px;height:108px"></i><i style="left:922px;top:930px;height:61px"></i><i style="left:279px;top:719px;height:92px"></i><i style="left:927px;top:3455px;height:65px"></i><i style="left:934px;top:1204px;height:75px"></i><i style="left:787px;top:330px;height:56px"></i><i style="left:901px;top:1120px;height:71px"></i></div>
+    <div id="cena0-dest0" class="clip destaque" data-start="0.150" data-duration="1.800" data-track-index="1" data-layout-allow-overflow><span id="cena0-dest0-t">NUNCA FOI DELE</span></div><div id="cena0-nome1" class="clip nome" data-start="3.967" data-duration="1.6" data-track-index="2"><span id="cena0-nome1-t">DONA LURDES</span></div><div id="cena0-nome2" class="clip nome" data-start="7.317" data-duration="1.6" data-track-index="2"><span id="cena0-nome2-t">DR. MARCELO</span></div>
+  </div>
+  <script>
+    (function () {
+      const D = {"planos": [{"t": 0.0, "d": 3.897, "cx": 540.0, "cy": 1060, "z": 1.0, "punch": true}, {"t": 3.847, "d": 3.43, "cx": 220.0, "cy": 841.84, "z": 2.35, "punch": false}, {"t": 7.197, "d": 5.182, "cx": 860.0, "cy": 900.01, "z": 1.5, "punch": false}, {"t": 12.299, "d": 5.665, "cx": 370.0, "cy": 961.89, "z": 1.3, "punch": false}], "estados": [{"m": "lurdes", "ev": [[0.0, "preocupado", "fechada", "parado"], [4.016, "preocupado", "aberta", "parado"], [4.205, "preocupado", "fechada", "maos_rosto"], [4.643, "preocupado", "aberta", "maos_rosto"], [4.976, "preocupado", "fechada", "maos_rosto"], [5.046, "preocupado", "aberta", "maos_rosto"], [5.485, "preocupado", "fechada", "maos_rosto"], [5.534, "preocupado", "aberta", "maos_rosto"], [5.816, "preocupado", "fechada", "maos_rosto"], [5.949, "preocupado", "aberta", "maos_rosto"], [6.294, "preocupado", "fechada", "maos_rosto"], [6.424, "preocupado", "aberta", "maos_rosto"], [6.931, "preocupado", "fechada", "maos_rosto"]]}, {"m": "marcelo", "ev": [[0.0, "feliz", "fechada", "parado"], [7.417, "feliz", "aberta", "parado"], [7.595, "feliz", "aberta", "estende_e"], [7.658, "feliz", "fechada", "estende_e"], [8.179, "feliz", "aberta", "estende_e"], [9.22, "feliz", "fechada", "estende_e"], [9.283, "feliz", "aberta", "estende_e"], [9.804, "feliz", "fechada", "parado"], [9.867, "feliz", "aberta", "parado"], [10.441, "feliz", "fechada", "parado"], [11.102, "feliz", "aberta", "parado"], [11.172, "feliz", "fechada", "parado"], [11.463, "feliz", "aberta", "parado"], [12.199, "feliz", "fechada", "parado"], [12.519, "feliz", "aberta", "parado"], [12.777, "feliz", "fechada", "estende_e"], [13.268, "feliz", "aberta", "estende_e"], [13.879, "feliz", "fechada", "estende_e"], [16.512, "feliz", "aberta", "estende_e"], [16.646, "feliz", "fechada", "estende_e"], [16.868, "feliz", "aberta", "estende_e"], [17.785, "feliz", "fechada", "estende_e"], [17.935, "feliz", "fechada", "parado"]]}], "dur": 18.01, "carro": null, "chuva": true, "slams": [["#cena0-dest0-t", 0.15]], "nomes": [["#cena0-nome1-t", 3.967], ["#cena0-nome2-t", 7.317]], "movs": [["marcelo", 12.419, 0.7, 0.0, -340.0]], "inis": [], "pulos": [["lurdes", 3.967], ["marcelo", 7.317]]};
+      const tl = gsap.timeline({ paused: true });
+      const cam = "#cena0-cam", shake = "#cena0-shake";
+      tl.set(cam, { transformOrigin: "0 0" }, 0);
+      function pos(cx, cy, z) {
+        const x = Math.min(0, Math.max(1080 - 1080 * z, 540.0 - cx * z));
+        const y = Math.min(0, Math.max(1920 - 1920 * z, 960.0 - cy * z));
+        return { x: x, y: y, scale: z };
+      }
+      D.planos.forEach(function (p, i) {
+        const fim = i + 1 < D.planos.length ? D.planos[i + 1].t : D.dur;
+        const z2 = p.z * 1.07;
+        tl.set(cam, pos(p.cx, p.cy, p.z), p.t);
+        tl.to(cam, Object.assign(pos(p.cx, p.cy, z2), { duration: Math.max(0.1, fim - p.t), ease: "none" }), p.t);
+        if (p.punch) {
+          tl.fromTo(shake, { x: 0, y: 0 }, { keyframes: [{ x: -18, y: 10 }, { x: 16, y: -12 }, { x: -10, y: 6 },
+            { x: 0, y: 0 }], duration: 0.32, ease: "none" }, p.t + 0.12);
+        }
+      });
+      D.estados.forEach(function (s) {
+        const todos = ".cena0-" + s.m;
+        s.ev.forEach(function (e) {
+          tl.set(todos, { opacity: 0 }, e[0]);
+          tl.set("#cena0-" + s.m + "-" + e[1] + "-" + e[2] + "-" + e[3], { opacity: 1 }, e[0]);
+        });
+        // breathing: tiny stretch from the feet, all of this person's images together
+        tl.to(todos, { scaleY: 1.012, transformOrigin: "50% 92%", duration: 1.3, ease: "sine.inOut", yoyo: true,
+          repeat: Math.max(1, Math.ceil(D.dur / 1.3)) }, 0);
+      });
+      D.inis.forEach(function (m) { tl.set("#cena0-quem-" + m[0], { x: m[1] }, 0); });
+      D.movs.forEach(function (m) {
+        const q = "#cena0-quem-" + m[0];
+        tl.fromTo(q, { x: m[3] }, { x: m[4], duration: m[2], ease: "power1.inOut", immediateRender: false }, m[1]);
+        const passos = Math.max(2, Math.round(m[2] / 0.18));
+        const kf = [];
+        for (let k = 0; k < passos; k++) { kf.push({ y: k % 2 ? 0 : -16 }); }
+        kf.push({ y: 0 });
+        tl.fromTo(q, { y: 0 }, { keyframes: kf, duration: m[2], ease: "none", immediateRender: false }, m[1]);
+      });
+      D.pulos.forEach(function (p) {
+        tl.fromTo("#cena0-quem-" + p[0], { y: 0 }, { keyframes: [{ y: -20 }, { y: 0 }], duration: 0.28,
+          ease: "power1.out", immediateRender: false }, p[1]);
+      });
+      D.slams.forEach(function (s) {
+        tl.fromTo(s[0], { scale: 1.9, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power3.out" }, s[1]);
+      });
+      D.nomes.forEach(function (s) {
+        tl.fromTo(s[0], { x: -320 }, { x: 0, duration: 0.25, ease: "power3.out" }, s[1]);
+      });
+      if (D.carro !== null) {
+        tl.fromTo("#cena0-carro", { x: 1200 }, { x: 0, duration: 1.0, ease: "power3.out" }, D.carro);
+      }
+      if (D.chuva) {
+        tl.fromTo("#cena0-chuva", { y: 0 }, { y: 1920, duration: 0.55, ease: "none",
+          repeat: Math.ceil(D.dur / 0.55) }, 0);
+      }
+      window.__timelines["cena0"] = tl;
+    })();
+  </script>
+</template>

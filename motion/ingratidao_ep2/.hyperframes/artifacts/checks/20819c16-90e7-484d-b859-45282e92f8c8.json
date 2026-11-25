@@ -1,0 +1,482 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "This HTML file has 4 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\fabricadevideo\\shorts-factory\\motion\\ingratidao_ep2\\compositions\\cena1.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "This HTML file has 5 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\fabricadevideo\\shorts-factory\\motion\\ingratidao_ep2\\compositions\\cena2.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "This HTML file has 55 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\fabricadevideo\\shorts-factory\\motion\\ingratidao_ep2\\compositions\\legendas.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      }
+    ],
+    "filesScanned": 7
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 4,
+    "infoCount": 1,
+    "findings": [
+      {
+        "selector": "#leg9",
+        "dataAttributes": {
+          "data-start": "9.283",
+          "data-duration": "1.819",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 190.65,
+          "y": 1140,
+          "width": 518.68,
+          "height": 220.38
+        },
+        "time": 10.167,
+        "rect": {
+          "left": 190.65,
+          "top": 1140,
+          "right": 709.33,
+          "bottom": 1360.38,
+          "width": 518.68,
+          "height": 220.38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "ESCRITURA VERDADEIRA PERTENCE",
+        "message": "<div> \"ESCRITURA VERDADEIRA PERTENCE\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 10.167,
+        "lastSeen": 10.167,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          10.167
+        ]
+      },
+      {
+        "selector": "#leg20",
+        "dataAttributes": {
+          "data-start": "23.601",
+          "data-duration": "1.010",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 119.47,
+          "y": 1134.77,
+          "width": 651.87,
+          "height": 96.32
+        },
+        "time": 23.722,
+        "rect": {
+          "left": 119.47,
+          "top": 1134.77,
+          "right": 771.34,
+          "bottom": 1231.09,
+          "width": 651.87,
+          "height": 96.32
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "SOU O ADVOGADO",
+        "message": "<div> \"SOU O ADVOGADO\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 23.722,
+        "lastSeen": 23.722,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          23.722
+        ]
+      },
+      {
+        "selector": "#leg31",
+        "dataAttributes": {
+          "data-start": "35.953",
+          "data-duration": "1.522",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 201.09,
+          "y": 1140,
+          "width": 497.8,
+          "height": 153.19
+        },
+        "time": 37.278,
+        "rect": {
+          "left": 201.09,
+          "top": 1140,
+          "right": 698.89,
+          "bottom": 1293.19,
+          "width": 497.8,
+          "height": 153.19
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "BRUNO SEU DESGRAÇADO",
+        "message": "<div> \"BRUNO SEU DESGRAÇADO\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 37.278,
+        "lastSeen": 37.278,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          37.278
+        ]
+      },
+      {
+        "selector": "#leg39",
+        "dataAttributes": {
+          "data-start": "43.789",
+          "data-duration": "0.943",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 191.91,
+          "y": 1134.77,
+          "width": 538.07,
+          "height": 158.42
+        },
+        "time": 44.056,
+        "rect": {
+          "left": 191.91,
+          "top": 1134.77,
+          "right": 729.98,
+          "bottom": 1293.19,
+          "width": 538.07,
+          "height": 158.42
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "ELE COMPROU TUDO",
+        "message": "<div> \"ELE COMPROU TUDO\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 44.056,
+        "lastSeen": 44.056,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          44.056
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 43.768,
+        "selector": "#cena2-dest1-t",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 44.51,
+          "top": 283.18,
+          "right": 1035.47,
+          "bottom": 663.52,
+          "width": 990.96,
+          "height": 380.34
+        },
+        "containerSelector": "#cena2-nome1-t",
+        "text": "USUFRUTO VITALÍCIO",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/cena2.html",
+        "bbox": {
+          "x": 44.51,
+          "y": 283.18,
+          "width": 990.96,
+          "height": 380.34
+        },
+        "firstSeen": 43.768,
+        "lastSeen": 43.768,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          43.768
+        ]
+      }
+    ],
+    "duration": 61,
+    "samples": [
+      3.389,
+      10.167,
+      16.944,
+      23.722,
+      30.5,
+      37.278,
+      44.056,
+      50.833,
+      57.611
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 5,
+    "truncated": false,
+    "faceCheck": {
+      "ran": true,
+      "candidates": 0,
+      "faces": 0
+    }
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      3.389,
+      16.944,
+      30.5,
+      44.056,
+      57.611
+    ],
+    "checked": 14,
+    "passed": 14
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"Quem você acha que é o verdadeiro dono da casa?\" (10 words) is on screen 1.77 s (±0.01 s), under the 2.63 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "Quem você acha que é o verdadeiro dono da casa?",
+        "selector": "#fim-pergunta",
+        "dataAttributes": {},
+        "sourceFile": "compositions/fim.html",
+        "bbox": {
+          "x": 126.31,
+          "y": 800.83,
+          "width": 647.3600000000001,
+          "height": 114.88999999999999
+        },
+        "time": 59.234,
+        "words": 10,
+        "seconds": 1.77,
+        "floorSeconds": 2.625,
+        "measured": [
+          {
+            "time": 58.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 59,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 59.125,
+            "opacity": 0.07,
+            "heightPx": 115
+          },
+          {
+            "time": 59.25,
+            "opacity": 0.6,
+            "heightPx": 115
+          },
+          {
+            "time": 59.375,
+            "opacity": 0.91,
+            "heightPx": 115
+          },
+          {
+            "time": 59.5,
+            "opacity": 1,
+            "heightPx": 115
+          },
+          {
+            "time": 59.625,
+            "opacity": 1,
+            "heightPx": 115
+          },
+          {
+            "time": 60.5,
+            "opacity": 1,
+            "heightPx": 115
+          },
+          {
+            "time": 60.625,
+            "opacity": 1,
+            "heightPx": 115
+          },
+          {
+            "time": 60.75,
+            "opacity": 1,
+            "heightPx": 115
+          },
+          {
+            "time": 60.875,
+            "opacity": 1,
+            "heightPx": 115
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"SEGUE PRA NÃO PERDER\" (4 words) is on screen 1.27 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "SEGUE PRA NÃO PERDER",
+        "selector": "#fim-segue",
+        "dataAttributes": {},
+        "sourceFile": "compositions/fim.html",
+        "bbox": {
+          "x": 229.45,
+          "y": 1094.44,
+          "width": 441.09,
+          "height": 42.11999999999989
+        },
+        "time": 59.734,
+        "words": 4,
+        "seconds": 1.27,
+        "floorSeconds": 2,
+        "measured": [
+          {
+            "time": 59.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 59.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 59.625,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 59.75,
+            "opacity": 0.56,
+            "heightPx": 42
+          },
+          {
+            "time": 59.875,
+            "opacity": 1,
+            "heightPx": 54
+          },
+          {
+            "time": 60,
+            "opacity": 1,
+            "heightPx": 51
+          },
+          {
+            "time": 60.125,
+            "opacity": 1,
+            "heightPx": 51
+          },
+          {
+            "time": 60.5,
+            "opacity": 1,
+            "heightPx": 54
+          },
+          {
+            "time": 60.625,
+            "opacity": 1,
+            "heightPx": 53
+          },
+          {
+            "time": 60.75,
+            "opacity": 1,
+            "heightPx": 52
+          },
+          {
+            "time": 60.875,
+            "opacity": 1,
+            "heightPx": 51
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 488
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

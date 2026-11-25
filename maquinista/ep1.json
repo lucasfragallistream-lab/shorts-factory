@@ -1,0 +1,23 @@
+{
+  "serie": "Você é o Maquinista",
+  "numero": 1,
+  "titulo": "VOCÊ É O MAQUINISTA",
+  "trilho_a": "5 FILHOTES + A CURA DO CÂNCER",
+  "trilho_b": "VOVÓ CIDA + O ÚLTIMO PANDA",
+  "pergunta": "TRILHO A OU TRILHO B?",
+  "falas": [
+    {"id": "gancho", "quem": "narrador", "texto": "O freio deste trem acabou de quebrar. E o maquinista é você."},
+    {"id": "serra", "quem": "narrador", "texto": "Cem toneladas de aço descendo a serra a oitenta por hora."},
+    {"id": "freio", "quem": "narrador", "texto": "Você puxa o freio uma vez. Nada. Duas vezes. Nada. Na terceira, a alavanca solta na sua mão."},
+    {"id": "divide", "quem": "narrador", "texto": "Lá na frente, o trilho se divide em dois."},
+    {"id": "filhotes", "quem": "narrador", "texto": "No trilho A, cinco filhotes de golden presos numa caixa de papelão, latindo sem parar."},
+    {"id": "helena", "quem": "narrador", "texto": "E do lado deles, a doutora Helena, com a única fórmula da cura do câncer no bolso do jaleco."},
+    {"id": "cida", "quem": "narrador", "texto": "No trilho B, dona Cida, noventa e dois anos, tricotando o casaco do neto."},
+    {"id": "socorro", "quem": "cida", "texto": "Meu Deus do céu, alguém me ajuda!"},
+    {"id": "panda", "quem": "narrador", "texto": "E abraçado nela, dormindo, o último panda do planeta."},
+    {"id": "desvio", "quem": "narrador", "texto": "Só resta uma alavanca, a do desvio. Se você não fizer nada, o trem vai direto para o trilho A."},
+    {"id": "ex", "quem": "narrador", "texto": "Aí a doutora Helena olha para a cabine, e você reconhece aquele rosto. É a sua ex. A mesma que te largou no altar."},
+    {"id": "amor", "quem": "helena", "texto": "Oi, amor."},
+    {"id": "pergunta", "quem": "narrador", "texto": "Trilho A, ou trilho B? Você tem dez segundos."}
+  ]
+}

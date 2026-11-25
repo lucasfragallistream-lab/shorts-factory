@@ -1,0 +1,159 @@
+{
+  "titulo": "OS 5 PLANETAS MAIS BIZARROS",
+  "layout": "escada",
+  "abertura": "Você não duraria um segundo no planeta azul onde tempestades brutais atiram pedaços pontiagudos de vidro pelos lados.",
+  "itens": [
+    {
+      "rotulo": "5º Kepler-16b",
+      "narracao": "Em quinto lugar fica o Kepler dezesseis bê. Ele orbita duas estrelas juntas, proporcionando um duplo pôr do sol digno de filme de ficção científica.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "negra",
+        "cabelo": "rabo",
+        "cor_cabelo": "preto",
+        "roupa": "jaqueta",
+        "cor_roupa": "verde",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "estrelas",
+          "emoji": "⭐"
+        },
+        {
+          "palavra": "sol",
+          "emoji": "☀️"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Gliese 436 b",
+      "narracao": "Na quarta posição, o Gliese quatrocentos e trinta e seis bê abriga gelo quente. Sua gravidade comprime água sólida mesmo queimando a quatrocentos escaldantes graus.",
+      "personagem": {
+        "idade": "idoso",
+        "sexo": "masculino",
+        "pele": "morena",
+        "cabelo": "curto",
+        "cor_cabelo": "branco",
+        "roupa": "camisa",
+        "cor_roupa": "bege",
+        "acessorios": [
+          "oculos",
+          "bengala"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "gelo",
+          "emoji": "🧊"
+        },
+        {
+          "palavra": "água",
+          "emoji": "💧"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º 55 Cancri e",
+      "narracao": "Em terceiro lugar está o cinquenta e cinco Cancri ê. Esse planeta tem o dobro do tamanho da Terra com interior feito de diamante puro.",
+      "personagem": {
+        "idade": "adolescente",
+        "sexo": "masculino",
+        "pele": "negra",
+        "cabelo": "espetado",
+        "cor_cabelo": "preto",
+        "roupa": "camiseta",
+        "cor_roupa": "amarelo",
+        "acessorios": [
+          "bone",
+          "mochila"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "Terra",
+          "emoji": "🌍"
+        },
+        {
+          "palavra": "diamante",
+          "emoji": "💎"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º TrES-2b",
+      "narracao": "O segundo lugar pertence ao tres dois bê, o planeta mais escuro conhecido. Ele reflete menos de um por cento da luz, superando qualquer carvão.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "clara",
+        "cabelo": "comprido",
+        "cor_cabelo": "loiro",
+        "roupa": "vestido",
+        "cor_roupa": "roxo",
+        "acessorios": [
+          "colar"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "luz",
+          "emoji": "💡"
+        },
+        {
+          "palavra": "carvão",
+          "emoji": "🪨"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º HD 189733b",
+      "narracao": "O primeiro lugar é o agá dê cento e oitenta e nove mil setecentos e trinta e três bê. Seus ventos extremos lançam chuva de vidro cortante.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "liso",
+        "cor_cabelo": "ruivo",
+        "roupa": "moletom",
+        "cor_roupa": "laranja",
+        "acessorios": [
+          "barba",
+          "caneca"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "chuva",
+          "emoji": "🌧️"
+        },
+        {
+          "palavra": "vidro",
+          "emoji": "🪟"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Você teria coragem de visitar esse inferno? Envie o vídeo para aquele amigo apaixonado por astronomia.",
+  "cta": "Siga o perfil, curta e comente se concorda antes de revelarmos o grande vencedor bizarro.",
+  "visuais_abertura": [
+    {
+      "palavra": "planeta",
+      "emoji": "🪐"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "amigo",
+      "emoji": "🧑"
+    }
+  ]
+}

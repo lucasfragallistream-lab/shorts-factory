@@ -1,0 +1,97 @@
+{
+  "serie": "Você é o Maquinista",
+  "numero": 3,
+  "titulo": "QUEM VOCÊ SALVA?",
+  "trilho_a": "A ÚLTIMA VACINA",
+  "trilho_b": "A DOUTORA",
+  "pergunta": "TRILHO A OU TRILHO B?",
+  "_reuso": "gancho, freio1-3, divide, desvio e pergunta repetem o texto do ep. 2 (mesmo atempo) para casar com os takes do ep. 2",
+  "atempo": 1.0802,
+  "falas": [
+    {
+      "id": "abre",
+      "quem": "narrador",
+      "texto": "A cientista que sabe curar os zumbis... ou a última vacina do mundo?"
+    },
+    {
+      "id": "gancho",
+      "quem": "narrador",
+      "texto": "Cem toneladas de aço, ladeira abaixo, e o maquinista é você!"
+    },
+    {
+      "id": "freio1",
+      "quem": "narrador",
+      "texto": "Você puxa o freio. Travou!",
+      "respira": true
+    },
+    {
+      "id": "freio2",
+      "quem": "narrador",
+      "texto": "Puxa de novo. Nada!"
+    },
+    {
+      "id": "freio3",
+      "quem": "narrador",
+      "texto": "Na terceira... a alavanca quebra na sua mão!",
+      "respira": true
+    },
+    {
+      "id": "divide",
+      "quem": "narrador",
+      "texto": "Lá na frente, o trilho se divide. E nenhum dos dois está vazio.",
+      "respira": true
+    },
+    {
+      "id": "vacina",
+      "quem": "narrador",
+      "texto": "No trilho A, uma maleta com a última vacina contra o vírus zumbi. Uma dose só, brilhando azul."
+    },
+    {
+      "id": "cidade",
+      "quem": "narrador",
+      "texto": "Metade da cidade já virou zumbi."
+    },
+    {
+      "id": "doutora",
+      "quem": "narrador",
+      "texto": "No trilho B, a doutora que criou a vacina. Ela correu atrás da maleta, tropeçou, e o jaleco prendeu no trilho."
+    },
+    {
+      "id": "socorro",
+      "quem": "doutora",
+      "texto": "Socorro! Só eu sei fazer outra!"
+    },
+    {
+      "id": "desvio",
+      "quem": "narrador",
+      "texto": "Só a alavanca do desvio ainda funciona. Se você não fizer nada, o trem vai pro trilho A.",
+      "respira": true
+    },
+    {
+      "id": "braco",
+      "quem": "narrador",
+      "texto": "Aí o seu braço começa a arder. Você puxa a manga..."
+    },
+    {
+      "id": "mordida",
+      "quem": "narrador",
+      "texto": "Uma mordida.",
+      "pausa_antes": 0.75
+    },
+    {
+      "id": "passageiro",
+      "quem": "narrador",
+      "texto": "Aquele passageiro do vagão de trás não estava dormindo."
+    },
+    {
+      "id": "escolha",
+      "quem": "narrador",
+      "texto": "A vacina do trilho A é a única que te salva. A doutora do trilho B é a única que salva o mundo."
+    },
+    {
+      "id": "pergunta",
+      "quem": "narrador",
+      "texto": "Trilho A, ou trilho B? Você tem dez segundos!"
+    }
+  ]
+}

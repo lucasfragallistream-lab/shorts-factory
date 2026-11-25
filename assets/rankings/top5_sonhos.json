@@ -1,0 +1,161 @@
+{
+  "titulo": "OS 5 SONHOS MAIS COMUNS DO MUNDO",
+  "layout": "escada",
+  "abertura": "Se você acorda assustado no meio da noite com o coração acelerado, o líder das pesquisas invade a sua mente.",
+  "itens": [
+    {
+      "rotulo": "5º Pelado em público",
+      "narracao": "Em quinto lugar, estar pelado na rua. Especialistas explicam que esse pesadelo reflete medo do julgamento alheio, como se alguém tirasse toda a sua roupa.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "clara",
+        "cabelo": "comprido",
+        "cor_cabelo": "loiro",
+        "roupa": "vestido",
+        "cor_roupa": "roxo",
+        "acessorios": [
+          "colar"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "rua",
+          "emoji": "🛣️"
+        },
+        {
+          "palavra": "roupa",
+          "emoji": "👕"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Caindo",
+      "narracao": "Em quarto lugar, despencar de um penhasco. Esse susto surge quando perdemos o controle da rotina e acordamos em choque antes de tocar o chão.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "liso",
+        "cor_cabelo": "ruivo",
+        "roupa": "moletom",
+        "cor_roupa": "laranja",
+        "acessorios": [
+          "barba",
+          "caneca"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "penhasco",
+          "emoji": "🧗"
+        },
+        {
+          "palavra": "chão",
+          "emoji": "🪨"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Sendo perseguido",
+      "narracao": "Em terceiro lugar, fugir de um monstro. Isso representa a tentação de evitar obrigações diárias, enquanto a criatura misteriosa corre sem mostrar o seu rosto.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "feminino",
+        "pele": "media",
+        "cabelo": "coque",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "azul_claro",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "monstro",
+          "emoji": "👾"
+        },
+        {
+          "palavra": "rosto",
+          "emoji": "👤"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Dentes caindo",
+      "narracao": "Em segundo lugar, perder dentes da boca. Esse choque faz com que muitas pessoas acordem olhando no espelho para conferir o estado do próprio sorriso.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "preto",
+        "roupa": "camisa",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "dentes",
+          "emoji": "🦷"
+        },
+        {
+          "palavra": "espelho",
+          "emoji": "🪞"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Prova sem estudar",
+      "narracao": "Em primeiro lugar, fazer uma prova sem estudar nada. Adultos formados sonham com isso após décadas, pelo pavor antigo de esquecer a caneta na mesa.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "cacheado",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "fone"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "caneta",
+          "emoji": "🖊️"
+        },
+        {
+          "palavra": "mesa",
+          "emoji": "🪑"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Mande este vídeo para aquele amigo que sempre acorda assustado pensando que o despertador quebrou.",
+  "cta": "Lembre de seguir o perfil, curtir e comentar se concorda com a lista antes do topo.",
+  "visuais_abertura": [
+    {
+      "palavra": "coração",
+      "emoji": "❤️"
+    },
+    {
+      "palavra": "noite",
+      "emoji": "🌃"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "despertador",
+      "emoji": "⏰"
+    }
+  ]
+}

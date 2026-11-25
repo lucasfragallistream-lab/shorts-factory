@@ -1,0 +1,94 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; overflow: hidden; background: #fafafa; }
+    #cena1-shake, #cena1-cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .bg { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .pers, .prop { position: absolute; }
+    .quem { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .pers { opacity: 0; }
+    .destaque { position: absolute; left: 0; width: 1080px; top: 360px; text-align: center; z-index: 20; }
+    .destaque span { display: inline-block; font-family: 'Archivo Black'; font-size: 112px; line-height: 1.02;
+      color: #FFD60A; -webkit-text-stroke: 14px #26282f; paint-order: stroke fill; padding: 0 60px;
+      text-shadow: 0 10px 0 #26282f; }
+    .nome { position: absolute; left: 130px; top: 300px; z-index: 21; }
+    .nome span { display: inline-block; font-family: 'Archivo Black'; font-size: 40px; color: #fff;
+      background: #E8463E; border: 6px solid #26282f; border-radius: 18px; padding: 8px 26px; }
+    .chuva { position: absolute; left: 0; top: -1920px; width: 1080px; height: 3840px; z-index: 10;
+      pointer-events: none; }
+    .chuva i { position: absolute; width: 4px; border-radius: 3px; background: rgba(200, 220, 255, 0.55); }
+  </style>
+  <div id="root" data-composition-id="cena1" data-width="1080" data-height="1920">
+    <div id="cena1-shake" data-layout-allow-overflow>
+      <div id="cena1-cam" data-layout-allow-overflow>
+        <img id="cena1-bg" class="bg" src="assets/bg_1.png" alt="">
+        
+        <div id="cena1-quem-lurdes" class="quem"><img id="cena1-lurdes-chocado-fechada-parado" class="pers cena1-lurdes" src="assets/p_lurdes_chocado_fechada_parado.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-lurdes-preocupado-fechada-parado" class="pers cena1-lurdes" src="assets/p_lurdes_preocupado_fechada_parado.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-lurdes-triste-aberta-mao_peito" class="pers cena1-lurdes" src="assets/p_lurdes_triste_aberta_mao_peito.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-lurdes-triste-aberta-maos_rosto" class="pers cena1-lurdes" src="assets/p_lurdes_triste_aberta_maos_rosto.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-lurdes-triste-aberta-parado" class="pers cena1-lurdes" src="assets/p_lurdes_triste_aberta_parado.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-lurdes-triste-fechada-mao_peito" class="pers cena1-lurdes" src="assets/p_lurdes_triste_fechada_mao_peito.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-lurdes-triste-fechada-maos_rosto" class="pers cena1-lurdes" src="assets/p_lurdes_triste_fechada_maos_rosto.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-lurdes-triste-fechada-parado" class="pers cena1-lurdes" src="assets/p_lurdes_triste_fechada_parado.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"></div><div id="cena1-quem-bruno" class="quem"><img id="cena1-bruno-raiva-aberta-aponta_e" class="pers cena1-bruno" src="assets/p_bruno_raiva_aberta_aponta_e.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-bruno-raiva-aberta-bracos_cima" class="pers cena1-bruno" src="assets/p_bruno_raiva_aberta_bracos_cima.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-bruno-raiva-aberta-parado" class="pers cena1-bruno" src="assets/p_bruno_raiva_aberta_parado.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-bruno-raiva-fechada-aponta_e" class="pers cena1-bruno" src="assets/p_bruno_raiva_fechada_aponta_e.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-bruno-raiva-fechada-bracos_cima" class="pers cena1-bruno" src="assets/p_bruno_raiva_fechada_bracos_cima.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena1-bruno-raiva-fechada-parado" class="pers cena1-bruno" src="assets/p_bruno_raiva_fechada_parado.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"></div>
+      </div>
+    </div>
+    
+    <div id="cena1-nome0" class="clip nome" data-start="0.225" data-duration="1.6" data-track-index="2"><span id="cena1-nome0-t">DONA LURDES</span></div><div id="cena1-nome1" class="clip nome" data-start="5.198" data-duration="1.6" data-track-index="2"><span id="cena1-nome1-t">BRUNO</span></div>
+  </div>
+  <script>
+    (function () {
+      const D = {"planos": [{"t": 0.0, "d": 5.053, "cx": 220.0, "cy": 841.84, "z": 2.35, "punch": false}, {"t": 5.078, "d": 3.984, "cx": 860.0, "cy": 900.01, "z": 1.5, "punch": false}, {"t": 8.982, "d": 4.014, "cx": 540.0, "cy": 1060, "z": 1.0, "punch": false}], "estados": [{"m": "lurdes", "ev": [[0.0, "preocupado", "fechada", "parado"], [0.225, "triste", "fechada", "parado"], [0.275, "triste", "aberta", "parado"], [0.325, "triste", "aberta", "maos_rosto"], [0.513, "triste", "fechada", "maos_rosto"], [0.805, "triste", "aberta", "maos_rosto"], [0.87, "triste", "fechada", "maos_rosto"], [0.954, "triste", "aberta", "maos_rosto"], [1.019, "triste", "fechada", "maos_rosto"], [1.689, "triste", "aberta", "maos_rosto"], [1.788, "triste", "fechada", "maos_rosto"], [2.591, "triste", "aberta", "maos_rosto"], [2.602, "triste", "fechada", "mao_peito"], [2.656, "triste", "aberta", "mao_peito"], [2.726, "triste", "fechada", "mao_peito"], [3.425, "triste", "aberta", "mao_peito"], [3.489, "triste", "fechada", "mao_peito"], [3.668, "triste", "aberta", "mao_peito"], [4.243, "triste", "fechada", "mao_peito"], [4.308, "triste", "aberta", "mao_peito"], [4.978, "triste", "fechada", "mao_peito"], [5.498, "triste", "fechada", "parado"], [9.082, "chocado", "fechada", "parado"]]}, {"m": "bruno", "ev": [[0.0, "raiva", "fechada", "parado"], [5.298, "raiva", "aberta", "parado"], [5.582, "raiva", "aberta", "aponta_e"], [5.713, "raiva", "fechada", "aponta_e"], [5.764, "raiva", "aberta", "aponta_e"], [7.133, "raiva", "fechada", "bracos_cima"], [7.194, "raiva", "aberta", "bracos_cima"], [7.462, "raiva", "fechada", "bracos_cima"], [7.523, "raiva", "aberta", "bracos_cima"], [7.72, "raiva", "fechada", "bracos_cima"], [7.863, "raiva", "aberta", "bracos_cima"], [8.087, "raiva", "fechada", "bracos_cima"], [8.148, "raiva", "aberta", "bracos_cima"], [8.356, "raiva", "fechada", "bracos_cima"], [9.032, "raiva", "fechada", "parado"]]}], "dur": 13.041, "carro": null, "chuva": false, "slams": [], "nomes": [["#cena1-nome0-t", 0.225], ["#cena1-nome1-t", 5.198]], "movs": [], "inis": [], "pulos": [["lurdes", 0.225], ["bruno", 5.198]]};
+      const tl = gsap.timeline({ paused: true });
+      const cam = "#cena1-cam", shake = "#cena1-shake";
+      tl.set(cam, { transformOrigin: "0 0" }, 0);
+      function pos(cx, cy, z) {
+        const x = Math.min(0, Math.max(1080 - 1080 * z, 540.0 - cx * z));
+        const y = Math.min(0, Math.max(1920 - 1920 * z, 960.0 - cy * z));
+        return { x: x, y: y, scale: z };
+      }
+      D.planos.forEach(function (p, i) {
+        const fim = i + 1 < D.planos.length ? D.planos[i + 1].t : D.dur;
+        const z2 = p.z * 1.07;
+        tl.set(cam, pos(p.cx, p.cy, p.z), p.t);
+        tl.to(cam, Object.assign(pos(p.cx, p.cy, z2), { duration: Math.max(0.1, fim - p.t), ease: "none" }), p.t);
+        if (p.punch) {
+          tl.fromTo(shake, { x: 0, y: 0 }, { keyframes: [{ x: -18, y: 10 }, { x: 16, y: -12 }, { x: -10, y: 6 },
+            { x: 0, y: 0 }], duration: 0.32, ease: "none" }, p.t + 0.12);
+        }
+      });
+      D.estados.forEach(function (s) {
+        const todos = ".cena1-" + s.m;
+        s.ev.forEach(function (e) {
+          tl.set(todos, { opacity: 0 }, e[0]);
+          tl.set("#cena1-" + s.m + "-" + e[1] + "-" + e[2] + "-" + e[3], { opacity: 1 }, e[0]);
+        });
+        // breathing: tiny stretch from the feet, all of this person's images together
+        tl.to(todos, { scaleY: 1.012, transformOrigin: "50% 92%", duration: 1.3, ease: "sine.inOut", yoyo: true,
+          repeat: Math.max(1, Math.ceil(D.dur / 1.3)) }, 0);
+      });
+      D.inis.forEach(function (m) { tl.set("#cena1-quem-" + m[0], { x: m[1] }, 0); });
+      D.movs.forEach(function (m) {
+        const q = "#cena1-quem-" + m[0];
+        tl.fromTo(q, { x: m[3] }, { x: m[4], duration: m[2], ease: "power1.inOut", immediateRender: false }, m[1]);
+        const passos = Math.max(2, Math.round(m[2] / 0.18));
+        const kf = [];
+        for (let k = 0; k < passos; k++) { kf.push({ y: k % 2 ? 0 : -16 }); }
+        kf.push({ y: 0 });
+        tl.fromTo(q, { y: 0 }, { keyframes: kf, duration: m[2], ease: "none", immediateRender: false }, m[1]);
+      });
+      D.pulos.forEach(function (p) {
+        tl.fromTo("#cena1-quem-" + p[0], { y: 0 }, { keyframes: [{ y: -20 }, { y: 0 }], duration: 0.28,
+          ease: "power1.out", immediateRender: false }, p[1]);
+      });
+      D.slams.forEach(function (s) {
+        tl.fromTo(s[0], { scale: 1.9, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power3.out" }, s[1]);
+      });
+      D.nomes.forEach(function (s) {
+        tl.fromTo(s[0], { x: -320 }, { x: 0, duration: 0.25, ease: "power3.out" }, s[1]);
+      });
+      if (D.carro !== null) {
+        tl.fromTo("#cena1-carro", { x: 1200 }, { x: 0, duration: 1.0, ease: "power3.out" }, D.carro);
+      } else if (document.querySelector("#cena1-carro")) {
+        tl.set("#cena1-carro", { x: 1200 }, 0);
+      }
+      if (D.chuva) {
+        tl.fromTo("#cena1-chuva", { y: 0 }, { y: 1920, duration: 0.55, ease: "none",
+          repeat: Math.ceil(D.dur / 0.55) }, 0);
+      }
+      window.__timelines["cena1"] = tl;
+    })();
+  </script>
+</template>

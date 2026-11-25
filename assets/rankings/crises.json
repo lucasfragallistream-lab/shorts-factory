@@ -1,0 +1,130 @@
+{
+  "titulo": "AS 4 CRISES QUE VOCÊ VAI VIVER",
+  "layout": "escada",
+  "abertura": "Se você já passou dos treze anos, pelo menos uma dessas fases complicadas te pegou em cheio, e a última chega quando você menos espera.",
+  "itens": [
+    {
+      "rotulo": "13 anos",
+      "narracao": "Aos treze anos bate a clássica crise de identidade. Você troca de roupa mil vezes no quarto, sente vergonha da própria família e jura diante do espelho que nunca vai virar um adulto chato.",
+      "personagem": {
+        "idade": "adolescente",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "cacheado",
+        "cor_cabelo": "preto",
+        "roupa": "camiseta",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "mochila"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "roupa",
+          "emoji": "👕"
+        },
+        {
+          "palavra": "espelho",
+          "emoji": "🪞"
+        }
+      ]
+    },
+    {
+      "rotulo": "18 anos",
+      "narracao": "Aos dezoito anos chega a terrível crise da escolha. Todo mundo cobra faculdade e carreira de sucesso, enquanto você mal decide o almoço e sente o peso gigante do futuro nas costas.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "espetado",
+        "cor_cabelo": "preto",
+        "roupa": "moletom",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "fone"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "faculdade",
+          "emoji": "🎓"
+        },
+        {
+          "palavra": "almoço",
+          "emoji": "🍽️"
+        }
+      ]
+    },
+    {
+      "rotulo": "25 anos",
+      "narracao": "Aos vinte e cinco anos surge a crise do quarto de século. Seus velhos amigos casam e compram casa própria, enquanto você divide aluguel apertado e bebe café requentado no serviço.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "preto",
+        "roupa": "camisa",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "caneca"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "casa",
+          "emoji": "🏠"
+        },
+        {
+          "palavra": "café",
+          "emoji": "☕"
+        }
+      ]
+    },
+    {
+      "rotulo": "40 anos",
+      "narracao": "Aos quarenta anos explode a crise da meia idade. As costas começam a doer sem motivo, a gaveta lota de remédio e você passa o dia jurando que as músicas antigas eram muito melhores.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "azul_claro",
+        "acessorios": [
+          "oculos",
+          "barba"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "remédio",
+          "emoji": "💊"
+        },
+        {
+          "palavra": "músicas",
+          "emoji": "🎵"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Comente em qual degrau da escada você está agora e mande este vídeo para aquele amigo que diz que está tudo bem.",
+  "cta": "Não deixe de seguir o perfil, curtir o vídeo e comentar se concorda com essas etapas antes de encarar a última fase.",
+  "visuais_abertura": [
+    {
+      "palavra": "anos",
+      "emoji": "📅"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "escada",
+      "emoji": "🪜"
+    }
+  ]
+}

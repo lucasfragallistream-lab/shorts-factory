@@ -1,0 +1,91 @@
+{
+  "serie": "Você é o Maquinista",
+  "numero": 2,
+  "titulo": "VOCÊ É O MAQUINISTA",
+  "trilho_a": "PAÇOCA + R$ 600 MILHÕES",
+  "trilho_b": "5 VOVÔS (UM É SEU PAI)",
+  "pergunta": "TRILHO A OU TRILHO B?",
+  "inicio": 0.55,
+  "falas": [
+    {
+      "id": "gancho",
+      "quem": "narrador",
+      "texto": "Cem toneladas de aço, ladeira abaixo, e o maquinista é você!"
+    },
+    {
+      "id": "velocidade",
+      "quem": "narrador",
+      "texto": "Oitenta por hora, noventa, cem... e acelerando."
+    },
+    {
+      "id": "freio1",
+      "quem": "narrador",
+      "texto": "Você puxa o freio. Travou!",
+      "respira": true
+    },
+    {
+      "id": "freio2",
+      "quem": "narrador",
+      "texto": "Puxa de novo. Nada!"
+    },
+    {
+      "id": "freio3",
+      "quem": "narrador",
+      "texto": "Na terceira... a alavanca quebra na sua mão!",
+      "respira": true
+    },
+    {
+      "id": "divide",
+      "quem": "narrador",
+      "texto": "Lá na frente, o trilho se divide. E nenhum dos dois está vazio.",
+      "respira": true
+    },
+    {
+      "id": "pacoca",
+      "quem": "narrador",
+      "texto": "No trilho A, o Paçoca, seu vira-lata caramelo. Treze anos dormindo no seu pé. Ele te vê, e abana o rabo."
+    },
+    {
+      "id": "bilhete",
+      "quem": "narrador",
+      "texto": "Na coleira, o seu bilhete premiado. Seiscentos milhões de reais."
+    },
+    {
+      "id": "vovos",
+      "quem": "narrador",
+      "texto": "No trilho B, cinco vovôs jogando dominó. Ninguém ouviu o trem: o aparelho de surdez dos cinco está sem pilha."
+    },
+    {
+      "id": "bati",
+      "quem": "vovo",
+      "texto": "Bati! Bati!"
+    },
+    {
+      "id": "desvio",
+      "quem": "narrador",
+      "texto": "Só a alavanca do desvio ainda funciona. Se você não fizer nada, o trem vai pro trilho A.",
+      "respira": true
+    },
+    {
+      "id": "vira",
+      "quem": "narrador",
+      "texto": "Aí um vovô vira pra cabine, com um saco de pão. E você conhece esse bigode."
+    },
+    {
+      "id": "pai",
+      "quem": "narrador",
+      "texto": "É o seu pai. O que foi comprar pão há vinte e dois anos."
+    },
+    {
+      "id": "oi",
+      "quem": "pai",
+      "texto": "Oi, filho. Trouxe o pão.",
+      "pausa_antes": 0.75
+    },
+    {
+      "id": "pergunta",
+      "quem": "narrador",
+      "texto": "Trilho A, ou trilho B? Você tem dez segundos!"
+    }
+  ]
+}

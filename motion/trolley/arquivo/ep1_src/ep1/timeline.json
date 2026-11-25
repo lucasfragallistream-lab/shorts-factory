@@ -1,0 +1,1318 @@
+{
+ "fps": 30,
+ "duracao": 61.0,
+ "contagem": 51.0,
+ "fala_fim": 50.433,
+ "atempo": 1.0187,
+ "palavras_por_s": 3.36,
+ "linhas": [
+  {
+   "id": "gancho",
+   "quem": "narrador",
+   "texto": "O freio deste trem acabou de quebrar. E o maquinista é você.",
+   "a": 0.12,
+   "b": 3.357,
+   "w0": 0,
+   "w1": 12
+  },
+  {
+   "id": "serra",
+   "quem": "narrador",
+   "texto": "Cem toneladas de aço descendo a serra a oitenta por hora.",
+   "a": 3.477,
+   "b": 6.219,
+   "w0": 12,
+   "w1": 23
+  },
+  {
+   "id": "freio",
+   "quem": "narrador",
+   "texto": "Você puxa o freio uma vez. Nada. Duas vezes. Nada. Na terceira, a alavanca solta na sua mão.",
+   "a": 6.339,
+   "b": 12.694,
+   "w0": 23,
+   "w1": 41
+  },
+  {
+   "id": "divide",
+   "quem": "narrador",
+   "texto": "Lá na frente, o trilho se divide em dois.",
+   "a": 12.814,
+   "b": 15.176,
+   "w0": 41,
+   "w1": 50
+  },
+  {
+   "id": "filhotes",
+   "quem": "narrador",
+   "texto": "No trilho A, cinco filhotes de golden presos numa caixa de papelão, latindo sem parar.",
+   "a": 15.296,
+   "b": 19.877,
+   "w0": 50,
+   "w1": 65
+  },
+  {
+   "id": "helena",
+   "quem": "narrador",
+   "texto": "E do lado deles, a doutora Helena, com a única fórmula da cura do câncer no bolso do jaleco.",
+   "a": 19.997,
+   "b": 24.524,
+   "w0": 65,
+   "w1": 84
+  },
+  {
+   "id": "cida",
+   "quem": "narrador",
+   "texto": "No trilho B, dona Cida, noventa e dois anos, tricotando o casaco do neto.",
+   "a": 24.644,
+   "b": 28.755,
+   "w0": 84,
+   "w1": 98
+  },
+  {
+   "id": "socorro",
+   "quem": "cida",
+   "texto": "Meu Deus do céu, alguém me ajuda!",
+   "a": 29.035,
+   "b": 31.321,
+   "w0": 98,
+   "w1": 105
+  },
+  {
+   "id": "panda",
+   "quem": "narrador",
+   "texto": "E abraçado nela, dormindo, o último panda do planeta.",
+   "a": 31.601,
+   "b": 34.687,
+   "w0": 105,
+   "w1": 114
+  },
+  {
+   "id": "desvio",
+   "quem": "narrador",
+   "texto": "Só resta uma alavanca, a do desvio. Se você não fizer nada, o trem vai direto para o trilho A.",
+   "a": 34.807,
+   "b": 39.803,
+   "w0": 114,
+   "w1": 134
+  },
+  {
+   "id": "ex",
+   "quem": "narrador",
+   "texto": "Aí a doutora Helena olha para a cabine, e você reconhece aquele rosto. É a sua ex. A mesma que te largou no altar.",
+   "a": 39.923,
+   "b": 45.935,
+   "w0": 134,
+   "w1": 158
+  },
+  {
+   "id": "amor",
+   "quem": "helena",
+   "texto": "Oi, amor.",
+   "a": 46.215,
+   "b": 47.181,
+   "w0": 158,
+   "w1": 160
+  },
+  {
+   "id": "pergunta",
+   "quem": "narrador",
+   "texto": "Trilho A, ou trilho B? Você tem dez segundos.",
+   "a": 47.461,
+   "b": 50.433,
+   "w0": 160,
+   "w1": 169
+  }
+ ],
+ "palavras": [
+  {
+   "w": "O",
+   "a": 0.162,
+   "b": 0.223,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "freio",
+   "a": 0.223,
+   "b": 0.575,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "deste",
+   "a": 0.575,
+   "b": 0.856,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "trem",
+   "a": 0.856,
+   "b": 1.098,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "acabou",
+   "a": 1.098,
+   "b": 1.5,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "de",
+   "a": 1.5,
+   "b": 1.571,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "quebrar",
+   "a": 1.571,
+   "b": 1.902,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "E",
+   "a": 2.184,
+   "b": 2.285,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "o",
+   "a": 2.285,
+   "b": 2.335,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "maquinista",
+   "a": 2.335,
+   "b": 2.868,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "é",
+   "a": 2.868,
+   "b": 2.908,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "você",
+   "a": 2.908,
+   "b": 3.26,
+   "linha": "gancho",
+   "quem": "narrador"
+  },
+  {
+   "w": "Cem",
+   "a": 3.517,
+   "b": 3.769,
+   "linha": "serra",
+   "quem": "narrador"
+  },
+  {
+   "w": "toneladas",
+   "a": 3.769,
+   "b": 4.231,
+   "linha": "serra",
+   "quem": "narrador"
+  },
+  {
+   "w": "de",
+   "a": 4.231,
+   "b": 4.342,
+   "linha": "serra",
+   "quem": "narrador"
+  },
+  {
+   "w": "aço",
+   "a": 4.342,
+   "b": 4.634,
+   "linha": "serra",
+   "quem": "narrador"
+  },
+  {
+   "w": "descendo",
+   "a": 4.634,
+   "b": 4.955,
+   "linha": "serra",
+   "quem": "narrador"
+  },
+  {
+   "w": "a",
+   "a": 4.955,
+   "b": 5.006,
+   "linha": "serra",
+   "quem": "narrador"
+  },
+  {
+   "w": "serra",
+   "a": 5.006,
+   "b": 5.297,
+   "linha": "serra",
+   "quem": "narrador"
+  },
+  {
+   "w": "a",
+   "a": 5.297,
+   "b": 5.328,
+   "linha": "serra",
+   "quem": "narrador"
+  },
+  {
+   "w": "oitenta",
+   "a": 5.328,
+   "b": 5.77,
+   "linha": "serra",
+   "quem": "narrador"
+  },
+  {
+   "w": "por",
+   "a": 5.77,
+   "b": 5.911,
+   "linha": "serra",
+   "quem": "narrador"
+  },
+  {
+   "w": "hora",
+   "a": 5.911,
+   "b": 6.122,
+   "linha": "serra",
+   "quem": "narrador"
+  },
+  {
+   "w": "Você",
+   "a": 6.381,
+   "b": 6.592,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "puxa",
+   "a": 6.592,
+   "b": 6.944,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "o",
+   "a": 6.944,
+   "b": 6.965,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "freio",
+   "a": 6.965,
+   "b": 7.236,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "uma",
+   "a": 7.236,
+   "b": 7.397,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "vez",
+   "a": 7.397,
+   "b": 7.719,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "Nada",
+   "a": 8.008,
+   "b": 8.34,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "Duas",
+   "a": 8.614,
+   "b": 8.956,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "vezes",
+   "a": 8.956,
+   "b": 9.388,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "Nada",
+   "a": 9.668,
+   "b": 10.01,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "Na",
+   "a": 10.284,
+   "b": 10.424,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "terceira",
+   "a": 10.424,
+   "b": 10.917,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "a",
+   "a": 11.078,
+   "b": 11.169,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "alavanca",
+   "a": 11.169,
+   "b": 11.692,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "solta",
+   "a": 11.692,
+   "b": 12.074,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "na",
+   "a": 12.074,
+   "b": 12.154,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "sua",
+   "a": 12.154,
+   "b": 12.335,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "mão",
+   "a": 12.335,
+   "b": 12.577,
+   "linha": "freio",
+   "quem": "narrador"
+  },
+  {
+   "w": "Lá",
+   "a": 12.856,
+   "b": 13.047,
+   "linha": "divide",
+   "quem": "narrador"
+  },
+  {
+   "w": "na",
+   "a": 13.047,
+   "b": 13.178,
+   "linha": "divide",
+   "quem": "narrador"
+  },
+  {
+   "w": "frente",
+   "a": 13.178,
+   "b": 13.55,
+   "linha": "divide",
+   "quem": "narrador"
+  },
+  {
+   "w": "o",
+   "a": 13.691,
+   "b": 13.792,
+   "linha": "divide",
+   "quem": "narrador"
+  },
+  {
+   "w": "trilho",
+   "a": 13.792,
+   "b": 14.124,
+   "linha": "divide",
+   "quem": "narrador"
+  },
+  {
+   "w": "se",
+   "a": 14.124,
+   "b": 14.234,
+   "linha": "divide",
+   "quem": "narrador"
+  },
+  {
+   "w": "divide",
+   "a": 14.234,
+   "b": 14.616,
+   "linha": "divide",
+   "quem": "narrador"
+  },
+  {
+   "w": "em",
+   "a": 14.616,
+   "b": 14.707,
+   "linha": "divide",
+   "quem": "narrador"
+  },
+  {
+   "w": "dois",
+   "a": 14.707,
+   "b": 15.079,
+   "linha": "divide",
+   "quem": "narrador"
+  },
+  {
+   "w": "No",
+   "a": 15.341,
+   "b": 15.491,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "trilho",
+   "a": 15.491,
+   "b": 15.763,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "A",
+   "a": 15.763,
+   "b": 15.904,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "cinco",
+   "a": 16.165,
+   "b": 16.437,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "filhotes",
+   "a": 16.437,
+   "b": 16.909,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "de",
+   "a": 16.909,
+   "b": 16.99,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "golden",
+   "a": 16.99,
+   "b": 17.272,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "presos",
+   "a": 17.272,
+   "b": 17.624,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "numa",
+   "a": 17.624,
+   "b": 17.815,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "caixa",
+   "a": 17.815,
+   "b": 18.106,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "de",
+   "a": 18.106,
+   "b": 18.157,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "papelão",
+   "a": 18.157,
+   "b": 18.559,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "latindo",
+   "a": 18.77,
+   "b": 19.182,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "sem",
+   "a": 19.182,
+   "b": 19.454,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "parar",
+   "a": 19.454,
+   "b": 19.756,
+   "linha": "filhotes",
+   "quem": "narrador"
+  },
+  {
+   "w": "E",
+   "a": 20.04,
+   "b": 20.12,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "do",
+   "a": 20.12,
+   "b": 20.201,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "lado",
+   "a": 20.201,
+   "b": 20.432,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "deles",
+   "a": 20.432,
+   "b": 20.774,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "a",
+   "a": 20.925,
+   "b": 20.985,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "doutora",
+   "a": 20.985,
+   "b": 21.357,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "Helena",
+   "a": 21.357,
+   "b": 21.699,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "com",
+   "a": 21.83,
+   "b": 21.971,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "a",
+   "a": 21.971,
+   "b": 22.041,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "única",
+   "a": 22.041,
+   "b": 22.383,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "fórmula",
+   "a": 22.383,
+   "b": 22.745,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "da",
+   "a": 22.745,
+   "b": 22.856,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "cura",
+   "a": 22.856,
+   "b": 23.117,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "do",
+   "a": 23.117,
+   "b": 23.208,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "câncer",
+   "a": 23.208,
+   "b": 23.55,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "no",
+   "a": 23.55,
+   "b": 23.65,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "bolso",
+   "a": 23.65,
+   "b": 23.962,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "do",
+   "a": 23.962,
+   "b": 24.013,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "jaleco",
+   "a": 24.013,
+   "b": 24.445,
+   "linha": "helena",
+   "quem": "narrador"
+  },
+  {
+   "w": "No",
+   "a": 24.688,
+   "b": 24.829,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "trilho",
+   "a": 24.829,
+   "b": 25.101,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "B",
+   "a": 25.101,
+   "b": 25.382,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "dona",
+   "a": 25.594,
+   "b": 25.865,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "Cida",
+   "a": 25.865,
+   "b": 26.237,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "noventa",
+   "a": 26.388,
+   "b": 26.73,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "e",
+   "a": 26.73,
+   "b": 26.76,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "dois",
+   "a": 26.76,
+   "b": 26.951,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "anos",
+   "a": 26.951,
+   "b": 27.303,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "tricotando",
+   "a": 27.464,
+   "b": 27.907,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "o",
+   "a": 27.907,
+   "b": 27.917,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "casaco",
+   "a": 27.927,
+   "b": 28.289,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "do",
+   "a": 28.289,
+   "b": 28.359,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "neto",
+   "a": 28.359,
+   "b": 28.651,
+   "linha": "cida",
+   "quem": "narrador"
+  },
+  {
+   "w": "Meu",
+   "a": 29.084,
+   "b": 29.301,
+   "linha": "socorro",
+   "quem": "cida"
+  },
+  {
+   "w": "Deus",
+   "a": 29.314,
+   "b": 29.608,
+   "linha": "socorro",
+   "quem": "cida"
+  },
+  {
+   "w": "do",
+   "a": 29.621,
+   "b": 29.723,
+   "linha": "socorro",
+   "quem": "cida"
+  },
+  {
+   "w": "céu",
+   "a": 29.736,
+   "b": 30.132,
+   "linha": "socorro",
+   "quem": "cida"
+  },
+  {
+   "w": "alguém",
+   "a": 30.285,
+   "b": 30.579,
+   "linha": "socorro",
+   "quem": "cida"
+  },
+  {
+   "w": "me",
+   "a": 30.592,
+   "b": 30.669,
+   "linha": "socorro",
+   "quem": "cida"
+  },
+  {
+   "w": "ajuda",
+   "a": 30.682,
+   "b": 31.206,
+   "linha": "socorro",
+   "quem": "cida"
+  },
+  {
+   "w": "E",
+   "a": 31.644,
+   "b": 31.724,
+   "linha": "panda",
+   "quem": "narrador"
+  },
+  {
+   "w": "abraçado",
+   "a": 31.724,
+   "b": 32.207,
+   "linha": "panda",
+   "quem": "narrador"
+  },
+  {
+   "w": "nela",
+   "a": 32.207,
+   "b": 32.509,
+   "linha": "panda",
+   "quem": "narrador"
+  },
+  {
+   "w": "dormindo",
+   "a": 32.68,
+   "b": 33.213,
+   "linha": "panda",
+   "quem": "narrador"
+  },
+  {
+   "w": "o",
+   "a": 33.363,
+   "b": 33.534,
+   "linha": "panda",
+   "quem": "narrador"
+  },
+  {
+   "w": "último",
+   "a": 33.534,
+   "b": 33.866,
+   "linha": "panda",
+   "quem": "narrador"
+  },
+  {
+   "w": "panda",
+   "a": 33.866,
+   "b": 34.138,
+   "linha": "panda",
+   "quem": "narrador"
+  },
+  {
+   "w": "do",
+   "a": 34.138,
+   "b": 34.198,
+   "linha": "panda",
+   "quem": "narrador"
+  },
+  {
+   "w": "planeta",
+   "a": 34.198,
+   "b": 34.611,
+   "linha": "panda",
+   "quem": "narrador"
+  },
+  {
+   "w": "Só",
+   "a": 34.848,
+   "b": 35.079,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "resta",
+   "a": 35.079,
+   "b": 35.401,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "uma",
+   "a": 35.401,
+   "b": 35.491,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "alavanca",
+   "a": 35.491,
+   "b": 35.994,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "a",
+   "a": 36.135,
+   "b": 36.195,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "do",
+   "a": 36.195,
+   "b": 36.306,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "desvio",
+   "a": 36.306,
+   "b": 36.779,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "Se",
+   "a": 37.06,
+   "b": 37.201,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "você",
+   "a": 37.201,
+   "b": 37.422,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "não",
+   "a": 37.422,
+   "b": 37.533,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "fizer",
+   "a": 37.533,
+   "b": 37.825,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "nada",
+   "a": 37.825,
+   "b": 38.167,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "o",
+   "a": 38.328,
+   "b": 38.418,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "trem",
+   "a": 38.418,
+   "b": 38.659,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "vai",
+   "a": 38.659,
+   "b": 38.78,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "direto",
+   "a": 38.78,
+   "b": 39.142,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "para",
+   "a": 39.142,
+   "b": 39.263,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "o",
+   "a": 39.263,
+   "b": 39.303,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "trilho",
+   "a": 39.303,
+   "b": 39.565,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "A.",
+   "a": 39.565,
+   "b": 39.705,
+   "linha": "desvio",
+   "quem": "narrador"
+  },
+  {
+   "w": "Aí",
+   "a": 39.965,
+   "b": 40.217,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "a",
+   "a": 40.217,
+   "b": 40.267,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "doutora",
+   "a": 40.267,
+   "b": 40.589,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "Helena",
+   "a": 40.589,
+   "b": 40.951,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "olha",
+   "a": 40.951,
+   "b": 41.172,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "para",
+   "a": 41.172,
+   "b": 41.283,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "a",
+   "a": 41.283,
+   "b": 41.303,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "cabine",
+   "a": 41.303,
+   "b": 41.675,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "e",
+   "a": 41.826,
+   "b": 41.876,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "você",
+   "a": 41.876,
+   "b": 42.107,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "reconhece",
+   "a": 42.107,
+   "b": 42.61,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "aquele",
+   "a": 42.61,
+   "b": 42.801,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "rosto",
+   "a": 42.801,
+   "b": 43.163,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "É",
+   "a": 43.443,
+   "b": 43.553,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "a",
+   "a": 43.553,
+   "b": 43.584,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "sua",
+   "a": 43.584,
+   "b": 43.845,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "ex.",
+   "a": 43.845,
+   "b": 44.117,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "A",
+   "a": 44.39,
+   "b": 44.481,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "mesma",
+   "a": 44.481,
+   "b": 44.913,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "que",
+   "a": 44.913,
+   "b": 45.004,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "te",
+   "a": 45.004,
+   "b": 45.074,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "largou",
+   "a": 45.074,
+   "b": 45.436,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "no",
+   "a": 45.436,
+   "b": 45.507,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "altar",
+   "a": 45.507,
+   "b": 45.819,
+   "linha": "ex",
+   "quem": "narrador"
+  },
+  {
+   "w": "Oi",
+   "a": 46.264,
+   "b": 46.557,
+   "linha": "amor",
+   "quem": "helena"
+  },
+  {
+   "w": "amor",
+   "a": 46.641,
+   "b": 47.059,
+   "linha": "amor",
+   "quem": "helena"
+  },
+  {
+   "w": "Trilho",
+   "a": 47.51,
+   "b": 47.792,
+   "linha": "pergunta",
+   "quem": "narrador"
+  },
+  {
+   "w": "A",
+   "a": 47.792,
+   "b": 47.952,
+   "linha": "pergunta",
+   "quem": "narrador"
+  },
+  {
+   "w": "ou",
+   "a": 48.184,
+   "b": 48.294,
+   "linha": "pergunta",
+   "quem": "narrador"
+  },
+  {
+   "w": "trilho",
+   "a": 48.294,
+   "b": 48.566,
+   "linha": "pergunta",
+   "quem": "narrador"
+  },
+  {
+   "w": "B",
+   "a": 48.566,
+   "b": 48.797,
+   "linha": "pergunta",
+   "quem": "narrador"
+  },
+  {
+   "w": "Você",
+   "a": 49.071,
+   "b": 49.302,
+   "linha": "pergunta",
+   "quem": "narrador"
+  },
+  {
+   "w": "tem",
+   "a": 49.302,
+   "b": 49.504,
+   "linha": "pergunta",
+   "quem": "narrador"
+  },
+  {
+   "w": "dez",
+   "a": 49.504,
+   "b": 49.745,
+   "linha": "pergunta",
+   "quem": "narrador"
+  },
+  {
+   "w": "segundos",
+   "a": 49.745,
+   "b": 50.308,
+   "linha": "pergunta",
+   "quem": "narrador"
+  }
+ ],
+ "serie": "Você é o Maquinista",
+ "numero": 1,
+ "titulo": "VOCÊ É O MAQUINISTA",
+ "trilho_a": "5 FILHOTES + A CURA DO CÂNCER",
+ "trilho_b": "VOVÓ CIDA + O ÚLTIMO PANDA",
+ "pergunta": "TRILHO A OU TRILHO B?"
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "historyId": "bb911d7f-498b-4dca-a27a-862a6235d6f9",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
+      "content": "C:\\Users\\Usuário\\.cache\\hyperframes\\history\\bb911d7f-498b-4dca-a27a-862a6235d6f9\\blobs\\72\\729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb"
+    },
+    "CLAUDE.md": {
+      "hash": "729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
+      "content": "C:\\Users\\Usuário\\.cache\\hyperframes\\history\\bb911d7f-498b-4dca-a27a-862a6235d6f9\\blobs\\72\\729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "C:\\Users\\Usuário\\.cache\\hyperframes\\history\\bb911d7f-498b-4dca-a27a-862a6235d6f9\\blobs\\53\\53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "bb26a8f483c4b8ed34f95e1a3fd8bd97e06440351dcb1c24c71d2abdbb1a1d15",
+      "content": "C:\\Users\\Usuário\\.cache\\hyperframes\\history\\bb911d7f-498b-4dca-a27a-862a6235d6f9\\blobs\\bb\\bb26a8f483c4b8ed34f95e1a3fd8bd97e06440351dcb1c24c71d2abdbb1a1d15"
+    },
+    "meta.json": {
+      "hash": "edb32a6cb526ead29605a80e0814083a48bc5f38b5568e3b5ea16f51959e7182",
+      "content": "C:\\Users\\Usuário\\.cache\\hyperframes\\history\\bb911d7f-498b-4dca-a27a-862a6235d6f9\\blobs\\ed\\edb32a6cb526ead29605a80e0814083a48bc5f38b5568e3b5ea16f51959e7182"
+    },
+    "package.json": {
+      "hash": "d696c89fb7d56a79e4f2436ca5897bc65f685d812fb963071421609b9ef47714",
+      "content": "C:\\Users\\Usuário\\.cache\\hyperframes\\history\\bb911d7f-498b-4dca-a27a-862a6235d6f9\\blobs\\d6\\d696c89fb7d56a79e4f2436ca5897bc65f685d812fb963071421609b9ef47714"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6fa24b96-6c4f-441a-871a-72146aaf7436",
+      "completedAt": 1795177589362,
+      "output": "C:\\fabricadevideo\\shorts-factory\\output\\hf_teste.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,155 @@
+{
+  "titulo": "OS 5 SONS MAIS ALTOS DA TERRA",
+  "layout": "escada",
+  "abertura": "Imagine um som tão brutal que estourou os tímpanos de marinheiros e deu quatro voltas no planeta sem você notar.",
+  "itens": [
+    {
+      "rotulo": "5º Baleia azul",
+      "narracao": "Em quinto lugar, o canto da baleia azul passa de cento e oitenta decibéis, atravessando a escuridão do oceano para se comunicar a distâncias impressionantes.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "cacheado",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "fone"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "baleia",
+          "emoji": "🐋"
+        },
+        {
+          "palavra": "oceano",
+          "emoji": "🌊"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Saturn V",
+      "narracao": "Em quarto lugar, o foguete Saturno cinco. No lançamento, o barulho superou duzentos decibéis, uma força absurda capaz de atear fogo na grama ao redor.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "careca",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "cinza",
+        "acessorios": [
+          "gravata",
+          "bigode"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "foguete",
+          "emoji": "🚀"
+        },
+        {
+          "palavra": "fogo",
+          "emoji": "🔥"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Tsar Bomba",
+      "narracao": "Em terceiro lugar, a Tsar Bomba, maior bomba detonada na história em mil novecentos e sessenta e um. Sua onda de choque deu volta na Terra.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "negra",
+        "cabelo": "rabo",
+        "cor_cabelo": "preto",
+        "roupa": "jaqueta",
+        "cor_roupa": "verde",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "bomba",
+          "emoji": "💣"
+        },
+        {
+          "palavra": "Terra",
+          "emoji": "🌎"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Tunguska",
+      "narracao": "Em segundo lugar, o evento de Tunguska, na Rússia, em mil novecentos e oito. Uma explosão no céu derrubou oitenta milhões de árvores na floresta.",
+      "personagem": {
+        "idade": "idoso",
+        "sexo": "masculino",
+        "pele": "morena",
+        "cabelo": "curto",
+        "cor_cabelo": "branco",
+        "roupa": "camisa",
+        "cor_roupa": "bege",
+        "acessorios": [
+          "oculos",
+          "bengala"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "árvores",
+          "emoji": "🌳"
+        },
+        {
+          "palavra": "floresta",
+          "emoji": "🌲"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Krakatoa",
+      "narracao": "E em primeiro lugar, o vulcão Krakatoa, em mil oitocentos e oitenta e três. Esse estrondo foi ouvido a cinco mil quilômetros, assustando o mundo inteiro.",
+      "personagem": {
+        "idade": "adolescente",
+        "sexo": "masculino",
+        "pele": "negra",
+        "cabelo": "espetado",
+        "cor_cabelo": "preto",
+        "roupa": "camiseta",
+        "cor_roupa": "amarelo",
+        "acessorios": [
+          "bone",
+          "mochila"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "vulcão",
+          "emoji": "🌋"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Qual desses sons você enviaria para aquele amigo que sempre fala muito alto?",
+  "cta": "Aproveite para seguir o perfil, curtir o vídeo e comentar se concorda com esta lista incrível!",
+  "visuais_abertura": [
+    {
+      "palavra": "planeta",
+      "emoji": "🌍"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "amigo",
+      "emoji": "🗣️"
+    }
+  ]
+}

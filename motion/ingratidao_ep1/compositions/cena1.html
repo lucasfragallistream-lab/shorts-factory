@@ -1,0 +1,82 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; overflow: hidden; background: #fafafa; }
+    #cena1-shake, #cena1-cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .bg { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .pers, .prop { position: absolute; }
+    .quem { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .pers { opacity: 0; }
+    .destaque { position: absolute; left: 0; width: 1080px; top: 360px; text-align: center; z-index: 20; }
+    .destaque span { display: inline-block; font-family: 'Archivo Black'; font-size: 112px; line-height: 1.02;
+      color: #FFD60A; -webkit-text-stroke: 14px #26282f; paint-order: stroke fill; padding: 0 60px;
+      text-shadow: 0 10px 0 #26282f; }
+    .nome { position: absolute; left: 130px; top: 300px; z-index: 21; }
+    .nome span { display: inline-block; font-family: 'Archivo Black'; font-size: 40px; color: #fff;
+      background: #E8463E; border: 6px solid #26282f; border-radius: 18px; padding: 8px 26px; }
+    .chuva { position: absolute; left: 0; top: -1920px; width: 1080px; height: 3840px; z-index: 10;
+      pointer-events: none; }
+    .chuva i { position: absolute; width: 4px; border-radius: 3px; background: rgba(200, 220, 255, 0.55); }
+  </style>
+  <div id="root" data-composition-id="cena1" data-width="1080" data-height="1920">
+    <div id="cena1-shake" data-layout-allow-overflow>
+      <div id="cena1-cam" data-layout-allow-overflow>
+        <img id="cena1-bg" class="bg" src="assets/bg_1.png" alt="">
+        
+        <div id="cena1-quem-lurdes" class="quem"><img id="cena1-lurdes-chocado-fechada" class="pers cena1-lurdes" src="assets/p_lurdes_chocado_fechada.png" alt="" style="left:-91.7px;top:467.3px;width:623.3px;height:1100px"><img id="cena1-lurdes-preocupado-fechada" class="pers cena1-lurdes" src="assets/p_lurdes_preocupado_fechada.png" alt="" style="left:-91.7px;top:467.3px;width:623.3px;height:1100px"><img id="cena1-lurdes-triste-aberta" class="pers cena1-lurdes" src="assets/p_lurdes_triste_aberta.png" alt="" style="left:-91.7px;top:467.3px;width:623.3px;height:1100px"><img id="cena1-lurdes-triste-fechada" class="pers cena1-lurdes" src="assets/p_lurdes_triste_fechada.png" alt="" style="left:-91.7px;top:467.3px;width:623.3px;height:1100px"></div><div id="cena1-quem-bruno" class="quem"><img id="cena1-bruno-raiva-aberta" class="pers cena1-bruno" src="assets/p_bruno_raiva_aberta.png" alt="" style="left:548.3px;top:467.3px;width:623.3px;height:1100px"><img id="cena1-bruno-raiva-fechada" class="pers cena1-bruno" src="assets/p_bruno_raiva_fechada.png" alt="" style="left:548.3px;top:467.3px;width:623.3px;height:1100px"></div>
+      </div>
+    </div>
+    
+    <div id="cena1-nome0" class="clip nome" data-start="0.225" data-duration="1.6" data-track-index="2"><span id="cena1-nome0-t">DONA LURDES</span></div><div id="cena1-nome1" class="clip nome" data-start="5.198" data-duration="1.6" data-track-index="2"><span id="cena1-nome1-t">BRUNO</span></div>
+  </div>
+  <script>
+    (function () {
+      const D = {"planos": [{"t": 0.0, "d": 5.053, "cx": 220.0, "cy": 841.84, "z": 2.35, "punch": false}, {"t": 5.078, "d": 3.984, "cx": 860.0, "cy": 900.01, "z": 1.5, "punch": false}, {"t": 8.982, "d": 4.014, "cx": 540.0, "cy": 1060, "z": 1.0, "punch": false}], "estados": [{"m": "lurdes", "ev": [[0.0, "preocupado", "fechada"], [0.225, "triste", "fechada"], [0.275, "triste", "aberta"], [0.448, "triste", "fechada"], [0.513, "triste", "aberta"], [0.805, "triste", "fechada"], [0.87, "triste", "aberta"], [0.954, "triste", "fechada"], [1.019, "triste", "aberta"], [1.416, "triste", "fechada"], [1.689, "triste", "aberta"], [1.788, "triste", "fechada"], [1.852, "triste", "aberta"], [2.175, "triste", "fechada"], [2.239, "triste", "aberta"], [2.591, "triste", "fechada"], [2.656, "triste", "aberta"], [2.716, "triste", "aberta"], [2.726, "triste", "fechada"], [3.291, "triste", "fechada"], [3.355, "triste", "aberta"], [3.425, "triste", "fechada"], [3.489, "triste", "aberta"], [3.603, "triste", "fechada"], [3.668, "triste", "aberta"], [4.243, "triste", "fechada"], [4.308, "triste", "aberta"], [4.808, "triste", "fechada"], [4.978, "triste", "fechada"], [5.498, "chocado", "fechada"]]}, {"m": "bruno", "ev": [[0.0, "raiva", "fechada"], [5.198, "raiva", "fechada"], [5.248, "raiva", "aberta"], [5.582, "raiva", "fechada"], [5.643, "raiva", "aberta"], [5.713, "raiva", "fechada"], [5.764, "raiva", "aberta"], [6.119, "raiva", "fechada"], [6.92, "raiva", "aberta"], [7.133, "raiva", "fechada"], [7.194, "raiva", "aberta"], [7.462, "raiva", "fechada"], [7.523, "raiva", "aberta"], [7.659, "raiva", "fechada"], [7.72, "raiva", "aberta"], [7.802, "raiva", "fechada"], [7.863, "raiva", "aberta"], [8.087, "raiva", "fechada"], [8.148, "raiva", "aberta"], [8.295, "raiva", "fechada"], [8.356, "raiva", "aberta"], [8.712, "raiva", "fechada"], [8.882, "raiva", "fechada"]]}], "dur": 13.041, "carro": null, "chuva": false, "slams": [], "nomes": [["#cena1-nome0-t", 0.225], ["#cena1-nome1-t", 5.198]], "chegam": []};
+      const tl = gsap.timeline({ paused: true });
+      const cam = "#cena1-cam", shake = "#cena1-shake";
+      tl.set(cam, { transformOrigin: "0 0" }, 0);
+      function pos(cx, cy, z) {
+        const x = Math.min(0, Math.max(1080 - 1080 * z, 540.0 - cx * z));
+        const y = Math.min(0, Math.max(1920 - 1920 * z, 960.0 - cy * z));
+        return { x: x, y: y, scale: z };
+      }
+      D.planos.forEach(function (p, i) {
+        const fim = i + 1 < D.planos.length ? D.planos[i + 1].t : D.dur;
+        const z2 = p.z * 1.07;
+        tl.set(cam, pos(p.cx, p.cy, p.z), p.t);
+        tl.to(cam, Object.assign(pos(p.cx, p.cy, z2), { duration: Math.max(0.1, fim - p.t), ease: "none" }), p.t);
+        if (p.punch) {
+          tl.fromTo(shake, { x: 0, y: 0 }, { keyframes: [{ x: -18, y: 10 }, { x: 16, y: -12 }, { x: -10, y: 6 },
+            { x: 0, y: 0 }], duration: 0.32, ease: "none" }, p.t + 0.12);
+        }
+      });
+      D.estados.forEach(function (s) {
+        const todos = ".cena1-" + s.m;
+        s.ev.forEach(function (e) {
+          tl.set(todos, { opacity: 0 }, e[0]);
+          tl.set("#cena1-" + s.m + "-" + e[1] + "-" + e[2], { opacity: 1 }, e[0]);
+        });
+      });
+      D.slams.forEach(function (s) {
+        tl.fromTo(s[0], { scale: 1.9, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power3.out" }, s[1]);
+      });
+      D.nomes.forEach(function (s) {
+        tl.fromTo(s[0], { x: -320 }, { x: 0, duration: 0.25, ease: "power3.out" }, s[1]);
+      });
+      if (D.carro !== null) {
+        tl.fromTo("#cena1-carro", { x: 1200 }, { x: 0, duration: 1.0, ease: "power3.out" }, D.carro);
+        D.chegam.forEach(function (m) {
+          tl.set(".cena1-" + m, { opacity: 0 }, 0);
+          tl.fromTo("#cena1-quem-" + m, { x: 260, opacity: 0 }, { x: 0, opacity: 1, duration: 0.45, ease: "power2.out" },
+            D.carro + 1.0);
+        });
+      } else if (document.querySelector("#cena1-carro")) {
+        tl.set("#cena1-carro", { x: 1200 }, 0);
+      }
+      if (D.chuva) {
+        tl.fromTo("#cena1-chuva", { y: 0 }, { y: 1920, duration: 0.55, ease: "none",
+          repeat: Math.ceil(D.dur / 0.55) }, 0);
+      }
+      window.__timelines["cena1"] = tl;
+    })();
+  </script>
+</template>

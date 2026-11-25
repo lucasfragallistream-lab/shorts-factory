@@ -1,0 +1,167 @@
+{
+  "titulo": "AS 5 PROFISSÕES PERIGOSAS QUE PAGAM BEM",
+  "layout": "escada",
+  "abertura": "Se você ganhasse mil dólares por dia no fundo do mar, encararia esse risco sabendo que o primeiro lugar ganha ainda mais?",
+  "itens": [
+    {
+      "rotulo": "5º Lenhador",
+      "narracao": "Em quinto lugar, o lenhador de árvores gigantes. Uma tora enorme pesando toneladas caindo errado basta para encerrar sua vida instantaneamente nessa floresta totalmente isolada.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "careca",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "cinza",
+        "acessorios": [
+          "gravata",
+          "bigode"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "árvores",
+          "emoji": "🌲"
+        },
+        {
+          "palavra": "floresta",
+          "emoji": "🌳"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Caranguejo-real",
+      "narracao": "Em quarto, o pescador de caranguejo real no Alasca. Enfrentando congelantes ondas de doze metros, uma única temporada pode colocar cem mil reais no seu bolso.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "negra",
+        "cabelo": "rabo",
+        "cor_cabelo": "preto",
+        "roupa": "jaqueta",
+        "cor_roupa": "verde",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "pescador",
+          "emoji": "🎣"
+        },
+        {
+          "palavra": "ondas",
+          "emoji": "🌊"
+        },
+        {
+          "palavra": "bolso",
+          "emoji": "💰"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Linha de alta tensão",
+      "narracao": "Em terceiro, o técnico de manutenção em linhas de alta tensão. Trabalhando num helicóptero a cem metros com energia ligada, qualquer descuido é uma fatalidade.",
+      "personagem": {
+        "idade": "idoso",
+        "sexo": "masculino",
+        "pele": "morena",
+        "cabelo": "curto",
+        "cor_cabelo": "branco",
+        "roupa": "camisa",
+        "cor_roupa": "bege",
+        "acessorios": [
+          "oculos",
+          "bengala"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "helicóptero",
+          "emoji": "🚁"
+        },
+        {
+          "palavra": "energia",
+          "emoji": "⚡"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Desarmador de minas",
+      "narracao": "Em segundo lugar, o desarmador de minas terrestres. Trabalhando sozinho em áreas de guerra, um pequeno erro de milímetros ao cortar um fio explode tudo.",
+      "personagem": {
+        "idade": "adolescente",
+        "sexo": "masculino",
+        "pele": "negra",
+        "cabelo": "espetado",
+        "cor_cabelo": "preto",
+        "roupa": "camiseta",
+        "cor_roupa": "amarelo",
+        "acessorios": [
+          "bone",
+          "mochila"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "guerra",
+          "emoji": "💣"
+        },
+        {
+          "palavra": "fio",
+          "emoji": "🧵"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Mergulho de saturação",
+      "narracao": "E em primeiro lugar, o mergulhador de saturação. Ele mora semanas numa câmara pressurizada e solda dutos no fundo do oceano, ganhando fortunas por dia.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "clara",
+        "cabelo": "comprido",
+        "cor_cabelo": "loiro",
+        "roupa": "vestido",
+        "cor_roupa": "roxo",
+        "acessorios": [
+          "colar"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "câmara",
+          "emoji": "📦"
+        },
+        {
+          "palavra": "oceano",
+          "emoji": "🌊"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Você aceitaria esse trabalho? Mande este vídeo para o amigo que reclama da rotina.",
+  "cta": "Siga o perfil, curta o vídeo e comente se concorda com esse ranking insano.",
+  "visuais_abertura": [
+    {
+      "palavra": "dólares",
+      "emoji": "💵"
+    },
+    {
+      "palavra": "mar",
+      "emoji": "🌊"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "amigo",
+      "emoji": "👥"
+    }
+  ]
+}

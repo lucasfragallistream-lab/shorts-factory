@@ -1,0 +1,158 @@
+{
+  "titulo": "AS 5 COISAS TIRADAS DE UM ESTÔMAGO",
+  "layout": "escada",
+  "abertura": "Médicos retiraram um celular de um estômago humano e você vai se assustar ao descobrir o bizarro primeiro lugar.",
+  "itens": [
+    {
+      "rotulo": "5º Moedas e pregos",
+      "narracao": "Em quinto lugar, moedas e pregos pontiagudos. Esse é um clássico nos hospitais, onde crianças pequenas engolem várias peças metálicas sem que os pais consigam ver.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "preto",
+        "roupa": "camisa",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "moedas",
+          "emoji": "🪙"
+        },
+        {
+          "palavra": "pregos",
+          "emoji": "🔩"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Bola de cabelo",
+      "narracao": "Em quarto lugar, uma bola de cabelo. Na chamada síndrome de Rapunzel, a pessoa engole fios diariamente por anos até criar essa massa no estômago.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "cacheado",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "fone"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "bola",
+          "emoji": "🧶"
+        },
+        {
+          "palavra": "cabelo",
+          "emoji": "💇"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Um garfo inteiro",
+      "narracao": "Na terceira posição, um garfo inteiro. Há relatos reais de pessoas que engoliram esse talher grande por acidente e só descobriram o metal meses depois.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "careca",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "cinza",
+        "acessorios": [
+          "gravata",
+          "bigode"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "garfo",
+          "emoji": "🍴"
+        },
+        {
+          "palavra": "metal",
+          "emoji": "🔩"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Um celular",
+      "narracao": "Em segundo lugar, um celular. Em dois mil e vinte e três, médicos em um hospital retiraram esse aparelho antigo totalmente inteiro de um paciente.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "negra",
+        "cabelo": "rabo",
+        "cor_cabelo": "preto",
+        "roupa": "jaqueta",
+        "cor_roupa": "verde",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "celular",
+          "emoji": "📱"
+        },
+        {
+          "palavra": "hospital",
+          "emoji": "🏥"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º 2.533 objetos",
+      "narracao": "E em primeiro lugar, dois mil quinhentos e trinta e três objetos tirados de uma única mulher, incluindo quase mil alfinetes afiados dos recordes mundiais.",
+      "personagem": {
+        "idade": "idoso",
+        "sexo": "masculino",
+        "pele": "morena",
+        "cabelo": "curto",
+        "cor_cabelo": "branco",
+        "roupa": "camisa",
+        "cor_roupa": "bege",
+        "acessorios": [
+          "oculos",
+          "bengala"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "alfinetes",
+          "emoji": "🧷"
+        },
+        {
+          "palavra": "recordes",
+          "emoji": "🏆"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Qual objeto deu mais agonia? Mande este vídeo para aquele amigo que engole chiclete.",
+  "cta": "Lembre-se de seguir o perfil, curtir o vídeo e comentar se concorda com esse ranking.",
+  "visuais_abertura": [
+    {
+      "palavra": "celular",
+      "emoji": "📱"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "chiclete",
+      "emoji": "🍬"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "titulo": "OS 5 OBJETOS MAIS CAROS JÁ VENDIDOS",
+  "layout": "escada",
+  "abertura": "Alguém gastou quatrocentos e cinquenta milhões de dólares em um único objeto de madeira que sumiu misteriosamente do mapa.",
+  "itens": [
+    {
+      "rotulo": "5º Relógio Patek",
+      "narracao": "Em quinto lugar, o relógio Patek Philippe Grandmaster Chime custou trinta e um milhões de dólares. Artesãos levaram oito anos inteiros para montar esse luxo.",
+      "personagem": {
+        "idade": "adolescente",
+        "sexo": "masculino",
+        "pele": "negra",
+        "cabelo": "espetado",
+        "cor_cabelo": "preto",
+        "roupa": "camiseta",
+        "cor_roupa": "amarelo",
+        "acessorios": [
+          "bone",
+          "mochila"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "relógio",
+          "emoji": "⌚"
+        },
+        {
+          "palavra": "dólares",
+          "emoji": "💵"
+        },
+        {
+          "palavra": "anos",
+          "emoji": "📅"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Ferrari 250 GTO",
+      "narracao": "Em quarto lugar, a Ferrari dois cinco zero de mil novecentos e sessenta e dois custou setenta milhões de dólares. Esse carro vale mais que uma ilha.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "clara",
+        "cabelo": "comprido",
+        "cor_cabelo": "loiro",
+        "roupa": "vestido",
+        "cor_roupa": "roxo",
+        "acessorios": [
+          "colar"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "Ferrari",
+          "emoji": "🏎️"
+        },
+        {
+          "palavra": "dólares",
+          "emoji": "💵"
+        },
+        {
+          "palavra": "ilha",
+          "emoji": "🏝️"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Diamante Pink Star",
+      "narracao": "Em terceiro lugar, o diamante rosa Pink Star foi vendido por setenta e um milhões de dólares. Foram dois anos inteiros só para lapidar essa jóia.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "liso",
+        "cor_cabelo": "ruivo",
+        "roupa": "moletom",
+        "cor_roupa": "laranja",
+        "acessorios": [
+          "barba",
+          "caneca"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "diamante",
+          "emoji": "💎"
+        },
+        {
+          "palavra": "dólares",
+          "emoji": "💵"
+        },
+        {
+          "palavra": "anos",
+          "emoji": "📅"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Marilyn de Warhol",
+      "narracao": "Em segundo lugar, o retrato de Marilyn Monroe por Andy Warhol custou cento e noventa e cinco milhões de dólares. A venda levou apenas um minuto.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "feminino",
+        "pele": "media",
+        "cabelo": "coque",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "azul_claro",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "retrato",
+          "emoji": "🖼️"
+        },
+        {
+          "palavra": "dólares",
+          "emoji": "💵"
+        },
+        {
+          "palavra": "minuto",
+          "emoji": "⏱️"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Salvator Mundi",
+      "narracao": "E em primeiro lugar, o quadro Salvator Mundi de Leonardo da Vinci custou quatrocentos e cinquenta milhões de dólares e sumiu do mapa sem deixar rastros.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "preto",
+        "roupa": "camisa",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "quadro",
+          "emoji": "🎨"
+        },
+        {
+          "palavra": "dólares",
+          "emoji": "💵"
+        },
+        {
+          "palavra": "mapa",
+          "emoji": "🗺️"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Qual item você compraria? Envie este vídeo para aquele seu amigo misterioso.",
+  "cta": "Lembre de seguir o perfil, curtir o vídeo e comentar se você concorda antes do topo.",
+  "visuais_abertura": [
+    {
+      "palavra": "dólares",
+      "emoji": "💵"
+    },
+    {
+      "palavra": "madeira",
+      "emoji": "🪵"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "amigo",
+      "emoji": "🤝"
+    }
+  ]
+}

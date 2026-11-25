@@ -1,0 +1,177 @@
+{
+  "titulo": "AS 5 COMIDAS MAIS CARAS DO MUNDO",
+  "layout": "escada",
+  "abertura": "Você pagaria o valor de um carro numa refeição sabendo que a comida mais cara vem numa lata dourada?",
+  "itens": [
+    {
+      "rotulo": "5º Wagyu de Kobe",
+      "narracao": "Em quinto lugar, o wagyu de Kobe. Esse boi japonês recebe massagens diárias, fazendo um bife exclusivo custar mais do que um celular moderno, mas o próximo item nasce debaixo da terra.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "negra",
+        "cabelo": "rabo",
+        "cor_cabelo": "preto",
+        "roupa": "jaqueta",
+        "cor_roupa": "verde",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "boi",
+          "emoji": "🐂"
+        },
+        {
+          "palavra": "celular",
+          "emoji": "📱"
+        },
+        {
+          "palavra": "terra",
+          "emoji": "🌍"
+        }
+      ],
+      "imagem": "Kobe beef steak raw"
+    },
+    {
+      "rotulo": "4º Trufa branca",
+      "narracao": "Em quarto lugar, a trufa branca de Alba. Impossível de plantar, cães farejadores cavam o solo italiano atrás desse fungo raro, só que a iguaria seguinte exige descer num abismo perigoso.",
+      "personagem": {
+        "idade": "idoso",
+        "sexo": "masculino",
+        "pele": "morena",
+        "cabelo": "curto",
+        "cor_cabelo": "branco",
+        "roupa": "camisa",
+        "cor_roupa": "bege",
+        "acessorios": [
+          "oculos",
+          "bengala"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "cães",
+          "emoji": "🐶"
+        },
+        {
+          "palavra": "fungo",
+          "emoji": "🍄"
+        }
+      ],
+      "imagem": "Tuber magnatum"
+    },
+    {
+      "rotulo": "3º Mel Elvish",
+      "narracao": "Em terceiro lugar, o mel Elvish da Turquia, retirado de cavernas com quase dois mil metros de profundidade. Um pote custa fortunas, mas o queijo a seguir é ainda mais inacreditável.",
+      "personagem": {
+        "idade": "adolescente",
+        "sexo": "masculino",
+        "pele": "negra",
+        "cabelo": "espetado",
+        "cor_cabelo": "preto",
+        "roupa": "camiseta",
+        "cor_roupa": "amarelo",
+        "acessorios": [
+          "bone",
+          "mochila"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "mel",
+          "emoji": "🍯"
+        },
+        {
+          "palavra": "pote",
+          "emoji": "🏺"
+        },
+        {
+          "palavra": "queijo",
+          "emoji": "🧀"
+        }
+      ],
+      "imagem": "Honeycomb in jar"
+    },
+    {
+      "rotulo": "2º Queijo Pule",
+      "narracao": "Em segundo lugar, o queijo Pule sérvio, feito de leite de jumenta. São precisos vinte e cinco litros para fazer um quilo, mas o líder humilha essa conta bancária com facilidade.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "clara",
+        "cabelo": "comprido",
+        "cor_cabelo": "loiro",
+        "roupa": "vestido",
+        "cor_roupa": "roxo",
+        "acessorios": [
+          "colar"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "queijo",
+          "emoji": "🧀"
+        },
+        {
+          "palavra": "leite",
+          "emoji": "🥛"
+        }
+      ],
+      "imagem": "Pule cheese Zasavica"
+    },
+    {
+      "rotulo": "1º Caviar Almas",
+      "narracao": "Em primeiríssimo lugar, o caviar Almas, extraído de raros esturjões centenários. Servido numa lata de ouro puro, o quilo ultrapassa facilmente cento e cinquenta mil reais no mercado de luxo.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "liso",
+        "cor_cabelo": "ruivo",
+        "roupa": "moletom",
+        "cor_roupa": "laranja",
+        "acessorios": [
+          "barba",
+          "caneca"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "ouro",
+          "emoji": "🪙"
+        },
+        {
+          "palavra": "reais",
+          "emoji": "💰"
+        }
+      ],
+      "imagem": "Almas caviar tin"
+    }
+  ],
+  "fechamento": "Comente a palavra ouro para provar que assistiu tudo, e não esqueça de curtir e seguir o perfil.",
+  "cta": "Antes do grande vencedor, siga o perfil, curta o vídeo e comente se concorda com esses preços absurdos.",
+  "palavra_chave": "ouro",
+  "visuais_abertura": [
+    {
+      "palavra": "carro",
+      "emoji": "🚗"
+    },
+    {
+      "palavra": "lata",
+      "emoji": "🥫"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "ouro",
+      "emoji": "🪙"
+    }
+  ]
+}

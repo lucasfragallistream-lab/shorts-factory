@@ -1,0 +1,20 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #fafafa; overflow: hidden; }
+    #gancho-rosto { position: absolute; left: -35px; top: 640px; width: 1150px; height: 1150px; }
+    #gancho-titulo { position: absolute; left: 0; top: 230px; width: 1080px; }
+    #gancho-flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
+  </style>
+  <div id="root" data-composition-id="gancho" data-width="1080" data-height="1920">
+    <img id="gancho-rosto" src="assets/gancho_rosto.png" alt="">
+    <img id="gancho-titulo" src="assets/gancho_titulo.png" alt="">
+    <div id="gancho-flash"></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#gancho-rosto", { scale: 1.0 }, { scale: 1.12, duration: 1.0, ease: "none" }, 0);
+    tl.fromTo("#gancho-titulo", { scale: 1.06 }, { scale: 1, duration: 0.15, ease: "power2.out" }, 0);
+    tl.fromTo("#gancho-flash", { opacity: 0 }, { opacity: 0.9, duration: 0.1, ease: "none" }, 0.90);
+    window.__timelines["gancho"] = tl;
+  </script>
+</template>

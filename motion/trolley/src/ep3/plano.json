@@ -1,0 +1,454 @@
+{
+ "_doc": "Camera keys (kit 03_CAMERA_GRAMMAR) anchored on words ('palavra#n', or seconds; off = seconds added). take = clean clip of an earlier episode (motion/trolley/public/takes, made by takes.mjs) shown instead of the 3D world: the first key of a take window gives 'alinha' (a line both episodes say word for word) or 'de' (that episode's time); the next keys with the same take keep the offset.",
+ "keys": [
+  {
+   "pose": "doutora_rosto",
+   "at": 0,
+   "move": "cut",
+   "creep": 0.06,
+   "why": "frame 0 shows the dilemma: the scientist crying on the track"
+  },
+  {
+   "pose": "vacina_gancho",
+   "at": "ou",
+   "move": "whip",
+   "dur": 0.25,
+   "why": "whip to track A: the last vaccine"
+  },
+  {
+   "pose": "rails_skim",
+   "at": "Cem",
+   "move": "cut",
+   "off": -0.15,
+   "tag": "take",
+   "take": "ep2_gancho",
+   "alinha": "gancho",
+   "creep": 0.07,
+   "why": "ep2 take: skimming the rails, sparks, screech"
+  },
+  {
+   "pose": "cab_ecu",
+   "at": "maquinista",
+   "move": "cut",
+   "take": "ep2_gancho",
+   "creep": 0.05,
+   "why": "ep2 take: cut to YOU"
+  },
+  {
+   "pose": "wheels_low",
+   "at": "freio",
+   "move": "cut",
+   "off": -1.08,
+   "tag": "take",
+   "take": "ep2_freio",
+   "alinha": "freio1",
+   "why": "ep2 take: wheels, then into the cab"
+  },
+  {
+   "pose": "lever_cu",
+   "at": "freio",
+   "move": "fly",
+   "dur": 0.7,
+   "take": "ep2_freio",
+   "why": "ep2 take: the brake"
+  },
+  {
+   "pose": "lever_ecu",
+   "at": "terceira",
+   "move": "travel",
+   "dur": 0.45,
+   "take": "ep2_freio",
+   "why": "ep2 take: third pull"
+  },
+  {
+   "pose": "cab_mcu",
+   "at": "quebra",
+   "move": "whip",
+   "dur": 0.3,
+   "roll": 13,
+   "take": "ep2_freio",
+   "why": "ep2 take: dutch angle on the snap"
+  },
+  {
+   "pose": "fork_aerial",
+   "at": "divide",
+   "move": "fly",
+   "dur": 1.0,
+   "why": "fly ahead along the track, reveal the fork"
+  },
+  {
+   "pose": "roda_ecu",
+   "at": "vazio",
+   "move": "cut",
+   "off": 0.1,
+   "tag": "insert",
+   "take": "ep2_insert_roda",
+   "de": 15.72,
+   "why": "ep2 take: wheels + distance"
+  },
+  {
+   "pose": "vacina_ms",
+   "at": "A#2",
+   "move": "cut",
+   "off": -0.09,
+   "tag": "volta",
+   "why": "back: track A, the case"
+  },
+  {
+   "pose": "vacina_cu",
+   "at": "maleta",
+   "move": "travel",
+   "dur": 0.45,
+   "why": "push in on the case"
+  },
+  {
+   "pose": "vacina_ecu",
+   "at": "dose",
+   "move": "travel",
+   "dur": 0.4,
+   "why": "one dose, glowing blue"
+  },
+  {
+   "pose": "trilho_frente",
+   "at": "Metade",
+   "move": "cut",
+   "off": -0.05,
+   "tag": "insert",
+   "take": "ep2_insert_trilho",
+   "de": 25.06,
+   "why": "ep2 take: the track rushing at you + distance"
+  },
+  {
+   "pose": "cab_ecu",
+   "at": "Metade",
+   "move": "cut",
+   "off": 0.73,
+   "tag": "volta",
+   "why": "back to YOU: half the city is zombies"
+  },
+  {
+   "pose": "doutora_ms",
+   "at": "B",
+   "move": "fly",
+   "dur": 0.6,
+   "why": "fly to track B"
+  },
+  {
+   "pose": "doutora_cu",
+   "at": "doutora",
+   "move": "travel",
+   "dur": 0.4,
+   "why": "the woman who made it"
+  },
+  {
+   "pose": "jaleco_cu",
+   "at": "jaleco",
+   "move": "travel",
+   "dur": 0.45,
+   "why": "tilt down: the coat caught under the rail"
+  },
+  {
+   "pose": "doutora_rosto",
+   "at": "Socorro",
+   "move": "whip",
+   "dur": 0.25,
+   "why": "her scream"
+  },
+  {
+   "pose": "roda_ecu",
+   "at": "Só#2",
+   "move": "cut",
+   "off": -0.75,
+   "tag": "insert",
+   "take": "ep2_desvio",
+   "alinha": "desvio",
+   "why": "ep2 take: sparks + distance"
+  },
+  {
+   "pose": "desvio_cu",
+   "at": "Só#2",
+   "move": "cut",
+   "tag": "volta",
+   "take": "ep2_desvio",
+   "why": "ep2 take: the switch lever"
+  },
+  {
+   "pose": "approach",
+   "at": "Se",
+   "move": "fly",
+   "dur": 0.6,
+   "why": "pull out: the train racing to the fork"
+  },
+  {
+   "pose": "approach_a",
+   "at": "A#3",
+   "move": "travel",
+   "dur": 0.35,
+   "why": "pan to A on its word"
+  },
+  {
+   "pose": "cab_ecu",
+   "at": "Aí",
+   "move": "fly",
+   "dur": 0.6,
+   "why": "back to YOU: the arm burns"
+  },
+  {
+   "pose": "braco_cu",
+   "at": "manga",
+   "move": "travel",
+   "dur": 0.4,
+   "why": "down to the sleeve"
+  },
+  {
+   "pose": "braco_ecu",
+   "at": "Uma#2",
+   "move": "cut",
+   "roll": -14,
+   "kick": 26,
+   "flash": 0.45,
+   "why": "THE hard cut in the silence: a bite"
+  },
+  {
+   "pose": "train_side",
+   "at": "passageiro",
+   "move": "whip",
+   "dur": 0.4,
+   "roll": -5,
+   "why": "the cars behind you"
+  },
+  {
+   "pose": "cab_ecu",
+   "at": "dormindo",
+   "move": "fly",
+   "dur": 0.5,
+   "why": "back to YOUR face"
+  },
+  {
+   "pose": "vacina_ecu",
+   "at": "vacina#4",
+   "move": "whip",
+   "dur": 0.3,
+   "why": "the vaccine saves you"
+  },
+  {
+   "pose": "doutora_rosto",
+   "at": "doutora#2",
+   "move": "whip",
+   "dur": 0.3,
+   "why": "she saves the world"
+  },
+  {
+   "pose": "approach",
+   "at": "Trilho",
+   "move": "fly",
+   "dur": 0.7,
+   "why": "pull-back reveal: train racing to the fork"
+  },
+  {
+   "pose": "approach_a",
+   "at": "A#7",
+   "move": "travel",
+   "dur": 0.3,
+   "why": "pan to A on its word"
+  },
+  {
+   "pose": "approach_b",
+   "at": "B#3",
+   "move": "travel",
+   "dur": 0.3,
+   "why": "pan to B on its word"
+  },
+  {
+   "pose": "cab_ecu",
+   "at": "dez",
+   "move": "fly",
+   "dur": 0.6,
+   "why": "back to YOU"
+  },
+  {
+   "pose": "olho_ecu",
+   "at": 51.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "countdown montage (ep2 take)",
+   "take": "ep2_contagem",
+   "de": 51.0
+  },
+  {
+   "pose": "roda_ecu",
+   "at": 52.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "countdown montage (ep2 take)",
+   "take": "ep2_contagem"
+  },
+  {
+   "pose": "doutora_ecu",
+   "at": 53.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "countdown montage"
+  },
+  {
+   "pose": "vacina_ecu",
+   "at": 54.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "countdown montage"
+  },
+  {
+   "pose": "mao_alavanca",
+   "at": 55.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "countdown montage (ep2 take)",
+   "take": "ep2_contagem"
+  },
+  {
+   "pose": "olho_ecu",
+   "at": 56.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "countdown montage (ep2 take)",
+   "take": "ep2_contagem"
+  },
+  {
+   "pose": "roda_ecu",
+   "at": 56.5,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "countdown montage (ep2 take)",
+   "take": "ep2_contagem"
+  },
+  {
+   "pose": "braco_ecu",
+   "at": 57.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "countdown montage"
+  },
+  {
+   "pose": "doutora_rosto",
+   "at": 57.5,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "countdown montage"
+  },
+  {
+   "pose": "mao_alavanca",
+   "at": 58.0,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "countdown montage (ep2 take)",
+   "take": "ep2_contagem"
+  },
+  {
+   "pose": "olho_ecu",
+   "at": 58.5,
+   "move": "cut",
+   "tag": "montagem",
+   "why": "countdown montage (ep2 take)",
+   "take": "ep2_contagem"
+  },
+  {
+   "pose": "final_switch",
+   "at": 59.0,
+   "move": "cut",
+   "tag": "final",
+   "take": "ep2_contagem",
+   "creep": 0.0,
+   "why": "ep2 take: the freeze"
+  }
+ ],
+ "kicks": [
+  [
+   "Travou",
+   18
+  ],
+  [
+   "Nada",
+   22
+  ],
+  [
+   "quebra",
+   30
+  ]
+ ],
+ "puxadas": [
+  "Travou",
+  "Puxa",
+  "terceira"
+ ],
+ "solta": "quebra",
+ "titulo_ate": 2.75,
+ "congela": 59.65,
+ "fim_som": 60.6,
+ "trem": {
+  "v0": 22.0,
+  "a": 0.2,
+  "z_fim": 0.6
+ },
+ "guincho": {
+  "at": "Cem",
+  "off": -0.15
+ },
+ "apito_at": "divide",
+ "buzina_at": "Trilho",
+ "riser_de": "Só#2",
+ "silencio": {
+  "at": "Uma#2",
+  "antes": 0.72,
+  "depois": 0.32
+ },
+ "sons": [
+  {
+   "som": "arquivo",
+   "nome": "cry_of_woman_ogg",
+   "at": 0.0,
+   "trecho": 0.0,
+   "dur": 3.0,
+   "g": -13
+  },
+  {
+   "som": "arquivo",
+   "nome": "cry_of_woman_ogg",
+   "at": "doutora",
+   "trecho": 4.0,
+   "dur": 3.4,
+   "g": -15
+  },
+  {
+   "som": "arquivo",
+   "nome": "cry_of_woman_ogg",
+   "at": "doutora#2",
+   "trecho": 8.0,
+   "dur": 1.6,
+   "g": -14
+  },
+  {
+   "som": "arquivo",
+   "nome": "cry_of_woman_ogg",
+   "at": 53.05,
+   "trecho": 2.0,
+   "dur": 0.9,
+   "g": -6
+  },
+  {
+   "som": "arquivo",
+   "nome": "cry_of_woman_ogg",
+   "at": 57.55,
+   "trecho": 5.0,
+   "dur": 0.45,
+   "g": -5
+  },
+  {
+   "som": "arquivo",
+   "nome": "heavy_breathing_3_ogg",
+   "at": "arder",
+   "trecho": 3.0,
+   "dur": 1.6,
+   "g": -9
+  }
+ ]
+}

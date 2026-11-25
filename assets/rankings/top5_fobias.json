@@ -1,0 +1,167 @@
+{
+  "titulo": "AS 5 FOBIAS MAIS RARAS QUE EXISTEM",
+  "layout": "escada",
+  "abertura": "Você pode entrar em pânico só de sentir pasta de amendoim na boca, mas a fobia campeã afeta quase todos.",
+  "itens": [
+    {
+      "rotulo": "5º Pasta de amendoim",
+      "narracao": "Em quinto lugar está a araquibutirofobia, o medo de ver pasta grudar na boca. Quem sofre disso entra em pânico achando que vai sufocar sozinho.",
+      "personagem": {
+        "idade": "idoso",
+        "sexo": "masculino",
+        "pele": "morena",
+        "cabelo": "curto",
+        "cor_cabelo": "branco",
+        "roupa": "camisa",
+        "cor_roupa": "bege",
+        "acessorios": [
+          "oculos",
+          "bengala"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "pasta",
+          "emoji": "🥣"
+        },
+        {
+          "palavra": "boca",
+          "emoji": "👄"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Cor amarela",
+      "narracao": "Em quarto lugar temos a xantofobia, o pavor da cor amarela. Pessoas afetadas fogem de bananas maduras, recusam gemas de ovos e temem o sol.",
+      "personagem": {
+        "idade": "adolescente",
+        "sexo": "masculino",
+        "pele": "negra",
+        "cabelo": "espetado",
+        "cor_cabelo": "preto",
+        "roupa": "camiseta",
+        "cor_roupa": "amarelo",
+        "acessorios": [
+          "bone",
+          "mochila"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "bananas",
+          "emoji": "🍌"
+        },
+        {
+          "palavra": "sol",
+          "emoji": "☀️"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Barbas",
+      "narracao": "Em terceiro lugar fica a pogonofobia, que é o medo de barbas. Cruzar com homens barbudos na rua gera ansiedade terrível e aperto no peito.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "clara",
+        "cabelo": "comprido",
+        "cor_cabelo": "loiro",
+        "roupa": "vestido",
+        "cor_roupa": "roxo",
+        "acessorios": [
+          "colar"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "rua",
+          "emoji": "🛣️"
+        },
+        {
+          "palavra": "peito",
+          "emoji": "🫀"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Tomar banho",
+      "narracao": "Em segundo lugar surge a ablutofobia, o pânico de tomar banho. Muitos adultos sofrem calados e tremem bastante de ouvir a água do chuveiro.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "liso",
+        "cor_cabelo": "ruivo",
+        "roupa": "moletom",
+        "cor_roupa": "laranja",
+        "acessorios": [
+          "barba",
+          "caneca"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "banho",
+          "emoji": "🛁"
+        },
+        {
+          "palavra": "chuveiro",
+          "emoji": "🚿"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Ficar sem celular",
+      "narracao": "No primeiro lugar reina a nomofobia, o pavor de ficar sem celular. Todo mundo entra em desespero quando a bateria acaba sem nenhuma tomada perto.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "feminino",
+        "pele": "media",
+        "cabelo": "coque",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "azul_claro",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "celular",
+          "emoji": "📱"
+        },
+        {
+          "palavra": "bateria",
+          "emoji": "🔋"
+        },
+        {
+          "palavra": "tomada",
+          "emoji": "🔌"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Mande este vídeo para aquele seu amigo viciado que nunca consegue largar o aparelho.",
+  "cta": "Lembre de seguir o perfil, curtir o vídeo e comentar se concorda com a campeã.",
+  "visuais_abertura": [
+    {
+      "palavra": "amendoim",
+      "emoji": "🥜"
+    },
+    {
+      "palavra": "boca",
+      "emoji": "👄"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "vídeo",
+      "emoji": "📹"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "titulo": "OS 5 LUGARES PROIBIDOS DA TERRA",
+  "layout": "escada",
+  "abertura": "Você jamais poderá pisar no lugar mais secreto da Terra, que esconde perigos letais e ninguém abre há dois mil anos.",
+  "itens": [
+    {
+      "rotulo": "5º Queimada Grande",
+      "narracao": "Em quinto lugar, a Ilha da Queimada Grande, em São Paulo. O local abriga milhares de cobras venenosas, com uma serpente a cada metro quadrado.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "careca",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "cinza",
+        "acessorios": [
+          "gravata",
+          "bigode"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "cobras",
+          "emoji": "🐍"
+        },
+        {
+          "palavra": "metro",
+          "emoji": "📏"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Cofre de Svalbard",
+      "narracao": "Em quarto lugar, o Cofre Global de Sementes, na Noruega. Ele guarda sementes do mundo inteiro para recomeçar a agricultura se o apocalipse um dia acontecer.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "negra",
+        "cabelo": "rabo",
+        "cor_cabelo": "preto",
+        "roupa": "jaqueta",
+        "cor_roupa": "verde",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "sementes",
+          "emoji": "🌱"
+        },
+        {
+          "palavra": "agricultura",
+          "emoji": "🌾"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Arquivo do Vaticano",
+      "narracao": "Em terceiro lugar, o histórico Arquivo Apostólico do Vaticano. Apenas pesquisadores autorizados entram muito vigiados de perto para que ninguém veja documentos proibidos extremamente antigos.",
+      "personagem": {
+        "idade": "idoso",
+        "sexo": "masculino",
+        "pele": "morena",
+        "cabelo": "curto",
+        "cor_cabelo": "branco",
+        "roupa": "camisa",
+        "cor_roupa": "bege",
+        "acessorios": [
+          "oculos",
+          "bengala"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "pesquisadores",
+          "emoji": "🔬"
+        },
+        {
+          "palavra": "documentos",
+          "emoji": "📜"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Sentinela do Norte",
+      "narracao": "Em segundo lugar, a Ilha Sentinela do Norte. Uma tribo isolada rejeita qualquer contato externo e navegar até lá é totalmente proibido por leis indianas.",
+      "personagem": {
+        "idade": "adolescente",
+        "sexo": "masculino",
+        "pele": "negra",
+        "cabelo": "espetado",
+        "cor_cabelo": "preto",
+        "roupa": "camiseta",
+        "cor_roupa": "amarelo",
+        "acessorios": [
+          "bone",
+          "mochila"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "tribo",
+          "emoji": "🏹"
+        },
+        {
+          "palavra": "navegar",
+          "emoji": "⛵"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Túmulo de Qin",
+      "narracao": "E em primeiro lugar, o misterioso túmulo de Qin Shi Huang, na China. Relatos indicam rios de mercúrio puro, tornando qualquer expedição uma missão suicida.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "clara",
+        "cabelo": "comprido",
+        "cor_cabelo": "loiro",
+        "roupa": "vestido",
+        "cor_roupa": "roxo",
+        "acessorios": [
+          "colar"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "túmulo",
+          "emoji": "🪦"
+        },
+        {
+          "palavra": "rios",
+          "emoji": "🌊"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Qual desses lugares te deu mais medo? Compartilhe este vídeo com seu amigo mais corajoso!",
+  "cta": "Antes do primeiro lugar, aproveite para seguir o perfil, curtir o vídeo e comentar se concorda.",
+  "visuais_abertura": [
+    {
+      "palavra": "Terra",
+      "emoji": "🌍"
+    },
+    {
+      "palavra": "perigos",
+      "emoji": "⚠️"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "amigo",
+      "emoji": "🤝"
+    }
+  ]
+}

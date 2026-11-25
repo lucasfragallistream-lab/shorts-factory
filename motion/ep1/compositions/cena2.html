@@ -1,0 +1,94 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; overflow: hidden; background: #fafafa; }
+    #cena2-shake, #cena2-cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .bg { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .pers, .prop { position: absolute; }
+    .quem { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .pers { opacity: 0; }
+    .destaque { position: absolute; left: 0; width: 1080px; top: 360px; text-align: center; z-index: 20; }
+    .destaque span { display: inline-block; font-family: 'Archivo Black'; font-size: 112px; line-height: 1.02;
+      color: #FFD60A; -webkit-text-stroke: 14px #26282f; paint-order: stroke fill; padding: 0 60px;
+      text-shadow: 0 10px 0 #26282f; }
+    .nome { position: absolute; left: 130px; top: 300px; z-index: 21; }
+    .nome span { display: inline-block; font-family: 'Archivo Black'; font-size: 40px; color: #fff;
+      background: #E8463E; border: 6px solid #26282f; border-radius: 18px; padding: 8px 26px; }
+    .chuva { position: absolute; left: 0; top: -1920px; width: 1080px; height: 3840px; z-index: 10;
+      pointer-events: none; }
+    .chuva i { position: absolute; width: 4px; border-radius: 3px; background: rgba(200, 220, 255, 0.55); }
+  </style>
+  <div id="root" data-composition-id="cena2" data-width="1080" data-height="1920">
+    <div id="cena2-shake" data-layout-allow-overflow>
+      <div id="cena2-cam" data-layout-allow-overflow>
+        <img id="cena2-bg" class="bg" src="assets/bg_2.png" alt="">
+        <img id="cena2-carro" class="prop" src="assets/carro.png" alt="" style="left:60px;top:1580px;width:1000px;height:380px">
+        <div id="cena2-quem-lurdes" class="quem"><img id="cena2-lurdes-preocupado-fechada-parado" class="pers cena2-lurdes" src="assets/p_lurdes_preocupado_fechada_parado.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena2-lurdes-triste-aberta-mao_peito" class="pers cena2-lurdes" src="assets/p_lurdes_triste_aberta_mao_peito.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena2-lurdes-triste-aberta-maos_rosto" class="pers cena2-lurdes" src="assets/p_lurdes_triste_aberta_maos_rosto.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena2-lurdes-triste-aberta-parado" class="pers cena2-lurdes" src="assets/p_lurdes_triste_aberta_parado.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena2-lurdes-triste-fechada-mao_peito" class="pers cena2-lurdes" src="assets/p_lurdes_triste_fechada_mao_peito.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena2-lurdes-triste-fechada-maos_rosto" class="pers cena2-lurdes" src="assets/p_lurdes_triste_fechada_maos_rosto.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"><img id="cena2-lurdes-triste-fechada-parado" class="pers cena2-lurdes" src="assets/p_lurdes_triste_fechada_parado.png" alt="" style="left:-311.7px;top:467.3px;width:1063.3px;height:1100px"></div><div id="cena2-quem-marcelo" class="quem"><img id="cena2-marcelo-feliz-aberta-estende_e" class="pers cena2-marcelo" src="assets/p_marcelo_feliz_aberta_estende_e.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena2-marcelo-feliz-aberta-mao_peito_e" class="pers cena2-marcelo" src="assets/p_marcelo_feliz_aberta_mao_peito_e.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena2-marcelo-feliz-aberta-parado" class="pers cena2-marcelo" src="assets/p_marcelo_feliz_aberta_parado.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena2-marcelo-feliz-fechada-estende_e" class="pers cena2-marcelo" src="assets/p_marcelo_feliz_fechada_estende_e.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena2-marcelo-feliz-fechada-mao_peito_e" class="pers cena2-marcelo" src="assets/p_marcelo_feliz_fechada_mao_peito_e.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"><img id="cena2-marcelo-feliz-fechada-parado" class="pers cena2-marcelo" src="assets/p_marcelo_feliz_fechada_parado.png" alt="" style="left:328.3px;top:467.3px;width:1063.3px;height:1100px"></div>
+      </div>
+    </div>
+    <div id="cena2-chuva" class="chuva" data-layout-ignore><i style="left:673px;top:2848px;height:98px"></i><i style="left:1018px;top:2841px;height:105px"></i><i style="left:31px;top:1788px;height:107px"></i><i style="left:701px;top:3459px;height:57px"></i><i style="left:507px;top:947px;height:83px"></i><i style="left:620px;top:50px;height:63px"></i><i style="left:302px;top:3519px;height:96px"></i><i style="left:172px;top:3061px;height:58px"></i><i style="left:667px;top:487px;height:50px"></i><i style="left:941px;top:804px;height:63px"></i><i style="left:1061px;top:3350px;height:67px"></i><i style="left:1038px;top:2071px;height:91px"></i><i style="left:221px;top:3613px;height:91px"></i><i style="left:1044px;top:3432px;height:68px"></i><i style="left:390px;top:637px;height:59px"></i><i style="left:70px;top:1157px;height:86px"></i><i style="left:4px;top:2603px;height:70px"></i><i style="left:335px;top:3143px;height:79px"></i><i style="left:341px;top:1848px;height:92px"></i><i style="left:62px;top:3744px;height:51px"></i><i style="left:810px;top:3244px;height:51px"></i><i style="left:851px;top:1406px;height:85px"></i><i style="left:10px;top:179px;height:61px"></i><i style="left:1032px;top:755px;height:95px"></i><i style="left:1004px;top:3617px;height:71px"></i><i style="left:383px;top:2015px;height:97px"></i><i style="left:117px;top:2874px;height:98px"></i><i style="left:928px;top:141px;height:107px"></i><i style="left:98px;top:1308px;height:87px"></i><i style="left:992px;top:1305px;height:105px"></i><i style="left:589px;top:1200px;height:69px"></i><i style="left:192px;top:300px;height:59px"></i><i style="left:744px;top:3827px;height:60px"></i><i style="left:52px;top:3789px;height:82px"></i><i style="left:438px;top:911px;height:86px"></i><i style="left:892px;top:1750px;height:75px"></i><i style="left:60px;top:3518px;height:52px"></i><i style="left:533px;top:3220px;height:58px"></i><i style="left:790px;top:3647px;height:88px"></i><i style="left:851px;top:409px;height:76px"></i><i style="left:161px;top:3244px;height:68px"></i><i style="left:489px;top:3837px;height:101px"></i><i style="left:1054px;top:1742px;height:79px"></i><i style="left:788px;top:1840px;height:67px"></i><i style="left:436px;top:563px;height:73px"></i><i style="left:1067px;top:3686px;height:88px"></i><i style="left:539px;top:1300px;height:55px"></i><i style="left:294px;top:3003px;height:102px"></i><i style="left:390px;top:3018px;height:96px"></i><i style="left:750px;top:2550px;height:96px"></i><i style="left:393px;top:2705px;height:67px"></i><i style="left:525px;top:2956px;height:91px"></i><i style="left:317px;top:3631px;height:89px"></i><i style="left:627px;top:44px;height:83px"></i><i style="left:271px;top:2579px;height:78px"></i><i style="left:882px;top:2486px;height:98px"></i><i style="left:376px;top:2473px;height:94px"></i><i style="left:894px;top:1344px;height:101px"></i><i style="left:940px;top:2643px;height:109px"></i><i style="left:1033px;top:1990px;height:82px"></i><i style="left:179px;top:3213px;height:106px"></i><i style="left:515px;top:2655px;height:93px"></i><i style="left:789px;top:660px;height:97px"></i><i style="left:627px;top:2556px;height:75px"></i><i style="left:674px;top:2975px;height:88px"></i><i style="left:778px;top:106px;height:60px"></i><i style="left:476px;top:2496px;height:63px"></i><i style="left:741px;top:2423px;height:53px"></i><i style="left:509px;top:869px;height:53px"></i><i style="left:144px;top:1219px;height:61px"></i><i style="left:209px;top:137px;height:78px"></i><i style="left:411px;top:2349px;height:85px"></i><i style="left:257px;top:3468px;height:50px"></i><i style="left:438px;top:1070px;height:75px"></i><i style="left:124px;top:3192px;height:72px"></i><i style="left:39px;top:2356px;height:56px"></i><i style="left:589px;top:1303px;height:85px"></i><i style="left:1035px;top:3143px;height:75px"></i><i style="left:878px;top:2466px;height:72px"></i><i style="left:153px;top:2288px;height:84px"></i><i style="left:1034px;top:3717px;height:87px"></i><i style="left:379px;top:3431px;height:50px"></i><i style="left:117px;top:2173px;height:87px"></i><i style="left:152px;top:2417px;height:103px"></i><i style="left:406px;top:1658px;height:64px"></i><i style="left:315px;top:3734px;height:73px"></i><i style="left:1038px;top:3509px;height:86px"></i><i style="left:281px;top:3767px;height:80px"></i><i style="left:449px;top:1226px;height:109px"></i><i style="left:531px;top:1100px;height:79px"></i><i style="left:132px;top:2387px;height:77px"></i><i style="left:317px;top:3002px;height:100px"></i><i style="left:14px;top:2045px;height:66px"></i><i style="left:1010px;top:3003px;height:65px"></i><i style="left:289px;top:594px;height:109px"></i><i style="left:317px;top:2335px;height:78px"></i><i style="left:696px;top:2319px;height:95px"></i><i style="left:128px;top:2920px;height:68px"></i><i style="left:576px;top:1291px;height:68px"></i><i style="left:572px;top:1783px;height:72px"></i><i style="left:805px;top:2269px;height:52px"></i><i style="left:273px;top:1750px;height:105px"></i><i style="left:959px;top:2095px;height:51px"></i><i style="left:841px;top:1642px;height:85px"></i><i style="left:765px;top:2428px;height:79px"></i><i style="left:985px;top:1480px;height:74px"></i><i style="left:920px;top:754px;height:68px"></i><i style="left:896px;top:254px;height:100px"></i><i style="left:750px;top:1662px;height:67px"></i><i style="left:843px;top:3497px;height:59px"></i><i style="left:517px;top:2109px;height:80px"></i><i style="left:357px;top:590px;height:85px"></i><i style="left:877px;top:263px;height:64px"></i><i style="left:885px;top:3040px;height:90px"></i><i style="left:28px;top:2775px;height:109px"></i><i style="left:1078px;top:2693px;height:53px"></i><i style="left:909px;top:842px;height:89px"></i><i style="left:1028px;top:2736px;height:58px"></i><i style="left:316px;top:3525px;height:59px"></i><i style="left:659px;top:1590px;height:60px"></i><i style="left:672px;top:167px;height:56px"></i><i style="left:410px;top:276px;height:53px"></i><i style="left:621px;top:2851px;height:103px"></i><i style="left:145px;top:1658px;height:69px"></i><i style="left:648px;top:1880px;height:106px"></i><i style="left:404px;top:214px;height:92px"></i><i style="left:163px;top:2424px;height:80px"></i><i style="left:983px;top:2131px;height:87px"></i><i style="left:284px;top:2118px;height:65px"></i><i style="left:811px;top:1985px;height:58px"></i><i style="left:253px;top:1425px;height:94px"></i><i style="left:194px;top:2739px;height:89px"></i><i style="left:92px;top:2565px;height:55px"></i><i style="left:135px;top:2281px;height:64px"></i><i style="left:947px;top:1845px;height:69px"></i><i style="left:860px;top:113px;height:94px"></i><i style="left:58px;top:579px;height:107px"></i><i style="left:736px;top:857px;height:57px"></i><i style="left:1051px;top:2554px;height:99px"></i><i style="left:151px;top:2399px;height:71px"></i></div>
+    <div id="cena2-nome0" class="clip nome" data-start="0.225" data-duration="1.6" data-track-index="2"><span id="cena2-nome0-t">DONA LURDES</span></div><div id="cena2-dest2" class="clip destaque" data-start="9.867" data-duration="1.800" data-track-index="1" data-layout-allow-overflow><span id="cena2-dest2-t">VERDADEIRO DONO</span></div><div id="cena2-nome2" class="clip nome" data-start="9.867" data-duration="1.6" data-track-index="2"><span id="cena2-nome2-t">DR. MARCELO</span></div>
+  </div>
+  <script>
+    (function () {
+      const D = {"planos": [{"t": 0.0, "d": 4.443, "cx": 220.0, "cy": 841.84, "z": 2.35, "punch": false}, {"t": 4.468, "d": 5.359, "cx": 540.0, "cy": 1060, "z": 1.0, "punch": false}, {"t": 9.747, "d": 5.61, "cx": 860.0, "cy": 900.01, "z": 1.5, "punch": true}, {"t": 15.278, "d": 3.799, "cx": 860.0, "cy": 800.8, "z": 2.35, "punch": false}], "estados": [{"m": "lurdes", "ev": [[0.0, "preocupado", "fechada", "parado"], [0.225, "triste", "fechada", "parado"], [0.275, "triste", "aberta", "parado"], [0.325, "triste", "aberta", "maos_rosto"], [1.372, "triste", "fechada", "maos_rosto"], [1.46, "triste", "aberta", "maos_rosto"], [1.848, "triste", "fechada", "maos_rosto"], [1.937, "triste", "aberta", "maos_rosto"], [2.234, "triste", "fechada", "maos_rosto"], [2.297, "triste", "fechada", "mao_peito"], [2.299, "triste", "aberta", "mao_peito"], [2.472, "triste", "fechada", "mao_peito"], [2.537, "triste", "aberta", "mao_peito"], [3.008, "triste", "fechada", "mao_peito"], [3.162, "triste", "aberta", "mao_peito"], [3.504, "triste", "fechada", "mao_peito"], [4.198, "triste", "aberta", "mao_peito"], [4.368, "triste", "fechada", "mao_peito"]]}, {"m": "marcelo", "ev": [[0.0, "feliz", "fechada", "parado"], [9.967, "feliz", "aberta", "parado"], [10.234, "feliz", "aberta", "estende_e"], [10.9, "feliz", "fechada", "estende_e"], [11.892, "feliz", "aberta", "estende_e"], [12.315, "feliz", "fechada", "estende_e"], [12.969, "feliz", "fechada", "parado"], [13.033, "feliz", "aberta", "parado"], [13.717, "feliz", "fechada", "parado"], [14.596, "feliz", "aberta", "parado"], [15.178, "feliz", "fechada", "parado"], [15.498, "feliz", "aberta", "estende_e"], [15.52, "feliz", "fechada", "estende_e"], [15.651, "feliz", "aberta", "estende_e"], [15.832, "feliz", "fechada", "estende_e"], [15.896, "feliz", "aberta", "estende_e"], [16.566, "feliz", "fechada", "estende_e"], [16.63, "feliz", "aberta", "estende_e"], [16.7, "feliz", "fechada", "estende_e"], [17.147, "feliz", "aberta", "mao_peito_e"], [17.284, "feliz", "fechada", "mao_peito_e"], [17.911, "feliz", "aberta", "mao_peito_e"], [18.36, "feliz", "fechada", "mao_peito_e"], [18.726, "feliz", "aberta", "mao_peito_e"], [18.896, "feliz", "fechada", "mao_peito_e"]]}], "dur": 26.538, "carro": 8.215899999999998, "chuva": true, "slams": [["#cena2-dest2-t", 9.867]], "nomes": [["#cena2-nome0-t", 0.225], ["#cena2-nome2-t", 9.867]], "movs": [["marcelo", 9.216, 0.8, 520.0, 0.0]], "inis": [["marcelo", 520.0]], "pulos": [["lurdes", 0.225], ["marcelo", 9.867], ["marcelo", 15.398]]};
+      const tl = gsap.timeline({ paused: true });
+      const cam = "#cena2-cam", shake = "#cena2-shake";
+      tl.set(cam, { transformOrigin: "0 0" }, 0);
+      function pos(cx, cy, z) {
+        const x = Math.min(0, Math.max(1080 - 1080 * z, 540.0 - cx * z));
+        const y = Math.min(0, Math.max(1920 - 1920 * z, 960.0 - cy * z));
+        return { x: x, y: y, scale: z };
+      }
+      D.planos.forEach(function (p, i) {
+        const fim = i + 1 < D.planos.length ? D.planos[i + 1].t : D.dur;
+        const z2 = p.z * 1.07;
+        tl.set(cam, pos(p.cx, p.cy, p.z), p.t);
+        tl.to(cam, Object.assign(pos(p.cx, p.cy, z2), { duration: Math.max(0.1, fim - p.t), ease: "none" }), p.t);
+        if (p.punch) {
+          tl.fromTo(shake, { x: 0, y: 0 }, { keyframes: [{ x: -18, y: 10 }, { x: 16, y: -12 }, { x: -10, y: 6 },
+            { x: 0, y: 0 }], duration: 0.32, ease: "none" }, p.t + 0.12);
+        }
+      });
+      D.estados.forEach(function (s) {
+        const todos = ".cena2-" + s.m;
+        s.ev.forEach(function (e) {
+          tl.set(todos, { opacity: 0 }, e[0]);
+          tl.set("#cena2-" + s.m + "-" + e[1] + "-" + e[2] + "-" + e[3], { opacity: 1 }, e[0]);
+        });
+        // breathing: tiny stretch from the feet, all of this person's images together
+        tl.to(todos, { scaleY: 1.012, transformOrigin: "50% 92%", duration: 1.3, ease: "sine.inOut", yoyo: true,
+          repeat: Math.max(1, Math.ceil(D.dur / 1.3)) }, 0);
+      });
+      D.inis.forEach(function (m) { tl.set("#cena2-quem-" + m[0], { x: m[1] }, 0); });
+      D.movs.forEach(function (m) {
+        const q = "#cena2-quem-" + m[0];
+        tl.fromTo(q, { x: m[3] }, { x: m[4], duration: m[2], ease: "power1.inOut", immediateRender: false }, m[1]);
+        const passos = Math.max(2, Math.round(m[2] / 0.18));
+        const kf = [];
+        for (let k = 0; k < passos; k++) { kf.push({ y: k % 2 ? 0 : -16 }); }
+        kf.push({ y: 0 });
+        tl.fromTo(q, { y: 0 }, { keyframes: kf, duration: m[2], ease: "none", immediateRender: false }, m[1]);
+      });
+      D.pulos.forEach(function (p) {
+        tl.fromTo("#cena2-quem-" + p[0], { y: 0 }, { keyframes: [{ y: -20 }, { y: 0 }], duration: 0.28,
+          ease: "power1.out", immediateRender: false }, p[1]);
+      });
+      D.slams.forEach(function (s) {
+        tl.fromTo(s[0], { scale: 1.9, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power3.out" }, s[1]);
+      });
+      D.nomes.forEach(function (s) {
+        tl.fromTo(s[0], { x: -320 }, { x: 0, duration: 0.25, ease: "power3.out" }, s[1]);
+      });
+      if (D.carro !== null) {
+        tl.fromTo("#cena2-carro", { x: 1200 }, { x: 0, duration: 1.0, ease: "power3.out" }, D.carro);
+      } else if (document.querySelector("#cena2-carro")) {
+        tl.set("#cena2-carro", { x: 1200 }, 0);
+      }
+      if (D.chuva) {
+        tl.fromTo("#cena2-chuva", { y: 0 }, { y: 1920, duration: 0.55, ease: "none",
+          repeat: Math.ceil(D.dur / 0.55) }, 0);
+      }
+      window.__timelines["cena2"] = tl;
+    })();
+  </script>
+</template>

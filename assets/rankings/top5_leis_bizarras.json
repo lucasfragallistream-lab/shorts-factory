@@ -1,0 +1,161 @@
+{
+  "titulo": "AS 5 LEIS MAIS BIZARRAS DO MUNDO",
+  "layout": "escada",
+  "abertura": "Você pode levar multa pesada por alimentar pombos na rua, mas o primeiro lugar envolve uma regra absurda sobre banheiro.",
+  "itens": [
+    {
+      "rotulo": "5º Pombos de Veneza",
+      "narracao": "Na famosa praça de Veneza na Itália, jogar comida para as aves rende multas altíssimas porque a sujeira delas estraga monumentos valiosos de mármore.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "feminino",
+        "pele": "media",
+        "cabelo": "coque",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "azul_claro",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "comida",
+          "emoji": "🍞"
+        },
+        {
+          "palavra": "mármore",
+          "emoji": "🏛️"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Gasolina na Autobahn",
+      "narracao": "Ficar sem combustível na famosa rodovia veloz da Alemanha gera penalidade financeira imediata porque parar o carro na pista rápida cria um perigo mortal.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "preto",
+        "roupa": "camisa",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "combustível",
+          "emoji": "⛽"
+        },
+        {
+          "palavra": "carro",
+          "emoji": "🚗"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Nomes na Dinamarca",
+      "narracao": "Os pais dinamarqueses precisam escolher nomes dentro de uma lista oficial aprovada pelo governo e invenções malucas para registrar o bebê acabam barradas.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "cacheado",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "fone"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "governo",
+          "emoji": "🏛️"
+        },
+        {
+          "palavra": "bebê",
+          "emoji": "👶"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Chiclete",
+      "narracao": "Desde o ano mil novecentos e noventa e dois, Singapura proibiu totalmente o comércio de chiclete no país para evitar restos grudentos nos trens.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "careca",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "cinza",
+        "acessorios": [
+          "gravata",
+          "bigode"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "comércio",
+          "emoji": "🏪"
+        },
+        {
+          "palavra": "trens",
+          "emoji": "🚆"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Descarga",
+      "narracao": "Também em Singapura, esquecer de acionar a descarga em sanitários coletivos rende punição pesada e guardas fiscalizam as cabines para garantir a ordem.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "negra",
+        "cabelo": "rabo",
+        "cor_cabelo": "preto",
+        "roupa": "jaqueta",
+        "cor_roupa": "verde",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "descarga",
+          "emoji": "🚽"
+        },
+        {
+          "palavra": "cabines",
+          "emoji": "🚪"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Você quebraria alguma dessas regras? Mande este vídeo para aquele amigo que odeia seguir leis.",
+  "cta": "Não esqueça de seguir o perfil, curtir o vídeo e comentar se concorda antes de ver o primeiro lugar.",
+  "visuais_abertura": [
+    {
+      "palavra": "multa",
+      "emoji": "💸"
+    },
+    {
+      "palavra": "pombos",
+      "emoji": "🐦"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "amigo",
+      "emoji": "🤝"
+    }
+  ]
+}

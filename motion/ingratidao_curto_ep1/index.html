@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"><title>O Preço da Ingratidão ep 1</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="30.0" data-width="1080" data-height="1920">
+      <div id="cena0" data-composition-id="cena0" data-composition-src="compositions/cena0.html" data-start="0.000" data-duration="30.000" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:1"></div>
+      <div id="legendas" data-composition-id="legendas" data-composition-src="compositions/legendas.html" data-start="0"
+        data-duration="27.169" data-track-index="2" data-track-kind="captions" data-width="1080" data-height="1920"
+        style="z-index:5"></div>
+      <div id="gancho" data-composition-id="gancho" data-composition-src="compositions/gancho.html" data-start="0"
+        data-duration="1.0" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"
+        style="z-index:8"></div>
+      <div id="fim" data-composition-id="fim" data-composition-src="compositions/fim.html" data-start="27.169"
+        data-duration="2.831" data-track-index="3" data-track-kind="graphics" data-width="1080"
+        data-height="1920" style="z-index:8"></div>
+      <audio id="trilha" class="clip" src="assets/audio.wav" data-start="0" data-duration="30.0" data-track-index="4"
+        data-volume="1"></audio>
+    </div>
+    <script>
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>

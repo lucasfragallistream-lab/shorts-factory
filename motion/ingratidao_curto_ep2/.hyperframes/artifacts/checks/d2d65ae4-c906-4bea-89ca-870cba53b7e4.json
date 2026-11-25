@@ -1,0 +1,410 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "duplicate_media_discovery_risk",
+        "severity": "warning",
+        "message": "Detected 3 matching img entries with the same source/start/duration.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\fabricadevideo\\shorts-factory\\motion\\ingratidao_curto_ep2\\compositions\\cena0.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "This HTML file has 6 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\fabricadevideo\\shorts-factory\\motion\\ingratidao_curto_ep2\\compositions\\cena0.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "This HTML file has 25 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\fabricadevideo\\shorts-factory\\motion\\ingratidao_curto_ep2\\compositions\\legendas.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      }
+    ],
+    "filesScanned": 5
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 5,
+    "infoCount": 0,
+    "findings": [
+      {
+        "selector": "#cena0-dest2",
+        "dataAttributes": {
+          "data-start": "8.214",
+          "data-duration": "1.800",
+          "data-track-index": "1",
+          "data-layout-allow-overflow": ""
+        },
+        "sourceFile": "compositions/cena0.html",
+        "bbox": {
+          "x": 56.22,
+          "y": 335.51,
+          "width": 967.55,
+          "height": 276.16
+        },
+        "time": 8.333,
+        "rect": {
+          "left": 56.22,
+          "top": 335.51,
+          "right": 1023.77,
+          "bottom": 611.67,
+          "width": 967.55,
+          "height": 276.16
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "DOCUMENTO É FALSO",
+        "message": "<div> \"DOCUMENTO É FALSO\" is outside the safe area: TikTok (left and right edges), Instagram Reels (left and right edges), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 8.333,
+        "lastSeen": 8.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.333
+        ]
+      },
+      {
+        "selector": "#cena0-nome2",
+        "dataAttributes": {
+          "data-start": "8.214",
+          "data-duration": "1.6",
+          "data-track-index": "2"
+        },
+        "sourceFile": "compositions/cena0.html",
+        "bbox": {
+          "x": 102.74,
+          "y": 314,
+          "width": 307.48,
+          "height": 53
+        },
+        "time": 8.333,
+        "rect": {
+          "left": 102.74,
+          "top": 314,
+          "right": 410.22,
+          "bottom": 367,
+          "width": 307.48,
+          "height": 53
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "DR. MARCELO",
+        "message": "<div> \"DR. MARCELO\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 8.333,
+        "lastSeen": 8.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.333
+        ]
+      },
+      {
+        "selector": "#leg9",
+        "dataAttributes": {
+          "data-start": "8.264",
+          "data-duration": "0.977",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 128.63,
+          "y": 1134.77,
+          "width": 633.98,
+          "height": 158.42
+        },
+        "time": 8.333,
+        "rect": {
+          "left": 128.63,
+          "top": 1134.77,
+          "right": 762.61,
+          "bottom": 1293.19,
+          "width": 633.98,
+          "height": 158.42
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "SEU DOCUMENTO É",
+        "message": "<div> \"SEU DOCUMENTO É\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 8.333,
+        "lastSeen": 8.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          8.333
+        ]
+      },
+      {
+        "selector": "#leg11",
+        "dataAttributes": {
+          "data-start": "11.339",
+          "data-duration": "1.094",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 149.17,
+          "y": 1134.77,
+          "width": 585.31,
+          "height": 158.42
+        },
+        "time": 11.667,
+        "rect": {
+          "left": 149.17,
+          "top": 1134.77,
+          "right": 734.48,
+          "bottom": 1293.19,
+          "width": 585.31,
+          "height": 158.42
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "JAMAIS ESTEVE NO",
+        "message": "<div> \"JAMAIS ESTEVE NO\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.667,
+        "lastSeen": 11.667,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.667
+        ]
+      },
+      {
+        "selector": "#leg18",
+        "dataAttributes": {
+          "data-start": "18.139",
+          "data-duration": "1.083",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 114.56,
+          "y": 1134.77,
+          "width": 659.13,
+          "height": 96.32
+        },
+        "time": 18.333,
+        "rect": {
+          "left": 114.56,
+          "top": 1134.77,
+          "right": 773.69,
+          "bottom": 1231.09,
+          "width": 659.13,
+          "height": 96.32
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "CASA ESTÁ SALVA",
+        "message": "<div> \"CASA ESTÁ SALVA\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 18.333,
+        "lastSeen": 18.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.333
+        ]
+      }
+    ],
+    "duration": 30,
+    "samples": [
+      1.667,
+      5,
+      8.333,
+      11.667,
+      15,
+      18.333,
+      21.667,
+      25,
+      28.333
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 5,
+    "truncated": false,
+    "faceCheck": {
+      "ran": true,
+      "candidates": 0,
+      "faces": 0
+    }
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.667,
+      8.333,
+      15,
+      21.667,
+      28.333
+    ],
+    "checked": 20,
+    "passed": 20
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"Nora que abandona o marido golpista na pior está certa ou...\" (13 words) is on screen 3.23 s (±0.01 s), under the 3.30 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "Nora que abandona o marido golpista na pior está certa ou é interesseira?",
+        "selector": "#fim-pergunta",
+        "dataAttributes": {},
+        "sourceFile": "compositions/fim.html",
+        "bbox": {
+          "x": 159.94,
+          "y": 791.35,
+          "width": 580.1099999999999,
+          "height": 220.66999999999996
+        },
+        "time": 26.773,
+        "words": 13,
+        "seconds": 3.23,
+        "floorSeconds": 3.3,
+        "measured": [
+          {
+            "time": 26.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 26.625,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 26.75,
+            "opacity": 0.46,
+            "heightPx": 221
+          },
+          {
+            "time": 26.875,
+            "opacity": 0.84,
+            "heightPx": 221
+          },
+          {
+            "time": 27,
+            "opacity": 1,
+            "heightPx": 221
+          },
+          {
+            "time": 27.125,
+            "opacity": 1,
+            "heightPx": 221
+          },
+          {
+            "time": 27.25,
+            "opacity": 1,
+            "heightPx": 221
+          },
+          {
+            "time": 29.5,
+            "opacity": 1,
+            "heightPx": 221
+          },
+          {
+            "time": 29.625,
+            "opacity": 1,
+            "heightPx": 221
+          },
+          {
+            "time": 29.75,
+            "opacity": 1,
+            "heightPx": 221
+          },
+          {
+            "time": 29.875,
+            "opacity": 1,
+            "heightPx": 221
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 240
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

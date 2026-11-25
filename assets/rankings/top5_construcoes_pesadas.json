@@ -1,0 +1,158 @@
+{
+  "titulo": "AS 5 COISAS MAIS PESADAS JÁ FEITAS",
+  "layout": "escada",
+  "abertura": "Uma destas colossais estruturas é tão pesada que desacelerou a rotação do planeta, alterando o tempo sem você perceber.",
+  "itens": [
+    {
+      "rotulo": "5º Starship",
+      "narracao": "Em quinto lugar, a nave Starship com o foguete Super Heavy pesa cinco mil toneladas abastecida, sendo o foguete mais pesado lançado ao espaço na história.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "preto",
+        "roupa": "camisa",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "foguete",
+          "emoji": "🚀"
+        },
+        {
+          "palavra": "espaço",
+          "emoji": "🌌"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Knock Nevis",
+      "narracao": "Em quarto lugar, o petroleiro Knock Nevis foi o maior navio já construído, pesando seiscentas mil toneladas, sendo grande demais para passar em canais marítimos.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "cacheado",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "fone"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "navio",
+          "emoji": "🚢"
+        },
+        {
+          "palavra": "canais",
+          "emoji": "🌊"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Troll A",
+      "narracao": "Em terceiro lugar, a plataforma Troll A é a estrutura mais pesada movida pelo oceano, superando a Torre Eiffel enquanto navios a rebocavam no mar.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "careca",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "cinza",
+        "acessorios": [
+          "gravata",
+          "bigode"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "oceano",
+          "emoji": "🌊"
+        },
+        {
+          "palavra": "navios",
+          "emoji": "🚢"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Pirâmide de Gizé",
+      "narracao": "Em segundo lugar, a Grande Pirâmide de Gizé soma seis milhões de toneladas de pedra, sendo empilhada na antiguidade sem qualquer ajuda de máquinas modernas.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "feminino",
+        "pele": "negra",
+        "cabelo": "rabo",
+        "cor_cabelo": "preto",
+        "roupa": "jaqueta",
+        "cor_roupa": "verde",
+        "acessorios": [
+          "celular"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "pedra",
+          "emoji": "🪨"
+        },
+        {
+          "palavra": "máquinas",
+          "emoji": "🚜"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Três Gargantas",
+      "narracao": "Em primeiro lugar, a usina de Três Gargantas acumula tanta água que desacelerou a Terra em seis centésimos de microssegundo, sendo a maior do mundo.",
+      "personagem": {
+        "idade": "idoso",
+        "sexo": "masculino",
+        "pele": "morena",
+        "cabelo": "curto",
+        "cor_cabelo": "branco",
+        "roupa": "camisa",
+        "cor_roupa": "bege",
+        "acessorios": [
+          "oculos",
+          "bengala"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "água",
+          "emoji": "💧"
+        },
+        {
+          "palavra": "mundo",
+          "emoji": "🌍"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Envie este vídeo para aquele amigo curioso que precisa descobrir o peso desses monstros!",
+  "cta": "Lembre de seguir o perfil, curtir o vídeo e comentar se você concorda com o ranking!",
+  "visuais_abertura": [
+    {
+      "palavra": "planeta",
+      "emoji": "🌎"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "vídeo",
+      "emoji": "📱"
+    }
+  ]
+}

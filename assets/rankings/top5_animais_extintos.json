@@ -1,0 +1,161 @@
+{
+  "titulo": "OS 5 ANIMAIS QUE AINDA BEM SUMIRAM",
+  "layout": "escada",
+  "abertura": "Se você vivesse na Terra pré-histórica encontraria insetos do tamanho de pessoas, mas o primeiro lugar dominava os oceanos inteiros.",
+  "itens": [
+    {
+      "rotulo": "5º Arthropleura",
+      "narracao": "Em quinto lugar temos a Arthropleura, parente das centopeias com dois metros de comprimento que andava pelas matas pesando como um adulto. Se te assustou, o próximo voava.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "clara",
+        "cabelo": "comprido",
+        "cor_cabelo": "loiro",
+        "roupa": "vestido",
+        "cor_roupa": "roxo",
+        "acessorios": [
+          "colar"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "centopeias",
+          "emoji": "🐛"
+        },
+        {
+          "palavra": "matas",
+          "emoji": "🌲"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Meganeura",
+      "narracao": "Em quarto fica a Meganeura, libélula pré-histórica com setenta centímetros de asa que caçava pelo ar e entraria pela janela do quarto. Mas espere para ver quem rastejava.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "liso",
+        "cor_cabelo": "ruivo",
+        "roupa": "moletom",
+        "cor_roupa": "laranja",
+        "acessorios": [
+          "barba",
+          "caneca"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "libélula",
+          "emoji": "🦟"
+        },
+        {
+          "palavra": "janela",
+          "emoji": "🪟"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Titanoboa",
+      "narracao": "No terceiro posto surge a Titanoboa, serpente colossal de treze metros da Colômbia, maior que um ônibus e pesando uma tonelada. E se isso choca, o próximo dominava o céu.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "feminino",
+        "pele": "media",
+        "cabelo": "coque",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "azul_claro",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "serpente",
+          "emoji": "🐍"
+        },
+        {
+          "palavra": "ônibus",
+          "emoji": "🚌"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Quetzalcoatlus",
+      "narracao": "Em segundo vem o Quetzalcoatlus, réptil voador com altura de girafa cujas asas passavam de dez metros de largura. Ele assustava qualquer um, mas o campeão era pior.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "preto",
+        "roupa": "camisa",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "girafa",
+          "emoji": "🦒"
+        },
+        {
+          "palavra": "asas",
+          "emoji": "🦅"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Livyatan",
+      "narracao": "No topo temos o Livyatan, antigo cachalote com dentes de trinta centímetros que caçava baleias nos oceanos e rivalizava com os maiores tubarões da história.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "cacheado",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "fone"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "dentes",
+          "emoji": "🦷"
+        },
+        {
+          "palavra": "tubarões",
+          "emoji": "🦈"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Qual desses monstros você mais odiaria encontrar? Envie este vídeo para aquele amigo corajoso.",
+  "cta": "Aproveite para seguir o perfil, curtir o vídeo e comentar se concorda com o ranking antes do primeiro lugar.",
+  "visuais_abertura": [
+    {
+      "palavra": "insetos",
+      "emoji": "🦗"
+    },
+    {
+      "palavra": "oceanos",
+      "emoji": "🌊"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "amigo",
+      "emoji": "🤝"
+    }
+  ]
+}

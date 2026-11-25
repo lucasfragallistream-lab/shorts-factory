@@ -1,0 +1,162 @@
+{
+  "titulo": "AS 5 QUEDAS DE BILIONÁRIOS MAIS RÁPIDAS",
+  "layout": "escada",
+  "abertura": "Você pode perder trinta bilhões de dólares muito rápido, exatamente como o famoso brasileiro que viu tudo virar poeira.",
+  "itens": [
+    {
+      "rotulo": "5º Mike Tyson",
+      "narracao": "Em quinto lugar, o lutador Mike Tyson faturou centenas de milhões no boxe, mas gastou tudo em mansões luxuosas e tigres antes de falir na justiça.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "liso",
+        "cor_cabelo": "ruivo",
+        "roupa": "moletom",
+        "cor_roupa": "laranja",
+        "acessorios": [
+          "barba",
+          "caneca"
+        ],
+        "expressao": "feliz"
+      },
+      "visuais": [
+        {
+          "palavra": "mansões",
+          "emoji": "🏰"
+        },
+        {
+          "palavra": "tigres",
+          "emoji": "🐯"
+        }
+      ]
+    },
+    {
+      "rotulo": "4º Elizabeth Holmes",
+      "narracao": "Em quarto lugar, a jovem Elizabeth Holmes prometia revolucionar exames com uma gota de sangue, mas a grande farsa caiu e ela acabou condenada à prisão.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "feminino",
+        "pele": "media",
+        "cabelo": "coque",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "azul_claro",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "preocupado"
+      },
+      "visuais": [
+        {
+          "palavra": "sangue",
+          "emoji": "🩸"
+        },
+        {
+          "palavra": "prisão",
+          "emoji": "🔒"
+        }
+      ]
+    },
+    {
+      "rotulo": "3º Sam Bankman-Fried",
+      "narracao": "Em terceiro lugar, Sam Bankman Fried comandava uma gigante corretora de moedas digitais que ruiu rápido, mandando o jovem bilionário direto para trás das grades.",
+      "personagem": {
+        "idade": "adulto",
+        "sexo": "masculino",
+        "pele": "media",
+        "cabelo": "curto",
+        "cor_cabelo": "preto",
+        "roupa": "camisa",
+        "cor_roupa": "azul",
+        "acessorios": [
+          "oculos"
+        ],
+        "expressao": "cansado"
+      },
+      "visuais": [
+        {
+          "palavra": "moedas",
+          "emoji": "🪙"
+        },
+        {
+          "palavra": "grades",
+          "emoji": "⛓️"
+        }
+      ]
+    },
+    {
+      "rotulo": "2º Masayoshi Son",
+      "narracao": "Em segundo lugar, Masayoshi Son perdeu quase setenta bilhões de dólares do dia para a noite quando a grande bolha da internet estourou sem avisar.",
+      "personagem": {
+        "idade": "jovem",
+        "sexo": "feminino",
+        "pele": "morena",
+        "cabelo": "cacheado",
+        "cor_cabelo": "castanho",
+        "roupa": "moletom",
+        "cor_roupa": "vermelho",
+        "acessorios": [
+          "fone"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "dólares",
+          "emoji": "💵"
+        },
+        {
+          "palavra": "bolha",
+          "emoji": "🫧"
+        }
+      ]
+    },
+    {
+      "rotulo": "1º Eike Batista",
+      "narracao": "No topo, Eike Batista já foi um dos homens mais ricos do planeta Terra, mas seu império de petróleo desmoronou e o deixou totalmente falido.",
+      "personagem": {
+        "idade": "meia_idade",
+        "sexo": "masculino",
+        "pele": "clara",
+        "cabelo": "careca",
+        "cor_cabelo": "grisalho",
+        "roupa": "social",
+        "cor_roupa": "cinza",
+        "acessorios": [
+          "gravata",
+          "bigode"
+        ],
+        "expressao": "chocado"
+      },
+      "visuais": [
+        {
+          "palavra": "Terra",
+          "emoji": "🌍"
+        },
+        {
+          "palavra": "petróleo",
+          "emoji": "🛢️"
+        }
+      ]
+    }
+  ],
+  "fechamento": "Mande este vídeo para aquele amigo que gasta todo o salário em poucos dias!",
+  "cta": "Lembre de seguir o perfil, curtir o vídeo e comentar se concorda com o ranking antes do topo!",
+  "visuais_abertura": [
+    {
+      "palavra": "dólares",
+      "emoji": "💵"
+    },
+    {
+      "palavra": "poeira",
+      "emoji": "💨"
+    }
+  ],
+  "visuais_fechamento": [
+    {
+      "palavra": "salário",
+      "emoji": "💸"
+    }
+  ]
+}

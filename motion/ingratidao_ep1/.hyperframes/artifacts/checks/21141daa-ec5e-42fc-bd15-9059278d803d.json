@@ -1,0 +1,505 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": false,
+    "errorCount": 1,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "missing_gsap_script",
+        "severity": "error",
+        "message": "Composition uses GSAP but no GSAP script is loaded. The animation will not run.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\fabricadevideo\\shorts-factory\\motion\\ingratidao_ep1\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add <script src=\"https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js\"></script> before your animation script."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "This HTML file has 6 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\fabricadevideo\\shorts-factory\\motion\\ingratidao_ep1\\compositions\\cena0.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "This HTML file has 55 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\fabricadevideo\\shorts-factory\\motion\\ingratidao_ep1\\compositions\\legendas.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      }
+    ],
+    "filesScanned": 7
+  },
+  "runtime": {
+    "ok": false,
+    "errorCount": 1,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "page_error",
+        "severity": "error",
+        "message": "Cannot read properties of undefined (reading 'timeline')",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "61.0",
+          "data-width": "1080",
+          "data-height": "1920"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 9,
+    "infoCount": 0,
+    "findings": [
+      {
+        "selector": "#leg10",
+        "dataAttributes": {
+          "data-start": "9.191",
+          "data-duration": "1.441",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 231.53,
+          "y": 1068,
+          "width": 616.94,
+          "height": 105
+        },
+        "time": 10.167,
+        "rect": {
+          "left": 231.53,
+          "top": 1068,
+          "right": 848.47,
+          "bottom": 1173,
+          "width": 616.94,
+          "height": 105
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "MÃE EU VENDI",
+        "message": "<div> \"MÃE EU VENDI\" is outside the safe area: TikTok (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 10.167,
+        "lastSeen": 10.167,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          10.167
+        ]
+      },
+      {
+        "selector": "#leg18",
+        "dataAttributes": {
+          "data-start": "16.876",
+          "data-duration": "0.636",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 191.05,
+          "y": 1068,
+          "width": 697.9,
+          "height": 105
+        },
+        "time": 16.944,
+        "rect": {
+          "left": 191.05,
+          "top": 1068,
+          "right": 888.95,
+          "bottom": 1173,
+          "width": 697.9,
+          "height": 105
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "ELA AGORA TEM",
+        "message": "<div> \"ELA AGORA TEM\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 16.944,
+        "lastSeen": 16.944,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          16.944
+        ]
+      },
+      {
+        "selector": "#leg25",
+        "dataAttributes": {
+          "data-start": "23.660",
+          "data-duration": "1.116",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 138.03,
+          "y": 1068,
+          "width": 803.92,
+          "height": 105
+        },
+        "time": 23.722,
+        "rect": {
+          "left": 138.03,
+          "top": 1068,
+          "right": 941.95,
+          "bottom": 1173,
+          "width": 803.92,
+          "height": 105
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "PEGAR O RETRATO",
+        "message": "<div> \"PEGAR O RETRATO\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 23.722,
+        "lastSeen": 23.722,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          23.722
+        ]
+      },
+      {
+        "selector": "#leg40",
+        "dataAttributes": {
+          "data-start": "36.999",
+          "data-duration": "1.981",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 172.02,
+          "y": 1068,
+          "width": 735.95,
+          "height": 186.89
+        },
+        "time": 37.278,
+        "rect": {
+          "left": 172.02,
+          "top": 1068,
+          "right": 907.97,
+          "bottom": 1254.89,
+          "width": 735.95,
+          "height": 186.89
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "MERECER TANTO DESPREZO",
+        "message": "<div> \"MERECER TANTO DESPREZO\" is outside the safe area: TikTok (right edge), Instagram Reels (bottom edge), YouTube Shorts (right and bottom edges).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 37.278,
+        "lastSeen": 37.278,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          37.278
+        ]
+      },
+      {
+        "selector": "#leg45",
+        "dataAttributes": {
+          "data-start": "42.960",
+          "data-duration": "1.299",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 139.02,
+          "y": 1068,
+          "width": 801.95,
+          "height": 105
+        },
+        "time": 44.056,
+        "rect": {
+          "left": 139.02,
+          "top": 1068,
+          "right": 940.97,
+          "bottom": 1173,
+          "width": 801.95,
+          "height": 105
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "DE LUXO ENCOSTA",
+        "message": "<div> \"DE LUXO ENCOSTA\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 44.056,
+        "lastSeen": 44.056,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          44.056
+        ]
+      },
+      {
+        "selector": "#leg51",
+        "dataAttributes": {
+          "data-start": "50.358",
+          "data-duration": "0.842",
+          "data-track-index": "1"
+        },
+        "sourceFile": "compositions/legendas.html",
+        "bbox": {
+          "x": 147.69,
+          "y": 1068,
+          "width": 784.62,
+          "height": 105
+        },
+        "time": 50.833,
+        "rect": {
+          "left": 147.69,
+          "top": 1068,
+          "right": 932.31,
+          "bottom": 1173,
+          "width": 784.62,
+          "height": 105
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "FILHO ACABOU DE",
+        "message": "<div> \"FILHO ACABOU DE\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 50.833,
+        "lastSeen": 50.833,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          50.833
+        ]
+      },
+      {
+        "selector": "#fim-continua",
+        "dataAttributes": {},
+        "sourceFile": "compositions/fim.html",
+        "bbox": {
+          "x": 122.16,
+          "y": 420,
+          "width": 835.68,
+          "height": 161
+        },
+        "time": 57.611,
+        "rect": {
+          "left": 122.16,
+          "top": 420,
+          "right": 957.84,
+          "bottom": 581,
+          "width": 835.68,
+          "height": 161
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "CONTINUA...",
+        "message": "<div> \"CONTINUA...\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.611,
+        "lastSeen": 57.611,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.611
+        ]
+      },
+      {
+        "selector": "#fim-pergunta",
+        "dataAttributes": {},
+        "sourceFile": "compositions/fim.html",
+        "bbox": {
+          "x": 137.08,
+          "y": 794,
+          "width": 805.84,
+          "height": 197.19
+        },
+        "time": 57.611,
+        "rect": {
+          "left": 137.08,
+          "top": 794,
+          "right": 942.92,
+          "bottom": 991.19,
+          "width": 805.84,
+          "height": 197.19
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Filho ingrato assim merece punição na justiça ou",
+        "message": "<div> \"Filho ingrato assim merece punição na justiça ou\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.611,
+        "lastSeen": 57.611,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.611
+        ]
+      },
+      {
+        "selector": "#fim-segue",
+        "dataAttributes": {},
+        "sourceFile": "compositions/fim.html",
+        "bbox": {
+          "x": 216.77,
+          "y": 1110,
+          "width": 646.45,
+          "height": 62
+        },
+        "time": 57.611,
+        "rect": {
+          "left": 216.77,
+          "top": 1110,
+          "right": 863.22,
+          "bottom": 1172,
+          "width": 646.45,
+          "height": 62
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "SEGUE PRA NÃO PERDER",
+        "message": "<div> \"SEGUE PRA NÃO PERDER\" is outside the safe area: TikTok (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.611,
+        "lastSeen": 57.611,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.611
+        ]
+      }
+    ],
+    "duration": 61,
+    "samples": [
+      3.389,
+      10.167,
+      16.944,
+      23.722,
+      30.5,
+      37.278,
+      44.056,
+      50.833,
+      57.611
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 9,
+    "truncated": false,
+    "faceCheck": {
+      "ran": true,
+      "candidates": 0,
+      "faces": 0
+    }
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      3.389,
+      16.944,
+      30.5,
+      44.056,
+      57.611
+    ],
+    "checked": 14,
+    "passed": 14
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 4.25 s (53.75–58.00 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 53.75,
+        "seconds": 4.25,
+        "floorSeconds": 3,
+        "until": 58
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 488
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}
